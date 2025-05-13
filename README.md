@@ -6,6 +6,17 @@
 
 ---
 
+## 📁 Data from Previous Projects
+
+The folder `Schemes/DataFromMedina` contains data migrated from the old **Medina** project. This includes:
+
+- `bsi_c5_requirements`
+- `eucs_requirements`
+- `features`, `features2`, `features_old`
+- `xml files`
+
+---
+
 ## 🧭 Useful Links
 
 - [Fabasoft Cloud Resource](https://at.cloud.fabasoft.com/folio/fscasp/content/bin/fscvext.dll?bx=COO.6505.100.14.4039824&venv_view=COO.1.1001.1.324006)
