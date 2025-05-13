@@ -1,0 +1,176 @@
+controlId,description
+OPS-05.3H,"The CSP shall automatically monitor the systems covered by the malware protection and the configuration of the corresponding mechanisms to guarantee fulfilment of above requirements, and the antimalware scans to track detected malware or irregularities."
+OPS-07.2H,"In order to check the proper application of these measures, the CSP shall automatically monitor the execution of data backups, and make available to the CSCs a service portal for monitoring the execution of backups when the CSC uses backup services with the CSP."
+OPS-13.1H,"The CSP shall store all log data in an integrity-protected and aggregated form that allow its centralized evaluation, and shall automatically monitor the aggregation and deletion of logging and monitoring data."
+OPS-18.6H,"The CSP shall provide and promote, where appropriate, automatic update mechanisms for the assets provided by the CSP that the CSCs have to install or operate under their own responsibility, to ease the rollout of patches and updates after an initial approval from the CSC."
+OPS-09.2H,"When the backup data is transmitted to a remote location via a network, the transmission of the data takes place in an encrypted form that corresponds to the state-of-the-art (cf. CKM-02), and shall be automatically monitored by the CSP to verify the execution of the backup."
+OPS-21.1H,"The CSP shall harden all the system components under its responsibility that are used to provide the cloud service, according to accepted industry standards, and automatically monitor these system components for conformity with hardening requirements."
+OPS-06.1S,"The CSP shall define and implement policies and procedures according to ISP-02 for data backup and recovery, covering at least the following aspects:
+(1)The extent and frequency of data backups and the duration of data retention are consistent with the contractual agreements with the CSCs and the CSP’s operational continuity requirements for recovery time objective (RTO) and recovery point objective (RPO);
+(2) How data is backed up in encrypted, state-of-the-art form;
+(3) How backup data is stored, moved, managed, and disposed of;
+(4) How a CSC-initiated recovery or recovery test is performed;
+(5) Restricted access to the backed-up data and the execution of restores only by authorised persons; and
+(6) Tests of recovery procedures (cf. OPS-08)."
+IAM-03.1H,"The CSP shall document and implement an automated mechanism to block user accounts after a certain period of inactivity, as defined in the policy of AIM-02, for user accounts, and automatically monitor its application. Such user accounts are:
+(1) Of employees of the CSP as well as for system components involved in automated authorisation processes; and
+(2) Associated with identities assigned to persons, identities assigned to non-human entities and identities assigned to multiple persons."
+OIS-02.4H,The CSP shall automatically monitor the assignment of responsibilities and tasks to ensure that measures related to segregation of duties are enforced.
+CO-03.6H,"The CSP shall implement automated monitoring to identify vulnerabilities and deviations, which shall be automatically reported to the appropriate CSP’s subject matter experts for immediate assessment and action."
+CCM-04.1H,"The CSP shall approve any change to the cloud service, based on defined criteria and involving CSCs in the approval process according to contractual requirements, before they are made available to CSCs in the production environment, and the approval processes shall be automatically monitored."
+IAM-03.6H,"The CSP shall automatically monitor the context of authentication attempts and flag suspicious events to authorized persons, as relevant."
+HR-05.2H,"The CSP shall apply a specific procedure to revoke the access rights and process appropriately the accounts and assets of employees when their employment is terminated or changed, defining specific roles and responsibilities and including a documented checklist of all required steps; the CSP shall automatically monitor the application of this procedure."
+OPS-12.1H,"The CSP shall automatically monitor log data in order to identify security events that might lead to security incidents, in accordance with the logging and monitoring requirements, and the identified events shall be reported to the appropriate departments for timely assessment and remediation."
+CKM-02.1B,"The CSP shall define and implement strong cryptographic mechanisms for the transmission of CSC data over public networks, in order to protect the confidentiality, integrity and authenticity of data."
+AM-01.1H,"The CSP shall define and implement policies and procedures for maintaining an inventory of assets, which shall be performed automatically and/or by the people or teams responsible for the assets to ensure complete, accurate, valid and consistent inventory throughout the asset life cycle."
+AM-01.4H,The CSP shall automatically monitor the process performing the inventory of assets to guarantee it is up-to-date.
+BC-01.1B,The CSP shall define policies and procedures according to ISP-02 establishing the strategy and guidelines to ensure business continuity and contingency management.
+BC-02.1H,"The policies and procedures for business continuity and contingency management shall include the need to perform a business impact analysis to determine the impact of any malfunction to the cloud service or enterprise, considering at least the following aspects:
+(1) Possible scenarios based on a risk assessment;
+(2) Identification of critical products and services;
+(3) Identification of dependencies, including processes (including resources required), applications, business partners and third-parties;
+(4) Identification of threats to critical products and services;
+(5) Identification of effects resulting from planned and unplanned malfunctions and changes over time;
+(6) Determination of the maximum acceptable duration of malfunctions;
+(7) Identification of restoration priorities;
+(8) Determination of time targets for the resumption of critical products and services within the maximum acceptable time period (RTO);
+(9) Determination of time targets for the maximum reasonable period during which data can be lost and not recovered (RPO); and
+(10) Estimation of the resources needed for resumption."
+BC-03.1H,"TThe CSP shall document and implement a business continuity plan and contingency plans to ensure continuity of the services, taking into account information security constraints and the results of the business impact analysis, based on industry accepted standards, and covering at least the following aspects:
+(1) Defined purpose and scope, including relevant business processes and dependencies;
+(2) Accessibility and comprehensibility of the plans for persons who are to act accordingly;
+(3) Ownership by at least one designated person responsible for review and approval;
+(4) Defined communication channels, roles and responsibilities including notification of the customers;
+(5) Recovery procedures, manual interim solutions and reference information (taking into account prioritisation in the recovery of cloud infrastructure components and services and alignment with customers);
+(6) List of standards being used;
+(7) Methods for putting the plans into effect;
+(8) Continuous process improvement; and
+(9) Interfaces to Security Incident Management."
+CCM-01.1H,"The CSP shall define and implement policies and procedures for change management of the IT systems supporting the cloud service according to ISP-02, covering at least the following aspects:
+(1) Criteria for risk assessment, categorization and prioritization of changes and related requirements for the type and scope of testing to be performed, and necessary approvals;
+(2) Requirements for the performance and documentation of tests;
+(3) Requirements for segregation of duties during planning, testing, and release of changes;
+(4) Requirements for the proper information of CSCs about the type and scope of the change as well as the resulting obligations to cooperate in accordance with the contractual agreements;
+(5) Requirements for the documentation of changes in the system, operational and user documentation; and
+(6) Requirements for the implementation and documentation of emergency changes, which must
+comply with the same level of security as normal changes.
+(7) Requirements for the handling of a change’s unexpected effects, including corrective actions."
+CKM-01.1H,"The CSP shall define and implement policies with technical and organizational safeguards for cryptography and key management, according to ISP-02, in which at least the following aspects are described:
+(1) Usage of strong cryptographic mechanisms and secure network protocols, corresponding to the state of the art;
+(2) Requirements for the secure generation, storage, archiving, retrieval, distribution, withdrawal and deletion of the keys;
+(3) Consideration of relevant legal and regulatory obligations and requirements;
+(4) Risk-based provisions for the use of encryption aligned with the data classification schemes and considering the communication channel, type, strength and quality of the encryption"
+CKM-02.1H,"The CSP shall define and implement strong cryptographic mechanisms for the transmission of all data over public networks, in order to protect the confidentiality, integrity and authenticity of data."
+CKM-02.2H,"The CSP shall use strong cryptographic mechanisms to protect the communication during remote access to the production environment, including employee authentication."
+CKM-03.1H,"The CSP shall define and implement procedures and technical safeguards to protect the confidentiality of CSC data during storage, according to ISP-02."
+CKM-04.1H,"Procedures and technical safeguards for secure key management in the area of responsibility of the CSP shall include at least the following aspects:
+(1) Generation of keys for different cryptographic systems and applications;
+(2) Issuing and obtaining public-key certificates;
+(3) Provisioning and activation of the keys;
+(4) Secure storage of keys including description of how authorised users get access;
+(5) Changing or updating cryptographic keys including policies defining under which conditions and in which manner the changes and/or updates are to be realised;
+(6) Handling of compromised keys; and
+(7) Withdrawal and deletion of keys;"
+CO-01.1H,"The CSP shall document the legal, regulatory, self-imposed and contractual requirements relevant to the information security of the cloud service."
+CO-01.4H,"The CSP shall document and implement a proactive approach for receiving up-to-date legal, regulatory and contractual requirements that affect the cloud service."
+CO-02.1H,"The CSP shall define and implement policies and procedures for planning and conducting audits, made in accordance with ISP-02 and that would not interfere with the operation of the cloud service, addressing at least the following aspects:
+(1) Restriction to read-only access to system components in accordance with the agreed audit plan and as necessary to perform the audit activities;
+(2) Activities that may result in malfunctions to the cloud service or breaches of contractual requirements are performed during scheduled maintenance windows or outside peak periods; and
+(3) Logging and monitoring of activities."
+CO-03.5H,Internal audits shall be supplemented by procedures to automatically monitor compliance with applicable requirements of policies and instructions.
+CS-01.1H,"The CSP shall document, communicate and implement technical safeguards that are suitable to promptly detect and respond to network-based attacks and to ensure the protection of information and information processing systems, in accordance with ISP-02, and based on the results of a risk analysis carried out according to RM-01."
+CS-02.1H,"The CSP shall define and implement according to ISP-02 specific security requirements to connect within its network, including at least:
+(1) When the security zones are to be separated and when the CSCs are to be logically or physically segregated;
+(2) What communication relationships and what network and application protocols are permitted in each case;
+(3) How the data traffic for administration and monitoring are segregated from each other at the network level;
+(4) What internal, cross-location communication is permitted; and
+(5) what cross-network communication is allowed."
+CS-03.1H,"The CSP shall distinguish between trusted and untrusted networks, based on a risk assessment."
+CS-05.1H,The CSP shall document and implement separation mechanisms at network level for the data traffic of different CSCs.
+DOC-01.1H,"The CSP shall make publicly available guidelines and recommendations to assist the cloud service users with the secure configuration, installation, deployment, operation and maintenance of the cloud service provided, covering at least the following aspects, where applicable to the cloud service:
+(1) Instructions for secure configuration;
+(2) Information sources on known vulnerabilities and update mechanisms;
+(3) Error handling and logging mechanisms;
+(4) Authentication mechanisms;
+(5) Roles and rights policies including combinations that result in an elevated risk;
+(6) Services and functions for administration of the cloud service by privileged users, and
+(7) Complementary User Entity Controls (CUECs)."
+DOC-02.1H,"The CSP shall provide comprehensible and transparent information on:
+(1) Its jurisdiction; and
+(2) System component locations, including its subservice providers, where CSC data , meta-data, cloud service derived data and CSC account data is processed, stored and backed up;
+(3) System component locations, including for its subservice providers, where any CSP data is processed, stored, and backed up;
+(4) The locations from which administration and supervision may be carried out on the cloud service.
+(5) The locations from which the CSP conducts support operations for CSCs, including the list of operations that can be carried by support teams in each location."
+HR-03.4H,"All employees shall acknowledge in a documented form the information security policies and procedures presented to them before they are granted any access to CSC data, the production environment, or any functional component thereof, and the verification of this acknowledgement shall be automatically monitored in the processes and automated systems used to grant access rights to employees."
+HR-06.5H,"The CSP shall inform its internal employees, external service providers and suppliers and obtain confirmation of the updated confidentiality or non-disclosure agreement, and this acceptation shall be automatically monitored."
+IAM-01.1H,"The CSP shall define role and rights policies and procedures for controlling access to information resources, according to ISP-02 and based on role-based access control and based on the business and security requirements of the CSP, in which at least the following aspects are covered:
+(1) Parameters to be considered for making access control decisions;
+(2) Granting and modifying access rights based on the “least-privilege” principle and on the “need to-know” principle;
+(3) Use of a role-based mechanism for the assignment of access rights;
+(4) Segregation of duties between managing, approving and assigning access rights;
+(5) Dedicated rules for users with privileged access;
+(6) Requirements for the approval and documentation of the management of access rights."
+IAM-03.2H,"The CSP shall document and implement an automated mechanism to block accounts after a certain number of failed authentication attempts, as defined in the policy of AIM-02, based on the risks of the accounts, associated access rights and authentication mechanisms, and automatically monitor its application"
+IAM-03.5H,"The CSP shall document and implement an automated mechanism to revoke accounts that have been blocked by another automatic mechanism after a certain period of inactivity, as defined in the policy of AIM-02 for user accounts, and automatically monitor its application."
+IAM-08.1H,"The CSP shall document, communicate and make available to all users under its responsibility rules and recommendations for the management of credentials, including at least:
+(1) Non-reuse of credentials;
+(2) Trade-offs between entropy and ability to memorize;
+(3) Recommendations for renewal of passwords;
+(4) Rules on storage of passwords.
+(5) Recommendations on password managers
+(6) Recommendation to specifically address classical attacks, including phishing, social attacks, and whaling"
+IM-01.2H,"The CSP shall establish a Cyber Security Incident Response Team (CSIRT), which contributes to the coordinated resolution of security incidents."
+IM-02.1H,"The CSP shall classify and prioritize security events that could constitute a security incident, and perform root-cause analyses for these events, using their subject matter experts and external security providers where appropriate."
+IM-02.4H,"The CSP shall simulate the identification, analysis, and defence of security incidents and attacks at least once a year through appropriate tests and exercises."
+IM-04.1H,The CSP shall inform employees and external business partners of their contractual obligations to report all security events that become known to them and are directly related to the cloud service
+IM-04.3H,"The CSP shall define, publish and implement a single point of contact to report security events and vulnerabilities."
+IM-05.1H,"The CSP shall periodically inform its CSCs on the status of the security incidents affecting the CSC, or, where appropriate and necessary, involve them in the resolution, according to the contractual agreements"
+IM-05.2H,"As soon as a security incident has been closed, the CSP shall inform the affected CSCs about the actions taken, according to the contractual agreements."
+IM-07.1H,"The CSP shall document and implement a procedure to archive all documents and evidence that provide details on security incidents, in a way that could be used as evidence in court."
+IM-07.4H,The CSP shall establish an integrated team of forensic/incident responder employees specifically trained on evidence preservation and chain of custody management.
+ISP-02.1H,"The CSP shall derive policies and procedures from the global information security policy for all relevant subject matters, and document them according to a uniform structure, including at least the following aspects: 
+(1) Objectives
+(2) Scope
+(3) Roles and responsibilities within the organization, including staff competence requirements and the establishment of substitution rules
+(4) Roles and dependencies on other organisations (especially CSCs and subservice providers)
+(5) Steps for the execution of the security strategy
+(6) Applicable legal and regulatory requirements."
+OPS-02.2H,The provisioning and de-provisioning of cloud services shall be automatically monitored to guarantee fulfilment of these safeguards.
+OPS-04.1H,"The CSP shall define and implement policies and procedures according to ISP-02 to protect its systems and its customers from malware, covering at least the following aspects:
+(1) Use of system-specific protection mechanisms;
+(2) Operating protection programs on system components under the responsibility of the CSP that are used to provide the cloud service in the production environment; and
+(3) Operation of protection programs for employees’ terminal equipment"
+OPS-06.1H,"The CSP shall define and implement policies and procedures according to ISP-02 for data backup and recovery, covering at least the following aspects:
+(1)The extent and frequency of data backups and the duration of data retention are consistent with the contractual agreements with the CSCs and the CSP’s operational continuity requirements for recovery time objective (RTO) and recovery point objective (RPO);
+(2) How data is backed up in encrypted, state-of-the-art form;
+(3) How backup data is stored, moved, managed, and disposed of;
+(4) How a CSC-initiated recovery or recovery test is performed;
+(5) Restricted access to the backed-up data and the execution of restores only by authorised persons; and
+(6) Tests of recovery procedures (cf. OPS-08)."
+OPS-07.1H,The CSP shall document and implement technical and organizational measures to monitor the execution of data backups in accordance to the policies and procedures defined in OPS-06.
+OPS-08.1H,"The CSP shall test the restore procedures at least annually, embedded in the CSP's business continuity management, including tests assessing if the specifications for the RTO and RPO agreed with the customers are met "
+OPS-08.3H,"The CSP shall thoroughly document restore tests, including the safe disposal of restored data."
+OPS-09.1H,"The CSP shall transfer backup data to a remote location or transport them on backup media to a remote location, selected upon criteria of distance, recovery times and impact of disasters on backup and main sites."
+OPS-10.1H,"The CSP shall define and implement policies and procedures according to ISP-02 that govern the logging and monitoring of events on system components under its responsibility, covering at least the following aspects:
+(1) Definition of events that could lead to a violation of the protection goals;
+(2) Specifications for activating, stopping and pausing the various logs;
+(3) Information regarding the purpose and retention period of the logs;
+(4) Definition of roles and responsibilities for setting up and monitoring logging;
+(5) Definition of log data that may be transferred to CSCs and technical requirements of such log forwarding;
+(6) Information about timestamps in event creation;
+(7) Time synchronisation of system components; and
+(8) Compliance with legal and regulatory frameworks."
+OPS-13.3H,Log data shall be deleted when it is no longer required for the purpose for which they were collected.
+OPS-17.1B,"The CSP shall define and implement, in accordance with ISP-02, policies and procedures, including technical and organisational measures to ensure the timely identification and addressing of vulnerabilities in the system components used to provide the cloud service."
+OPS-19.1H,"The CSP shall perform at least monthly tests to detect publicly known vulnerabilities on the system components used to provide the cloud service, in accordance with policies for handling vulnerabilities (cf. OPS-17)."
+PI-01.2B,The interfaces shall be clearly documented for subject matter experts to understand how they can be used to retrieve the data.
+PM-04.7H,"The CSP shall supplement procedures for monitoring compliance with automatic monitoring, by leveraging automatic procedures, when possible, relating to the following aspects:
+(1) Configuration of system components;
+(2) Performance and availability of system components;
+(3) Response time to malfunctions and security incidents; and
+(4) Recovery time (time until completion of error handling)."
+PS-02.8H,"The access control policy shall include logging of all accesses to non-public areas that enables the CSP to check whether only defined personnel have entered these areas, and this logging shall be automatically monitored."
+ISP-03.5H,The list of exceptions shall be automatically monitored to ensure that the validity of approved exceptions has not expired and that all reviews and approvals are up-to-date.
+OPS-12.2H,The CSP shall automatically monitor that event detection processes operate as intended on appropriate assets as identified in the asset classification catalogue (cf AM-05-1H).
+CCM-05.1H,"The CSP shall define roles and rights according to IAM-01 for the authorised personnel or system components who are allowed to make changes to the cloud service in the production environment, and the changes in the production environment shall be automatically monitored to enforce these roles and rights."
+ISP-02.4H,"The CSP’s subject matter experts shall review the policies and procedures for adequacy at least annually, when the global information security policy is modified, and when major changes may affect the security of the cloud service."

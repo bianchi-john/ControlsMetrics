@@ -2,3 +2,7 @@ filename,version,url,description
 cisco.csv,Cisco Cloud Controls Framework (CCF) Public Release V2.0+++,https://www.cisco.com/c/en/us/about/trust-center/compliance/ccf.html#~standards-mapped,Cisco associations
 MEDINA_ControlsMapping_Clean.csv,?,?,Last version of control mapped sended by Iñaki via mail
 spanishENS.csv,?,https://ens.ccn.cni.es/es/docman/documentos-publicos/39-boe-a-2022-7191-national-security-framework-ens/file,"Spanish ENS parsed with python script from original pdf. Then,spell check corrected manually"
+EUCS-MEDINA.csa,?,https://git.code.tecnalia.com/medina/public/nl2cnl-translator/-/tree/main/data?ref_type=heads,Taken from MEDINA. Parsed with the rules expressed in the nl2cnl-translator repo
+BSIC5-MEDINA.csv,?,https://git.code.tecnalia.com/medina/public/nl2cnl-translator/-/tree/main/data?ref_type=heads,Taken from MEDINA. Parsed with the rules expressed in the nl2cnl-translator repo
+LucaApiControls.csv,?,?,Taken form Luca Petrillo
+LucaApiMetrics.csv,?,?,Taken form Luca Petrillo
