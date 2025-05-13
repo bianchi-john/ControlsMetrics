@@ -1,81 +1,62 @@
 Control ID,Description
-org.1.1,"The objectives or mission of the organization.  
-"
+org.1.1,"The objectives or mission of the organization."
 org.1.2,"The legal and regulatory framework within which the activities will take 
-place.  
-"
-org.1.3,"Secu rity roles or functions, defining for each the duties and 
-responsibilities of the post, as well as the procedure for their appointment and renewal.  
-"
+place."
+org.1.3,"Security roles or functions, defining for each the duties and 
+responsibilities of the post, as well as the procedure for their appointment and renewal."
 org.1.4,"The structure of the security management and coordination committee(s), 
-detailing its area of resp onsibility, its members and the relationship with other elements of 
-the organization.  
-"
-org.1.5,"Guidelines for the structuring of system security documentation, its 
+detailing it's area of responsibility, it's members and the relationship with other elements of 
+the organization."
+org.1.5,"Guidelines for the structuring of system security documentation, it's 
 management and access.  
 Implementation of the measure.  
  BASIC Category: org.1.  
- MEDIUM Category: org.1.  
+ MEDIUM Category: org.1.  filename, version, url, description
+cisco.csv, Cisco Cloud Controls Framework (CCF) Public Release V2.0+++, https://www.cisco.com/c/en/us/about/trust-center/compliance/ccf.html#~standards-mapped, cisco associations
+MEDINA_ControlsMapping_Clean.csv, ?, ?, last version of control mapped sended by Iñaki via mail
+spanishENS.csv, ?, https://ens.ccn.cni.es/es/docman/documentos-publicos/39-boe-a-2022-7191-national-security-framework-ens/file, Spanish ENS parsed with python script from pdf
  HIGH Category: org.1.  
 3.2 Security regulations"
 org.2.1,"The correct use of equipment, services and facilities, as well as what will 
-be considered misuse.  
-"
+be considered misuse."
 org.2.2,"Staff responsibility with respect to compliance or violation of regulations: 
 rights, duties and disciplinary measures in accordance with the legislation in force.  
-Rein forcement R1 -Specific documents."
-org.3.1,"How to carry out the usual tasks.  
-"
-org.3.2,"Who should do what.  
-"
-org.3.3,"How to identify and report abnormal behaviors.  
-"
-org.4.1,"Using of regular and alternative facilities.  
-"
+Reinforcement R1 -Specific documents."
+org.3.1,"How to carry out the usual tasks."
+org.3.2,"Who should do what."
+org.3.3,"How to identify and report abnormal behaviors."
+org.4.1,"Using of regular and alternative facilities."
 org.4.2,"Incorporation of equipment in production, in particular equipment 
-involving cryptography.  
-"
-org.4.3,"Incorporation of application in production.  
-"
-org.4.4,"Establishment of communications links with other systems.  
-"
-org.4.5,"Using regular and alternative communication media.  
-"
-org.4.6,"Using information media.  
-"
+involving cryptography."
+org.4.3,"Incorporation of application in production."
+org.4.4,"Establishment of communications links with other systems."
+org.4.5,"Using regular and alternative communication media."
+org.4.6,"Using information media."
 org.4.7,"Use of mobile equipment. Mobile equipment means laptops, tablets, 
-mobile phones or other similar equipment.  
-"
+mobile phones or other similar equipment."
 org.4.8,"Use of third party services, under contract or agreement, concession, 
 commission, etc.  
 Implementation of the measure.  
  BASIC Category: org.4.  
  MEDIUM Category: org.4.  
  HIGH Category: org.4."
-op.pl.1.1,"Identify the most valuable assets in the system. (See op.exp.1).  
-"
-op.pl.1.2,"Identify the most likely threats.  
-"
-op.pl.1.3,"Identify the safe guards that protect against such threats.  
-"
+op.pl.1.1,"Identify the most valuable assets in the system. (See op.exp.1)."
+op.pl.1.2,"Identify the most likely threats."
+op.pl.1.3,"Identify the safe guards that protect against such threats."
 op.pl.1.4,"Identify the main residual risks.  
 Reinforcement R1 - Semiformal risk analysis.  
 A semiformal risk analysis shall be performed, using a specific language, with a basic 
-threat catalog and defined semantics.  That is, a presentation with tables that:  
-"
-op.pl.2.1,"Documentation of facilities, including areas and access points.  
-"
+threat catalog and defined semantics.  That is, a presentation with tables that:"
+op.pl.2.1,"Documentation of facilities, including areas and access points."
 op.pl.2.2,"System documentation, including equipment, internal networks and 
 external connections, and access point s to the system (workstations and management 
-consoles).  
-"
+consoles)."
 op.pl.2.3,"Scheme of lines of defense, including interconnection points to other 
 systems or other networks (especially if it involves the internet or public networks in 
 general); firewall, DMZ, etc.;  and the use of different technologies to prevent vulnerabilities 
-that could simultaneously drill several lines of defense.  
-"
+that could simultaneously drill several lines of defense."
 op.pl.2.4,"User identification and authentication system, including the use of 
-concerted keys, passwords, identification cards, bio metrics, or others of a similar nature, 
+concerted keys, passwords, identification cards, biometrics, or others of a similar nature, 
 and the use of files or directories to authenticate the user and determine their access 
 rights.  
 Reinforcement R1 -Management System."
@@ -87,18 +68,13 @@ Implementation of the measure.
  BASIC category: op.pl.3.  
  MEDIUM category: op.pl.3.  
  HIGH category: op.pl.3."
-op.pl.4.1,"Processing needs.  
-"
+op.pl.4.1,"Processing needs."
 op.pl.4.2,"Information storage needs: during processing and during the period to 
-be retained.  
-"
-op.pl.4.3,"Communication needs.  
-"
-op.pl.4.4,"Staffing requirements: quantity and professional qualification.  
-"
+be retained."
+op.pl.4.3,"Communication needs."
+op.pl.4.4,"Staffing requirements: quantity and professional qualification."
 op.pl.4.5,"Needs for facilities and auxiliary means.  
-Reinforcement R1  Continuous improvement of capacity management.  
-"
+Reinforcement R1  Continuous improvement of capacity management."
 op.pl.5.2,"If the system provides a security service to a third party within the scope 
 of the ENS, the product(s)  on which that service is supported must pass a qualification 
 process and be included in the CPSTIC or provide a certification that complies with the 
@@ -108,17 +84,14 @@ op.acc.1.1,"Identification systems provided for in the applicable regulation may
 used as a unique identifier, including concerted key systems and any other system that 
 the public administrations consider valid under the terms and conditions laid down in Law 
 39/2015 of 1 October 2015 on the Common Administrative Procedure of Public 
-Admi nistrations.  
-"
+Administrations."
 op.acc.1.2,"When the user has different roles in relation to the system (as a citizen 
 or end user, as a staff of the entity or as a system administrator, for example) will receive 
 unique identifiers for each profile, so that the corresponding  activity records are always 
-collected, delimiting the privileges corresponding to each profile.  
-"
+collected, delimiting the privileges corresponding to each profile."
 op.acc.1.3,"Each entity (entity, user or process) that accesses the system shall 
 have a unique identifier that allows to know the recipient of them and the ac cess rights it 
-receives, as well as the actions taken by each entity.  
-"
+receives, as well as the actions taken by each entity."
 op.acc.1.4,"User accounts shall be managed as follows:  
  
 a) Each account (of entity, user or process) shall be associated with a unique 
@@ -126,59 +99,50 @@ identifier.
 b) Accounts should be disabled in the following cases: when the user leaves the 
 organization; when the user ceases to have the function for which the user account was 
 required; or, when the person who authorized it gives an order to the contrary.  
-c) Accounts shall be retained for the period neces sary to meet the accountability 
+c) Accounts shall be retained for the period necessary to meet the accountability 
 needs of the activity records associated with them. This period shall be referred to as the 
-‘retention period'."
+'retention period'."
 op.acc.1.5,"In cases of electronic communications, the parties involved shall be 
-identified on the basis of th e mechanisms provided for in relevant European and national 
+identified on the basis of the mechanisms provided for in relevant European and national 
 legislation, with the following correspondence between the levels of the authenticity 
 dimension of the information systems to which access is available and the levels of 
-security (low, substantial , high) of the electronic identification systems provided for in 
+security (low, substantial, high) of the electronic identification systems provided for in 
 Regulation (EU) No 910/2014 of the European Parliament and of the Council of 23 July 
 2014 on electronic identification and trust services for electronic transactions in the 
-internal market an d repealing Directive 1999/93/EC and its implementing or implementing 
+internal market and repealing Directive 1999/93/EC and it's implementing or implementing 
 rules:  
 a) If a LOW level in the authenticity dimension is required (Annex I): Low, substantial 
 or high security level (Article 8 of Regulation (EU) No 910/2014).  
-b) If a MEDIUM level is requir ed in the authenticity dimension (Annex I): Substantial 
+b) If a MEDIUM level is required in the authenticity dimension (Annex I): Substantial 
 or high level of security (Article 8 of Regulation (EU) No 910/2014).  
 c) If a HIGH level is required in the authenticity dimension (Annex I): High security 
 level (Article 8 of Regulation (EU) No 910/2014 ). 
 Reinforcement R1-Advanced Identification.  
 d)"
 op.acc.2.1,"The resources of the system shall be protected by any mechanism that 
-prevents their use, except for entities with sufficient access rights.  
-"
+prevents their use, except for entities with sufficient access rights."
 op.acc.2.2,"The access rights of each resource shall be established according to 
 the decisions of the person responsible for the resource, in accordance with the system's 
-security policy and regulations.  
-"
-op.acc.2.3,"In particula r, access to operating system components and their 
+security policy and regulations."
+op.acc.2.3,"In particular, access to operating system components and their 
 configuration files or records shall be controlled.  
-Reinforcement R1 -Access privileges.  
-"
+Reinforcement R1 -Access privileges."
 op.acc.3.1,"Where possible, development and operational capabilities shall not lie 
-with the same per son. 
-"
+with the same person."
 op.acc.3.2,"Where possible, the persons who authorize and control the use shall 
 be different.  
-Reinforcement R1 -Strict Segregation.  
-"
-op.acc.4.1,"All access shall be prohibited, unless expressly authorized.  
-"
+Reinforcement R1 -Strict Segregation."
+op.acc.4.1,"All access shall be prohibited, unless expressly authorized."
 op.acc.4.2,"Minimum privilege: the privileges of each entity, user or process shall 
-be reduced to the minimum necessary to fulfil its duties or functions.  
-"
+be reduced to the minimum necessary to fulfil it's duties or functions."
 op.acc.4.3,"Need to know and responsibility to share: privileges shall be assigned 
 in such a way that entities, users or  processes shall only have access to knowledge of the 
 information required to fulfil their duties or functions. The information is the property of the 
-organization and all that is necessary for the user will be at its.  
-"
+organization and all that is necessary for the user will be at it's."
 op.acc.4.4,"Capability to authorize:  Access authorization to the resources may be 
 granted, altered or cancelled only by the personnel with the authority to do so, in 
-accordance with the criteria established by the person responsible. Access permits shall 
-be reviewed on a regular basis.  
-"
+accordance with the criteria established by the person responsible. Access permit's shall 
+be reviewed on a regular basis."
 op.acc.4.5,"A specific remote access policy shall be established, requiring express 
 authorization.  
 Application of the measure (by confidentiality, integrity, accountability and 
@@ -189,82 +153,63 @@ HIGH level: op.acc .4.
 4.2.5 Authentication mechanism (external users)"
 op.acc.5.2,"Before activating the authentication mechanism, the user shall 
 recognize that has received them and that is aware of and accepts the obligations of it s 
-possession, in particular the duty of diligent custody, the protection of its confidentiality 
-and the duty of immediate notification in the event of loss.  
-"
+possession, in particular the duty of diligent custody, the protection of it's confidentiality 
+and the duty of immediate notification in the event of loss."
 op.acc.5.3,"Credentials shall be under the sole control of the user and shall be 
-activated once they are under their effective control.  
-"
+activated once they are under their effective control."
 op.acc.5.4,"Credentials shall be changed at intervals marked by the organization's 
-security policy.  
-"
+security policy."
 op.acc.5.5,"Credentials shall be disabled, and may be regenerated if necessary,"
 op.acc.5.6,"Credentials shall be disabled when the entity (person, equipment, or 
-process) that authenticates ends its relationship with the syst em. 
-"
+process) that authenticates ends it's relationship with the system."
 op.acc.5.7,"Before authorizing access, the information submitted by the system 
 shall be the minimum necessary for the user to authenticate, avoiding anything that may, 
-directly or indirectly, disclose information about the system or account, its chara cteristics, 
-its operation or its status. Credentials will only be validated when all the necessary data is 
-available and, if rejected, the reason for rejection will not be informed.  
-"
+directly or indirectly, disclose information about the system or account, it's characteristics, 
+it's operation or it's status. Credentials will only be validated when all the necessary data is 
+available and, if rejected, the reason for rejection will not be informed."
 op.acc.5.8,"The number of attempts allowed shall be limited, blocking the access 
 opportunity once that number is exceeded, and requiring a specific intervention to 
-reactivate the account, which will be described in the documentation.  
-"
-op.acc.5.9,"The system shall inform the user of its rights or obligations immediat ely 
+reactivate the account, which will be described in the documentation."
+op.acc.5.9,"The system shall inform the user of it's rights or obligations immediat ely 
 after obtaining access.  
-Reinforcement R1 -Passwords.  
-"
+Reinforcement R1 -Passwords."
 op.acc.6.1,"Before providing credentials to users, users must know and accept the 
-organization's security policy in respect of matters affecting them.  
-"
+organization's security policy in respect of matters affecting them."
 op.acc.6.2,"Before activating the authentication mechanism, the user shall 
 acknowledge that  has received the access credentials and that knows and accepts the 
-obligations involved in th eir possession, in particular the duty of diligent custody, the 
-protection of its confidentiality and the duty of immediate notification in the event of loss.  
-"
+obligations involved in their possession, in particular the duty of diligent custody, the 
+protection of it's confidentiality and the duty of immediate notification in the event of loss."
 op.acc.6.3,"Credentials shall be under the sole control of the user and shall be 
-activated once they are under their effective control.  
-"
+activated once they are under their effective control."
 op.acc.6.4,"Credentials shall be changed at intervals marked by the organization's 
-security policy.  
-"
+security policy."
 op.acc.6.5,"Credentials shall be disabled, and may be regenerated if necessary, 
-when there is evidence or suspicio n of loss, commitment or disclosure to unauthorized 
-entities (persons, equipment or processes).  
-"
+when there is evidence or suspicion of loss, commitment or disclosure to unauthorized 
+entities (persons, equipment or processes)."
 op.acc.6.6,"Credentials shall be disabled when the authenticating user ends their 
-relationship with the system.  
-"
+relationship with the system."
 op.acc.6.7,"Before authorizing access, the information submitted by the system 
 shall be the minimum necessary for the user to authenticate, avoiding anything that may, 
-directly or indirectly, disclose information about the system or account, its characteristics, 
-its operation or its sta tus. Credentials will only be validated when all the necessary data is 
-available and, if rejected, the reason for rejection will not be informed.  
-"
+directly or indirectly, disclose information about the system or account, it's characteristics, 
+it's operation or it's status. Credentials will only be validated when all the necessary data is 
+available and, if rejected, the reason for rejection will not be informed."
 op.acc.6.8,"The number of attempts allowed shall be limited, blocking the access 
-opportunity once this numb er is exceeded, and requiring a specific intervention to 
-reactivate the account, which will be described in the documentation.  
-"
-op.acc.6.9,"The system shall inform the user of its rights or obligations immediately 
+opportunity once this number is exceeded, and requiring a specific intervention to 
+reactivate the account, which will be described in the documentation."
+op.acc.6.9,"The system shall inform the user of it's rights or obligations immediately 
 after obtaining access.  
-Reinforcement R1 -Passwords.  
-"
+Reinforcement R1 -Passwords."
 op.exp.1.1,"An update inventory of all elements of the system shall be maintained, 
 detailing their nature and identifying their controller; that is, the person who makes the 
 decisions regarding it.  
-Reinforcement R1 -Tagging Inventory.  
-"
-op.exp.2.1,"Standard accounts and passwords are removed.  
-"
+Reinforcement R1 -Tagging Inventory."
+op.exp.2.1,"Standard accounts and passwords are removed."
 op.exp.2.2,"The “minimum functionality” rule shall apply, i.e.:  
 a) The system must provide the minimum functionality required for the organization 
-to achieve its objectives.  
+to achieve it's objectives.  
 b) It shall not provide unjustified functions (operation, administration or audit) in order 
-to minimize its exposure perimeter by eliminating or deactivating functions that are 
-unnecessary or inappropriate for the intended purpose.  
-"
+to minimize it's exposure perimeter by eliminating or deactivating functions that are 
+unnecessary or inappropriate for the intended purpose."
 op.exp.2.3,"The default security rule shall apply, i.e.:  
 a) Security measures shall be respectful to the user and shall protect the us er, unless"
 op.exp.2.4,"Virtual machines shall be configured  and managed in a secure way. 
@@ -282,92 +227,70 @@ op.exp.3.4,The system reacts to reported vulnerabilities. (See
 op.exp.3.5,The system reacts to incidents. (See
 op.exp.3.6,"The security settings may only be edited by duly authorized 
 personnel.  
-Reinforcement R1 -Regular maintenance of the configuration.  
-"
+Reinforcement R1 -Regular maintenance of the configuration."
 op.exp.4.1,"Manufacturers' specifications for the installation and maintenance of 
-systems shall be met, including continuous moni toring of warnings of defects.  
-"
+systems shall be met, including continuous monitoring of warnings of defects."
 op.exp.4.2,"A procedure shall be available to analyses, prioritize and determine 
 when to apply security updates, patches, upgrades, and new versions. Prioritization shall 
-take into account the change in risk depending on the  implementation or not of the update.  
-"
+take into account the change in risk depending on the  implementation or not of the update."
 op.exp.4.3,"Maintenance may only be carried out by duly authorized personnel.  
-Reinforcement R1 -Tests in pre -production.  
-"
+Reinforcement R1 -Tests in pre -production."
 op.exp.5.1,"Changes shall be planned to reduce the impact on the provision of the 
 affected services. To this end, all change request shall be recorded by assigning a 
-reference number for follow -up, in an equivalent way to the recording of incidents.  
-"
-op.exp.5.2,"The information to be recorded fo r each change request shall be 
+reference number for follow -up, in an equivalent way to the recording of incidents."
+op.exp.5.2,"The information to be recorded for each change request shall be 
 sufficient to allow the person to authorize them to have no doubts about it and to manage 
-it until its rejection or implementation.  
-"
+it until it's rejection or implementation."
 op.exp.5.3,"Pre -production tests, whenever possible, shall be carried out on 
-equipment equiv alent to production, at least in the specific aspects of the change.  
-"
+equipment equivalent to production, at least in the specific aspects of the change."
 op.exp.5.4,"A risk analysis shall determine whether the changes are relevant to 
 system security. Changes that involve a risk at HIGH level must be approved, explicitly, 
-prior to their im plementation, by the security officer.  
-"
+prior to their implementation, by the security officer."
 op.exp.5.5,"Once the change is implemented, the appropriate acceptance tests 
 will be performed. If positive, the configuration documentation (network diagrams, 
 manuals, inventory, etc.) shall be updated where appropriate.  
-Reinforcement R1 -Prevention of failures.  
-"
+Reinforcement R1 -Prevention of failures."
 op.exp.6.1,"Preventive and reaction mechanisms against harmful code shall be 
 available, including maintenance in accordance with the manufacturer's 
-recommendations.  
-"
+recommendations."
 op.exp.6.2,"Harmful code protection software shall be installed on all equipment: 
-user workstation, servers and perimeter elem ents.  
-"
-op.exp.6.3,"Any file from external sources shall be analyzed before working with it.  
-"
-op.exp.6.4,"Harmful code detection databases shall remain permanently updated.  
-"
+user workstation, servers and perimeter elements."
+op.exp.6.3,"Any file from external sources shall be analyzed before working with it."
+op.exp.6.4,"Harmful code detection databases shall remain permanently updated."
 op.exp.6.5,"The harmful code detection software installed at user workstations 
 shall be properly configured and implement real -time protection according to the 
 manufacturer's recommendations.  
-Reinforcement R1- Periodic Scanning.  
-"
+Reinforcement R1- Periodic Scanning."
 op.exp.7.1,"A comprehensive process shall be available to address incidents that 
 may have an impact on system security, including the report of security events and 
 weaknesses, detailing the classification criteria and the escalation of the reporting."
 op.exp.7.2,"The management of incidents affecting personal data shall take into 
 account the provisions of the General Data Protection Regulation; organic Law 3/2018 of 5 
-December 2018, in partic ular its first additional provision, as well as the other 
+December 2018, in particular it's first additional provision, as well as the other 
 implementing regulations, without prejudice to the requirements laid down in this Royal 
 Decree.  
-Reinforcement R1 -Notification.  
-"
+Reinforcement R1 -Notification."
 op.exp.8.1,"An audit log shall be generated, which shall include at least the 
 identifier of the user or entity associated with the event, date and time, on what information 
 the event takes place, type of event and the outcome of the event (failure or success), 
-according to the security policy and the procedures associated with it.  
-"
-op.exp.8.2,"Activity record on se rvers shall be activated.  
-Reinforcement R1 -Review of records.  
-"
+according to the security policy and the procedures associated with it."
+op.exp.8.2,"Activity record on servers shall be activated.  
+Reinforcement R1 -Review of records."
 op.exp.9.1,"Initial, intermediate and final reports of incidents, emergency actions 
-and system modifications resulting from the incident shall be recorded.  
-"
+and system modifications resulting from the incident shall be recorded."
 op.exp.9.2,"Evidence that may be settled in a jurisdictional area shall be recorded, 
 especially where the incident may involve disciplinary action against internal staff, external 
-suppliers or prosecution of crimes. In determin ing the composition and detail of this 
-evidence, specialized legal advice will be used.  
-"
+suppliers or prosecution of crimes. In determining the composition and detail of this 
+evidence, specialized legal advice will be used."
 op.exp.9.3,"As a result of incident analysis, the determination of auditable events"
 op.exp.10.1,"Crypto keys shall be protected throughout their life cycle: (1) 
 generation, (2) transport to the point of operation, (3) safekeeping during the operation, (4) 
-archive after decommissioning and (5) final destruction.  
-"
+archive after decommissioning and (5) final destruction."
 op.exp.10.2,"The means of generation shall be isolated from the means of 
-exploitation.  
-"
+exploitation."
 op.exp.10.3,"The keys removed from operations to be archived shall be in isolated 
 means of exploitation.  
-Reinforcement R1 -Algorithms authorized reinforcement.  
-"
+Reinforcement R1 -Algorithms authorized reinforcement."
 op.ext.1.1,"A Service Level Agreement shall be contractually established prior to 
 the effective use of external resources, including the characteristics of the service 
 provided, which should be understood as “minimum admissible service”, a s well as the 
@@ -376,7 +299,6 @@ Implementation of the measure.
  BASIC category: N.A  
  MEDIUM Category: op.ext.1.  
  HIGH Category: op.ext.1.  
- 
 4.4.2 Daily management"
 op.ext.2.1,"A routine system for measuring compliance with service obligations, 
 including the procedure for neutralizing any deviation outside the agreed tolerance range 
@@ -385,39 +307,32 @@ op.ext.2.2,"The coordination mechanism and procedures for carrying out the
 maintenance tasks of the systems covered by the agreement, which shall cover incidents 
 and disasters (see"
 op.ext.3.1,"The impact of an accidental or deliberate incident originating in the 
-supply chain on the system shall be analyzed.  
-"
+supply chain on the system shall be analyzed."
 op.ext.3.2,"The risk to the system shall be estimated because of the estimated 
-impact in the previous point.  
-"
-op.ext.3.3,"Measures shall be taken to contain the impacts e stimated in the 
+impact in the previous point."
+op.ext.3.3,"Measures shall be taken to contain the impacts estimated in the 
 previous points.  
-Reinforcement R1 -Contingency plan.  
-"
+Reinforcement R1 -Contingency plan."
 op.ext.4.1,"All exchanges of information and provision of services with other 
 systems shall be subject to prior authorization. Any flow of information shall be prohibited 
-unless expressly authorized.  
-"
+unless expressly authorized."
 op.ext.4.2,"For each interconnection it shall be explicitly documented: the interface 
 characteristics, security and data protection requirements and the nature of the 
 information exchanged.  
-Reinforcement R1 -Coordination of activities.  
-"
+Reinforcement R1 -Coordination of activities."
 op.nub.1.1,"Systems providing a cloud service to public sector bodies shall comply 
 with the set of security measures depending on the cloud service model they provide: 
 Software as a Service (SaaS ), Platform as a Service (PaaS ) and Infrastructure as a 
-Service ( IaaS) defined in the CCN -STIC guides that are applicable.  
-"
+Service ( IaaS) defined in the CCN -STIC guides that are applicable."
 op.nub.1.2,"Where cloud services provided by third parties are used, the 
 information systems supporting them shall comply with the ENS or comply with the 
-measures developed in a CCN -STIC g uide which shall include, inter alia, requirements 
+measures developed in a CCN -STIC guide which shall include, inter alia, requirements 
 relating to:  
 a) Audit of penetration tests ( Pentesting ). 
 b) Transparency.  
 c) Encryption and key management.  
 d) Jurisdiction of the data.  
-Reinforcement R1 - Certified Services.  
-"
+Reinforcement R1 - Certified Services."
 op.cont.1.1,"An impact analysis shall be carried out to determine the availability 
 requirements for each service (impact of an interruption over a given period of time), as 
 well as the elements that are critical to the provision of each service.  
@@ -426,19 +341,15 @@ Implementation of the measure (by availability).
  Medium level: op.cont.1.  
  High level: op.cont.1."
 op.cont.2.1,"Functions, responsibilities and activities to be performed shall be 
-identified.  
-"
+identified."
 op.cont.2.2,"There shall be a provision to coordinate the entry into service of 
 alternative means in such a way as to ensure that the essential services of the 
-organization can continue to be provided.  
-"
+organization can continue to be provided."
 op.cont.2.4,"Persons affected by the plan shall receive specific training regarding 
-their role in the plan.  
-"
+their role in the plan."
 op.cont.2.5,"The continuity plan shall be an integral and harmonious part of the 
 organization's continuity plans in other non -security matters.  
-Reinforcement R1 -Emergency and contingency plan.  
-"
+Reinforcement R1 -Emergency and contingency plan."
 op.cont.3.1,"Periodic tests shall be carried out to identify and, where appropriate, 
 correct any errors or deficiencies that may exist in the continuity plan.  
 Implementation of the measure (by availability).  
@@ -452,62 +363,50 @@ a) Services contracted to third parties.
 b) Alternative facilities.  
 c) Alternative staff.  
 d) Alternative computer equipment . 
-e) Alternative media.  
-"
+e) Alternative media."
 op.cont.4.2,"A maximum time shall be set for alternative means to become 
-operational.  
-"
+operational."
 op.cont.4.3,"Alternative means shall be subject to the same security guarantees as 
 the originals.  
-Reinforcement R1 -Automation of transition to alternative media.  
-"
+Reinforcement R1 -Automation of transition to alternative media."
 op.mon.1.1,"Intrusion detection or prevention tools shall be available.  
-Reinforcement R1 -Detection based on rules.  
-"
+Reinforcement R1 -Detection based on rules."
 op.mon.2.1,"In accordance with the security category of the system, the necessary 
 data shall be collected to determine the degree of implementation of the applicable 
 security measures and, where appropriate, to provide the annual report required by Article 
 32. 
-Reinforcement R1 -Effectiveness of the incident manageme nt system.  
-"
+Reinforcement R1 -Effectiveness of the incident management system."
 op.mon.3.1,"An automatic security event collection system shall be available.  
 Reinforcement R1 -Correlation of events."
 mp.if.1.1,"The equipment of the Data Processing Centre (DPC) shall be installed, 
-as far as possible, in separate areas, specific to its function.  
-"
+as far as possible, in separate areas, specific to it's function."
 mp.if.1.2,"Access to the indicated areas shall be controlled so that it can only be 
 accessed by the intended entries.  
 Implementation of the measure.  
  BASIC Category : mp.if.1.  
  MEDIUM Category: mp.if.1.  
  HIGH Category: mp.if.1.  
- 
- 
- 
 5.1.2 Identification of persons"
 mp.if.2.1,"The access control procedure shall identify persons accessing premises 
 where essential equipment is part of the DPC information system, recording the 
-corresponding inputs and exits.  
+corresponding inputs and exit's.  
 Implementation of the measure.  
  BASIC Category: mp.if.2.  
  MEDIUM Category: mp.if.2.  
  HIGH Category: mp.if.2.  
 5.1.3 Fitting -out of premises"
-mp.if.3.1,"Temperature and humidity conditions.  
-"
-mp.if.3.2,"Protection from threats identified in the risk analysis.  
-"
-mp.if.3.3,"Protection of wiring again st accidental or deliberate incidents.  
+mp.if.3.1,"Temperature and humidity conditions."
+mp.if.3.2,"Protection from threats identified in the risk analysis."
+mp.if.3.3,"Protection of wiring against accidental or deliberate incidents.  
 Implementation of the measure.  
  BASIC Category: mp.if.3.  
  MEDIUM Category: mp.if.3.  
  HIGH Category: mp.if.3.  
-5.1.4 E lectric al energy"
+5.1.4 Electrical energy"
 mp.if.4.1,"The premises where the information systems and their essential 
 components are located shall have electrical power outlets in such a way as to ensure the 
 supply and proper operation of emergency lights.  
-Reinforcement R1 Emergency Electrical Supply.  
-"
+Reinforcement R1 Emergency Electrical Supply."
 mp.if.5.1,"The premises where the information systems and their essential 
 components are located shall be protected against fires in accordance with at least the 
 applicable industrial regulations.  
@@ -515,7 +414,7 @@ Implementation of the measure (by availability).
  LOW level: mp.if.5.  
  MEDIUM level: mp.if.5.  
  HIGH level: mp.if.5.  
-5.1.6 F lood protection"
+5.1.6 Flood protection"
 mp.if.6.1,"Facilities where information systems and their essential components are 
 located shall be protected against water incidents.  
 Implementation of the measure (by availability).  
@@ -530,84 +429,68 @@ Implementation of the measure.
  HIGH Category: mp.if.7.  
 5.2 Staff  management"
 mp.per.1.1,"For each job, directly related to the handling of information or services, 
-security responsibilities shall be defined and shall be based on risk analysis.  
-"
+security responsibilities shall be defined and shall be based on risk analysis."
 mp.per.1.2,"The requirements to be met by persons to be employed shall be 
-defined, in particular in terms of confidentiality. Those requ irements shall be taken into 
-account in the selection of the person to fill the post, including the verification of its 
+defined, in particular in terms of confidentiality. Those requirements shall be taken into 
+account in the selection of the person to fill the post, including the verification of it's 
 employment history, training and other references, in accordance with the legal system 
 and respect for fundamental rights.  
-Reinforcement  R1-Personal Security Enabling.  
-"
-mp.per.2.1,"Disciplinary measures.  
-"
+Reinforcement  R1-Personal Security Enabling."
+mp.per.2.1,"Disciplinary measures."
 mp.per.2.2,"Considering both the period during which the post is held, and the 
-obligations in the event of termination of the assignment, or transfer to another post.  
-"
+obligations in the event of termination of the assignment, or transfer to another post."
 mp.per.2.3,"The duty of confidentiality in respect of the data to which it has 
-access, both during the period assigned to the post, and after its termination.  
-"
-mp.per.2.4,"In the cas e of personnel hired through a third party:  
+access, both during the period assigned to the post, and after it's termination."
+mp.per.2.4,"In the case of personnel hired through a third party:  
 •"
 mp.per.2.4.1,"The duties and obligations of each party and of the contracted 
 personnel shall be established.  
 •"
 mp.per.2.4.2,"The procedure for resolving incidents related to non -
 compliance with obligations shall be established.  
-Reinforcement R1 -Express confirmation.  
-"
+Reinforcement R1 -Express confirmation."
 mp.per.3.2,"Identification of suspicious incidents, activities, or behaviors that must 
-be reported for treatment by specializ ed personnel.  
-"
+be reported for treatment by specialized personnel."
 mp.per.3.3,"The procedure for reporting security incidents, whether real or false 
 alarms.  
 Implementation of the measure.  
  BASIC Category: mp.per.3.  
  MEDIUM Category: mp.per.3.  
  HIGH Category: mp.per.3.  
-5.2.4 T raining"
+5.2.4 Training"
 mp.per.4.1,"Staff shall be regularly trained in matters relating to information 
 security which require the performance of their duties, in particular as regards:"
 mp.eq.1.1,"Workplaces shall remain clear, without any material other than that 
 required at all times.  
-Reinforcement R1 -Storage material.  
-"
+Reinforcement R1 -Storage material."
 mp.eq.2.1,"The user session will be lock after a reasonable period of inactivity, 
 requiring a new user authentication to resume the ongoing activity.  
-Reinforcement R1-Closing of sessions.  
-"
+Reinforcement R1-Closing of sessions."
 mp.eq.3.1,"A portable device inventory shall be kept together with an identification 
-of the person responsible for each device and a regular check that it is positively under its 
-control.  
-"
+of the person responsible for each device and a regular check that it is positively under it's 
+control."
 mp.eq.3.2,"A security operational procedure shall be established to inform the loss 
-or subtraction incident management service.  
-"
+or subtraction incident management service."
 mp.eq.3.3,"When a portable device connects remotely over networks tha t are not 
 under the strict control of the organization, the scope of operation of the server shall limit 
 accessible information and services to the minimum required, requiring prior authorization 
-from those responsible for the information and services conc erned. This point applies to 
-connections over the internet and other networks that are not trusted.  
-"
+from those responsible for the information and services concerned. This point applies to 
+connections over the internet and other networks that are not trusted."
 mp.eq.3.4,"The portable device shall be prevented, as far as possible, from 
 containing remote access keys to the organization that are not essential. Remote access 
 keys are those that are capable of enabling access to other equipment of the organization 
 or others of a similar nature.  
-Reinforcement R1  Encryption of the disc.  
-"
+Reinforcement R1  Encryption of the disc."
 mp.eq.4.1,"Devices present in the system shall have an appropriate security 
-configuration to ensure the control of the defined flow of information input and output.  
-"
+configuration to ensure the control of the defined flow of information input and output."
 mp.eq.4.2,"Devices present on the network that have some type of temporary or 
-permanent storage of information shall provide the functionality ne cessary to remove 
+permanent storage of information shall provide the functionality necessary to remove 
 information from information media. (See"
 op.pl.5,"shall be used where 
 possible.  
-Reinforcement R2 -Control of devices connected to the network.  
-"
+Reinforcement R2 -Control of devices connected to the network."
 mp.com.1.1,"A perimeter protection system shall be available to separate the 
-internal network from the outside. All traffic must pass through that system.  
-"
+internal network from the outside. All traffic must pass through that system."
 mp.com.1.2,"All information flows across the perimeter must be authorized in 
 advance.  
 The Technical  Security Instruction for the Interconnection of Information Systems shall 
@@ -617,12 +500,10 @@ Implementation of the measure.
  BASIC Category: mp.com.1.  
  MEDIUM Category: mp.com.1."
 mp.com.2.1,"Encrypted virtual private networks shall be used when communication 
-takes place over networks outside the security domain itself.  
-Reinforcement R1 -Algorithms and authorized parameters.  
-"
+takes place over networks outside the security domain it'self.  
+Reinforcement R1 -Algorithms and authorized parameters."
 op.pl.5,"shall be used.  
-Reinforcement R4 -Encryptors.  
-"
+Reinforcement R4 -Encryptors."
 mp.com.3.1,"In communications with points outside the own security domain, the 
 authenticity of the other end of the communication channel shall be ensured before 
 exchanging information. (See"
@@ -630,30 +511,24 @@ mp.com.3.2,"Active attacks shall be prevented by ensuring that the envisaged
 procedures for handling the incident shall be activated upon detection. Active attacks shall 
 be considered as:  
 a) The alteration of information in transit.  
-b) The injection of spurio us information.  
-c) The kidnapping of the session by a third party.  
-"
+b) The injection of spurious information.  
+c) The kidnapping of the session by a third party."
 mp.com.3.3,Any identification and authentication mechanism provided for in the
 mp.com.4.1,"Network traffic shall be segregated so tha t each computer only has 
-access to the information it needs.  
-"
+access to the information it needs."
 mp.com.4.2,"If wireless communications are used, it shall be in a separate 
 segment.  
-Reinforcement R1 -Basic Logic Segmentation.  
-"
+Reinforcement R1 -Basic Logic Segmentation."
 mp.si.1.1,"Information media (printed paper, electronic documents, multimedia 
 content  videos, courses, presentations, etc.) containing information that according to"
 mp.info.2,"must be protected by specific security measures, shall bear the corresponding 
 markings or metadata indicating the level of security of the information contained with the 
-highest rati ng. 
-Reinforcement R1 -Digital Watermark.  
-"
-mp.si.2.1,"Cryptographi c mechanisms shall be used to ensure the confidentiality 
-and integrity of the information contained.  
-"
+highest rating. 
+Reinforcement R1 -Digital Watermark."
+mp.si.2.1,"Cryptographic mechanisms shall be used to ensure the confidentiality 
+and integrity of the information contained."
 mp.si.2.2,"Algorithms and parameters authorized by the CCN shall be used.  
-Reinforcement R1  Certified products.  
-"
+Reinforcement R1  Certified products."
 mp.si.3.1,"Due diligence and control shall apply to information media that remain 
 under the responsibility of the organization, ensuring access control with physical 
 measures ("
@@ -661,55 +536,45 @@ mp.if.1,and
 mp.si.3.2,"Maintenance requirements of the manufacturer shall be respected, in 
 particular with regard to temperature, humidity and other environmental agents."
 mp.si.4.1,"An entry/exit record shall be available identifying the carrier who 
-delivers/receives the support.  
-"
+delivers/receives the support."
 mp.si.4.2,"A routine procedure shall be available to cross -check departures with 
-arrivals and raise relevant alarms when an incident is detected . 
-"
+arrivals and raise relevant alarms when an incident is detected ."
 mp.si.4.3,The cryptographic means of protection (
 mp.si.4.4,Keys shall be managed according to
 mp.si.5.1,"Media intended to be re -used for other information or released to 
-another organization shall be subject to the secure deletion of its content that does not 
-permit its retrieval. Where the nature of the medium does not allow for secure deletion, the 
+another organization shall be subject to the secure deletion of it's content that does not 
+permit it's retrieval. Where the nature of the medium does not allow for secure deletion, the 
 support may not be reused in any other system.  
 The CCN -STIC guides will specify the criteria for defining a deletion o r destruction 
 mechanism as safe, depending on the sensitivity of the information stored on the device.  
-Reinforcement R1-Certified products . 
-"
+Reinforcement R1-Certified products ."
 op.pl.5,"shall be used.  
-Reinforcement R2  Destruction of supp orts.  
-"
+Reinforcement R2  Destruction of supports."
 mp.sw.1.1,"Application development shall be carried out on a different and 
 separate system from the production system, with no development tools or data in the 
 production environment, nor production data in the development environment.  
-Reinforcement R1 -Minimum privilege.  
-"
+Reinforcement R1 -Minimum privilege."
 mp.sw.2.1,"It shall be verified that:  
 a) Security acceptance criteria are met.  
 b) The security of other components of the service is not impaired.  
- 
-Reinforcement R1 - Tests.  
-"
+Reinforcement R1 - Tests."
 mp.info.1.1,"When the system processes personal data, the security officer shall 
 collect data protection requirements that are set by the controller or by the processor, with 
 the advice of the DPO, and which are necessary to implement in the systems according to 
-the nature, sco pe, context and purposes of the data protection, as well as the risks to the 
+the nature, scope, context and purposes of the data protection, as well as the risks to the 
 rights and freedoms in accordance with Articles 24 and 32 of the GDPR, and according to 
 the data protection impact assessment, if carried out.  
 Implementation of the measure.  
  BASIC category: mp.info.1.  
  MEDIUM category: mp.info.1."
 mp.info.2.2,"The security policy shall establish who is responsible for each 
-information handled by the system.  
-"
-mp.info.2.3,"The securi ty policy shall set out, directly or indirectly, the criteria 
+information handled by the system."
+mp.info.2.3,"The security policy shall set out, directly or indirectly, the criteria 
 which, in each organization, shall determine the level of security required, within the 
-framework set out in Article 40 and the general criteria set out in Annex I.  
-"
-mp.info.2.4,"The person resp onsible for each information shall follow the criteria 
+framework set out in Article 40 and the general criteria set out in Annex I."
+mp.info.2.4,"The person responsible for each information shall follow the criteria 
 set out in the previous section to assign to each information the level of security required 
-and shall be responsible for its documentation and formal approval.  
-"
+and shall be responsible for it's documentation and formal approval."
 mp.info.2.5,"The person responsible for each information at all times shall have 
 the exclusive power to modify the level of security required, in accordance with the 
 previous sections.  
@@ -717,27 +582,22 @@ Application of the measure (by confidentiality).
  Low level: N.A.  
  Medium level: mp.info.2.  
  HIGH level: mp.info.2.  
-5.7.3 E lectronic signature"
+5.7.3 Electronic signature"
 mp.info.3.1,"Any type of electronic signature provided for in the current legal 
 system shall be used, including the secure verification code systems linked to the Public 
 Administration, public body, body or public law entity, under the terms and conditions 
 established in Law 39/2015 of 1 October 2015 on the Common Administrative Procedure 
-of Public Adminis trations and Law 40/2015 of 1 October 2015.  
-Reinforcement R1 -Qualified certificates.  
-"
+of Public Administrations and Law 40/2015 of 1 October 2015.  
+Reinforcement R1 -Qualified certificates."
 mp.info.4.1,"Time stamps shall apply to information that may be used as electronic 
-evidence in the future.  
-"
+evidence in the future."
 mp.info.4.2,"Data relevant to the subsequent verification of the date shall be 
 treated with the same security as the information dated for the purposes of availability, 
-integrity and confidentiality.  
-"
+integrity and confidentiality."
 mp.info.4.4,"“Qualified electronic time stamps” shall be used in accordance with 
-Regulatio n (EU) No 910/2014 and implementing legislation.  
-Reinforcement R1-Certified products.  
-"
-op.pl.5,"shall be used.  
-"
+Regulation (EU) No 910/2014 and implementing legislation.  
+Reinforcement R1-Certified products."
+op.pl.5,"shall be used."
 mp.info.5.1,"In the document clean -up process, any additional information 
 contained in hidden fields, metadata, comments or previous revisions shall be removed 
 from the document, except where such information is relevant to the recipient of the 
@@ -750,34 +610,27 @@ Application of the measure (by confidentiality).
  MEDIUM level: mp.info.5.  
  HIGH level: mp.info.5.  
  
-5.7.6 B ackups"
+5.7.6 Backups"
 mp.info.6.1,"Backups shall be made to recover of accidentally or intentionally lost 
 data. The periodicity and retention periods of these backups shall be determined in the 
-organization's internal rules on backups.  
-"
+organization's internal rules on backups."
 mp.info.6.2,"The backup procedures established shall indicate:  
 a) Frequency of copies.  
 b) On-site storage requirements.  
 c) Storage requirements elsewhere.  
 d) Controls for authorized access to backup copies.  
-Reinforcement R1 -Recovery tests.  
-"
+Reinforcement R1 -Recovery tests."
 mp.s.1.1,"Information distributed by e -mail shall be protected, both in the body of 
-the messages and in the annexes.  
-"
+the messages and in the annexes."
 mp.s.1.2,"Message routing and connecting information shall be protected.  
 The organization shall be protected against problems that materialize by e -mail, in 
-particular:  
-"
-mp.s.1.3,"Unsolicited mail, in the words “spam”.  
-"
+particular:"
+mp.s.1.3,"Unsolicited mail, in the words “spam”."
 mp.s.1.4,"Harmful code consisting of viruses, worms, Trojans, spies, or others of a 
-similar nature.  
-"
+similar nature."
 mp.s.1.5,"Micro -application mobile code, in the English expression “applet”.  
 Rules for the use of e -mail shall be established for staff. (See"
-mp.s.1.6,"Limitations to the use of private communications.  
-"
+mp.s.1.6,"Limitations to the use of private communications."
 mp.s.1.7,"Awareness and training activities related to the use of e -mail.  
 Implementation of the measure.  
  BASIC Category: mp.s.1.  
@@ -787,36 +640,26 @@ Implementation of the measure.
 mp.s.2.1,"Where the information requires access control, it shall be ensured that 
 the information cannot be accessed without authentication, in particular by taking action 
 on the following aspects:  
-a) The server shall be prevented from providing access to do cuments by 
+a) The server shall be prevented from providing access to documents by 
 alternative means to the given protocol."
-mp.s.2.2,"Privilege escalation attempts shall be prevented.  
-"
+mp.s.2.2,"Privilege escalation attempts shall be prevented."
 mp.s.2.3,"Cross site scripting attacks shall be prevented.  
-Reinforcement R1 -Security audits.  
-"
+Reinforcement R1 -Security audit's."
 mp.s.3.1,"Rules of use shall be established, defining the use that is authorized and 
 limitations on personal use. In particular, the permitted use of encrypted connections shall 
-be specified.  
-"
+be specified."
 mp.s.3.2,"Hygiene awareness activities in web browsing shall be carried out on a 
-regular basis,  promoting safe use and warning of misuse.  
-"
+regular basis,  promoting safe use and warning of misuse."
 mp.s.3.3,"System administrator(s) shall be trained in service monitoring and 
-incident response.  
-"
-mp.s.3.4,"Web address resolution and connection information shall be protected.  
-"
-mp.s.3.5,"The organization in gene ral and the workstation in particular shall be 
-protected from problems occurring via web navigation.  
-"
+incident response."
+mp.s.3.4,"Web address resolution and connection information shall be protected."
+mp.s.3.5,"The organization in general and the workstation in particular shall be 
+protected from problems occurring via web navigation."
 mp.s.3.6,"It shall protect against the action of harmful programs such as active 
 pages, executable code downloads, etc., preventing the system from being exposed to 
-attack vectors such as s  pyware, ransomware, etc.  
-"
+attack vectors such as spyware, ransomware, etc."
 mp.s.3.7,"An executive cookie control policy shall be established, in particular, to 
 avoid contamination between personal use and organizational use.  
-Reinforcement R1  Monitoring.  
-"
+Reinforcement R1  Monitoring."
 mp.s.4.2,"Technologies shall be deployed to prevent known attacks.  
-Reinforcement R1 -Detection and reaction.  
-"
+Reinforcement R1 -Detection and reaction."
