@@ -609,7 +609,6 @@ Application of the measure (by confidentiality).
  LOW level: mp.info.5.  
  MEDIUM level: mp.info.5.  
  HIGH level: mp.info.5.  
- 
 5.7.6 Backups"
 mp.info.6.1,"Backups shall be made to recover of accidentally or intentionally lost 
 data. The periodicity and retention periods of these backups shall be determined in the 
