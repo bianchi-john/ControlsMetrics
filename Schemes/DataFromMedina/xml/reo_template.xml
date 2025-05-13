@@ -1,0 +1,40 @@
+<dsa id="DSA-d4f3c499-247b-4351-a416-f22d650bc523.xml" status="CUSTOMISED" vocabulary-url="https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#" title="NL2CNL REO TEMPLATE" version="2" purpose="Cyber Threat Monitoring" application-domain="AT" modification-date="2022-02-21Z" governing-law="" indemnities="" encryption-key-schema="organization_default_scheme" user-consent="false" xmlns="http://www.coco-cloud.eu/dsa">
+  <description/>
+  <requirementId>OPS-01.1</requirementId>
+  <requirementSet>Framework: EUCS | Category: Operational security | Requirement: The CSP shall document and implement procedures to plan for capacities and resources (personnel and IT resources), which shall include forecasting future capacity requirements in order to identify usage trends and manage system overload | Level: Basic</requirementSet>
+  <expirationPolicy periodInDays="0">
+    <complexPolicy>DenyAll</complexPolicy>
+  </expirationPolicy>
+  <revocationPolicy periodInDays="0">
+    <complexPolicy>DenyAll</complexPolicy>
+  </revocationPolicy>
+  <updatePolicy periodInDays="0">
+    <complexPolicy>DenyAll</complexPolicy>
+  </updatePolicy>
+  <parties>
+    <organization id="EMPTY_ORG_1645433309921" name="Unknown Organization" responsibilities="" role="data-controller"/>
+  </parties>
+  <validity>
+    <startDate>2022-02-21Z</startDate>
+    <endDate>2022-02-21Z</endDate>
+    <offlineLicencesDuration>P1D</offlineLicencesDuration>
+  </validity>
+  <data>
+    <datum value="" id="DATUM_X_5">
+      <expression language="CNL4DSA">?X_5 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#Boolean&gt;</expression>
+    </datum>
+    <datum value="" id="DATUM_X_4">
+      <expression language="CNL4DSA">?X_4 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#Compute.VirtualMachine&gt;</expression>
+    </datum>
+  </data>
+  <obligations>
+    <obligation id="OBLIGATION_3" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_5:Boolean{param== option=FALSE}" inputValue="" conflict="false">
+      <expression language="CNL_4_DSA_E" issuer="Policy Expert">?X_4:Compute.VirtualMachine must AntiMalwareEnabled ?X_5:Boolean</expression>
+      <expression language="UPOL" issuer="Policy Expert"/>
+      <expression language="UserText" issuer="Policy Expert">Compute.VirtualMachine MUST AntiMalwareEnabled Boolean</expression>
+      <expression language="CNL4DSA" issuer="Policy Expert">must [?X_4, AntiMalwareEnabled, ?X_5]</expression>
+    </obligation>
+  </obligations>
+  <dataClassification>Confidential</dataClassification>
+  <consentRequired>false</consentRequired>
+</dsa>

@@ -1,0 +1,165 @@
+<dsa xmlns="http://www.coco-cloud.eu/dsa" application-domain="AT" encryption-key-schema="organization_default_scheme" governing-law="" id="DSA-a9476c34-b102-4c98-a3b0-7f7c0d025e4d.xml" indemnities="" modification-date="2022-04-27T15:42:00.737Z" purpose="Cyber Threat Monitoring" status="CUSTOMISED" title="REO from OPS-05.3" user-consent="false" version="0.0" vocabulary-url="https://cnl-vocabulary-test.k8s.medina.esilab.org/vocabularies/medina_vocabulary_test_v2.0.owl#">
+    <description>This REO has been created for requirement OPS-05.3</description>
+    <tomCode>OPS-05.3</tomCode>
+    <tomName>OPS-05.3</tomName>
+    <securityControl>OPS-05</securityControl>
+    <framework>EUCS</framework>
+    <type>ORGANIZATIONAL</type>
+    <tomDescription>The CSP shall automatically monitor the systems covered by the malware protection and the configuration of the corresponding mechanisms to guarantee fulfilment of OPS-05.1</tomDescription>
+    <assuranceLevel>HIGH</assuranceLevel>
+    <expirationPolicy periodInDays="0">
+        <complexPolicy>DenyAll</complexPolicy>
+    </expirationPolicy>
+    <revocationPolicy periodInDays="0">
+        <complexPolicy>DenyAll</complexPolicy>
+    </revocationPolicy>
+    <updatePolicy periodInDays="0">
+        <complexPolicy>DenyAll</complexPolicy>
+    </updatePolicy>
+    <parties>
+        <organization id="EMPTY_ORG_1651074120739" name="Unknown Organization" responsibilities="" role="data-controller" />
+    </parties>
+    <validity>
+        <startDate>2022-04-27Z</startDate>
+        <endDate>2022-04-27Z</endDate>
+        <offlineLicencesDuration>P1D</offlineLicencesDuration>
+    </validity>
+    <data>
+        <datum id="DATUM_X_1" value="">
+            <expression language="CNL4DSA">?X_1 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#Compute.VirtualMachine&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_2" value="">
+            <expression language="CNL4DSA">?X_2 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#Boolean&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_3" value="">
+            <expression language="CNL4DSA">?X_3 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#Compute.VirtualMachine&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_4" value="">
+            <expression language="CNL4DSA">?X_4 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#Boolean&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_5" value="">
+            <expression language="CNL4DSA">?X_5 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#AMOE.PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_6" value="">
+            <expression language="CNL4DSA">?X_6 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#na&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_7" value="">
+            <expression language="CNL4DSA">?X_7 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#AMOE.PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_8" value="">
+            <expression language="CNL4DSA">?X_8 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#na&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_9" value="">
+            <expression language="CNL4DSA">?X_9 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#AMOE.PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_10" value="">
+            <expression language="CNL4DSA">?X_10 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#na&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_11" value="">
+            <expression language="CNL4DSA">?X_11 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#AMOE.PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_12" value="">
+            <expression language="CNL4DSA">?X_12 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#na&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_13" value="">
+            <expression language="CNL4DSA">?X_13 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#AMOE.PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_14" value="">
+            <expression language="CNL4DSA">?X_14 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#na&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_15" value="">
+            <expression language="CNL4DSA">?X_15 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#AMOE.PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_16" value="">
+            <expression language="CNL4DSA">?X_16 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#na&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_17" value="">
+            <expression language="CNL4DSA">?X_17 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#AMOE.PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_18" value="">
+            <expression language="CNL4DSA">?X_18 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#na&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_19" value="">
+            <expression language="CNL4DSA">?X_19 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#AMOE.PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_20" value="">
+            <expression language="CNL4DSA">?X_20 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#na&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_21" value="">
+            <expression language="CNL4DSA">?X_21 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#AMOE.PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_22" value="">
+            <expression language="CNL4DSA">?X_22 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#na&gt;</expression>
+        </datum>
+    </data>
+    <obligations>
+        <obligation id="OBLIGATION_1" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_2:Boolean{param== option=true}" inputValue="" conflict="false" metricDescription="catalogue{}This metric is used to assess if the antimalware solution is enabled on the respective resource." metricId="MalwareProtectionEnabled">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_1:Compute.VirtualMachine must MalwareProtectionEnabled ?X_2:Boolean</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">Compute.VirtualMachine MUST MalwareProtectionEnabled Boolean</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_1, MalwareProtectionEnabled, ?X_2]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_2" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_4:Boolean{param== option=true}" inputValue="" conflict="false" metricDescription="catalogue{}This metric states whether automatic notifications are enabled (e.g. e-mail) about malware threats. This relates to EUCSâ€™ definition of â€œcontinuous monitoringâ€." metricId="MalwareProtectionOutput">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_3:Compute.VirtualMachine must MalwareProtectionOutput ?X_4:Boolean</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">Compute.VirtualMachine MUST MalwareProtectionOutput Boolean</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_3, MalwareProtectionOutput, ?X_4]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_3" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_6:na{param=na option=na}" inputValue="" conflict="false" metricDescription="recommender{}Which sources shall we used to guarantee the hardening of software?" metricId="SystemHardeningPolicyQ1">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_5:AMOE.PolicyDocument must SystemHardeningPolicyQ1 ?X_6:na</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">AMOE.PolicyDocument MUST SystemHardeningPolicyQ1 na</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_5, SystemHardeningPolicyQ1, ?X_6]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_4" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_8:na{param=na option=na}" inputValue="" conflict="false" metricDescription="recommender{}Which core CSP services are covered by malware protection?" metricId="MalwareProtectionCheckQ1">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_7:AMOE.PolicyDocument must MalwareProtectionCheckQ1 ?X_8:na</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">AMOE.PolicyDocument MUST MalwareProtectionCheckQ1 na</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_7, MalwareProtectionCheckQ1, ?X_8]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_5" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_10:na{param=na option=na}" inputValue="" conflict="false" metricDescription="recommender{}Which backup procedures apply to CSP systems" metricId="BackupPolicyQ1">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_9:AMOE.PolicyDocument must BackupPolicyQ1 ?X_10:na</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">AMOE.PolicyDocument MUST BackupPolicyQ1 na</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_9, BackupPolicyQ1, ?X_10]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_6" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_12:na{param=na option=na}" inputValue="" conflict="false" metricDescription="recommender{}Which encryption policy is defined for data at rest?" metricId="EncryptionDataRestPolicyQ1">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_11:AMOE.PolicyDocument must EncryptionDataRestPolicyQ1 ?X_12:na</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">AMOE.PolicyDocument MUST EncryptionDataRestPolicyQ1 na</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_11, EncryptionDataRestPolicyQ1, ?X_12]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_7" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_14:na{param=na option=na}" inputValue="" conflict="false" metricDescription="recommender{}Which endpoint protection mechanism is defined for data in transit?" metricId="EncryptionDataTransitPolicyQ1">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_13:AMOE.PolicyDocument must EncryptionDataTransitPolicyQ1 ?X_14:na</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">AMOE.PolicyDocument MUST EncryptionDataTransitPolicyQ1 na</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_13, EncryptionDataTransitPolicyQ1, ?X_14]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_8" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_16:na{param=na option=na}" inputValue="" conflict="false" metricDescription="recommender{}Which encryption mechanisms are not explicitly supported for data in transit?" metricId="EncryptionDataTransitPolicyQ2">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_15:AMOE.PolicyDocument must EncryptionDataTransitPolicyQ2 ?X_16:na</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">AMOE.PolicyDocument MUST EncryptionDataTransitPolicyQ2 na</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_15, EncryptionDataTransitPolicyQ2, ?X_16]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_9" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_18:na{param=na option=na}" inputValue="" conflict="false" metricDescription="recommender{}Which digital certificates are allowed for user facing services?" metricId="DigitalCertPolicy02">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_17:AMOE.PolicyDocument must DigitalCertPolicy02 ?X_18:na</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">AMOE.PolicyDocument MUST DigitalCertPolicy02 na</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_17, DigitalCertPolicy02, ?X_18]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_10" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_20:na{param=na option=na}" inputValue="" conflict="false" metricDescription="recommender{}Which security mechanism protecs access to administrative networks?" metricId="NetworkAccessPolicy01">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_19:AMOE.PolicyDocument must NetworkAccessPolicy01 ?X_20:na</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">AMOE.PolicyDocument MUST NetworkAccessPolicy01 na</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_19, NetworkAccessPolicy01, ?X_20]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_11" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_22:na{param=na option=na}" inputValue="" conflict="false" metricDescription="recommender{}Which change management policies need to be reviewed by cloud customers?" metricId="ChangeManagementPolicy01">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_21:AMOE.PolicyDocument must ChangeManagementPolicy01 ?X_22:na</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">AMOE.PolicyDocument MUST ChangeManagementPolicy01 na</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_21, ChangeManagementPolicy01, ?X_22]</expression>
+        </obligation>
+    </obligations>
+    <dataClassification>Confidential</dataClassification>
+    <consentRequired>false</consentRequired>
+</dsa>

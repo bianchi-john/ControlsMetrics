@@ -1,0 +1,153 @@
+<dsa xmlns="http://www.coco-cloud.eu/dsa" application-domain="AT" encryption-key-schema="organization_default_scheme" governing-law="" id="DSA-8292ac1d-4f5d-41e3-9ddb-c81cccf18dfe.xml" indemnities="" modification-date="2022-04-27T15:42:00.737Z" purpose="Cyber Threat Monitoring" status="CUSTOMISED" title="REO from ISP-02.3H" user-consent="false" version="0.0" vocabulary-url="https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#">
+    <description>New CS_id set manually</description>
+    <tomCode>ISP-02.3H</tomCode>
+    <tomName>ISP-02.3H</tomName>
+    <securityControl>ISP-02</securityControl>
+    <framework>EUCS</framework>
+    <type>ORGANIZATIONAL</type>
+    <tomDescription>The CSP’s top management shall approve the security policies and procedures or delegate this responsibility to authorized bodies.</tomDescription>
+    <assuranceLevel>HIGH</assuranceLevel>
+    <expirationPolicy periodInDays="0">
+        <complexPolicy>DenyAll</complexPolicy>
+    </expirationPolicy>
+    <revocationPolicy periodInDays="0">
+        <complexPolicy>DenyAll</complexPolicy>
+    </revocationPolicy>
+    <updatePolicy periodInDays="0">
+        <complexPolicy>DenyAll</complexPolicy>
+    </updatePolicy>
+    <parties>
+        <organization id="EMPTY_ORG_1651074120739" name="Unknown Organization" responsibilities="" role="data-controller" />
+    </parties>
+    <validity>
+        <startDate>2022-04-27Z</startDate>
+        <endDate>2022-04-27Z</endDate>
+        <offlineLicencesDuration>P1D</offlineLicencesDuration>
+    </validity>
+    <data>
+        <datum id="DATUM_X_1" value="">
+            <expression language="CNL4DSA">?X_1 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_2" value="">
+            <expression language="CNL4DSA">?X_2 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#String&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_3" value="">
+            <expression language="CNL4DSA">?X_3 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_4" value="">
+            <expression language="CNL4DSA">?X_4 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#na&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_5" value="">
+            <expression language="CNL4DSA">?X_5 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_6" value="">
+            <expression language="CNL4DSA">?X_6 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#na&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_7" value="">
+            <expression language="CNL4DSA">?X_7 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_8" value="">
+            <expression language="CNL4DSA">?X_8 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#String&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_9" value="">
+            <expression language="CNL4DSA">?X_9 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_10" value="">
+            <expression language="CNL4DSA">?X_10 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#na&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_11" value="">
+            <expression language="CNL4DSA">?X_11 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_12" value="">
+            <expression language="CNL4DSA">?X_12 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#String&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_13" value="">
+            <expression language="CNL4DSA">?X_13 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_14" value="">
+            <expression language="CNL4DSA">?X_14 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#na&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_15" value="">
+            <expression language="CNL4DSA">?X_15 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_16" value="">
+            <expression language="CNL4DSA">?X_16 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#String&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_17" value="">
+            <expression language="CNL4DSA">?X_17 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_18" value="">
+            <expression language="CNL4DSA">?X_18 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#na&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_19" value="">
+            <expression language="CNL4DSA">?X_19 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#PolicyDocument&gt;</expression>
+        </datum>
+        <datum id="DATUM_X_20" value="">
+            <expression language="CNL4DSA">?X_20 is-a &lt;https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#na&gt;</expression>
+        </datum>
+    </data>
+    <obligations>
+        <obligation id="OBLIGATION_1" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_2:String{param=in option=[procurement, destruction, none]}" inputValue="" conflict="false" metricDescription="recommender{}Which topics are defined for the secure management of physical assets?" metricId="AssetManagementPolicy02">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_1:PolicyDocument must AssetManagementPolicy02 ?X_2:String</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">PolicyDocument MUST AssetManagementPolicy02 String</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_1, AssetManagementPolicy02, ?X_2]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_2" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_4:na{param=na option=na}" inputValue="" conflict="false" metricDescription="recommender{}Which change management policies need to be reviewed by cloud customers?" metricId="ChangeManagementPolicy01">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_3:PolicyDocument must ChangeManagementPolicy01 ?X_4:na</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">PolicyDocument MUST ChangeManagementPolicy01 na</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_3, ChangeManagementPolicy01, ?X_4]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_3" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_6:na{param=na option=na}" inputValue="" conflict="false" metricDescription="recommender{}Which security mechanism protecs access to administrative networks?" metricId="NetworkAccessPolicy01">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_5:PolicyDocument must NetworkAccessPolicy01 ?X_6:na</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">PolicyDocument MUST NetworkAccessPolicy01 na</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_5, NetworkAccessPolicy01, ?X_6]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_4" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_8:String{param=in option=[secure devops, secdevops, devopssec, security controls in the development life-cycle]}" inputValue="" conflict="false" metricDescription="recommender{}Which aspects are covered in the security recommendations for customers?" metricId="RecommendationCustomer01">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_7:PolicyDocument must RecommendationCustomer01 ?X_8:String</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">PolicyDocument MUST RecommendationCustomer01 String</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_7, RecommendationCustomer01, ?X_8]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_5" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_10:na{param=na option=na}" inputValue="" conflict="false" metricDescription="recommender{}Which customer guidelines are defined for password management?" metricId="GuidelinesCloudCustomersQ1">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_9:PolicyDocument must GuidelinesCloudCustomersQ1 ?X_10:na</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">PolicyDocument MUST GuidelinesCloudCustomersQ1 na</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_9, GuidelinesCloudCustomersQ1, ?X_10]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_6" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_12:String{param=na option=na}" inputValue="" conflict="false" metricDescription="recommender{}Which system monitors the acknowledgement of the information security policy?" metricId="InformationSecurityPolicyAcknowledgementQ1">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_11:PolicyDocument must InformationSecurityPolicyAcknowledgementQ1 ?X_12:String</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">PolicyDocument MUST InformationSecurityPolicyAcknowledgementQ1 String</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_11, InformationSecurityPolicyAcknowledgementQ1, ?X_12]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_7" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_14:na{param=na option=na}" inputValue="" conflict="false" metricDescription="recommender{}Which regulation mandates the management of access rights?" metricId="PoliciesForAccessControlQ2">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_13:PolicyDocument must PoliciesForAccessControlQ2 ?X_14:na</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">PolicyDocument MUST PoliciesForAccessControlQ2 na</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_13, PoliciesForAccessControlQ2, ?X_14]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_8" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_16:String{param== option=immediatly}" inputValue="" conflict="false" metricDescription="recommender{}When must staff report potential security and privacy issues?" metricId="IncidentManagementPolicy6">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_15:PolicyDocument must IncidentManagementPolicy6 ?X_16:String</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">PolicyDocument MUST IncidentManagementPolicy6 String</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_15, IncidentManagementPolicy6, ?X_16]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_9" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_18:na{param=in option=[CERT, single point of contact]}" inputValue="" conflict="false" metricDescription="recommender{}To whom must staff report potential security and privacy issues?" metricId="IncidentManagementPolicy5">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_17:PolicyDocument must IncidentManagementPolicy5 ?X_18:na</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">PolicyDocument MUST IncidentManagementPolicy5 na</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_17, IncidentManagementPolicy5, ?X_18]</expression>
+        </obligation>
+        <obligation id="OBLIGATION_10" index="0" isProtected="false" isPendingRule="true" statementInfo="?X_20:na{param=na option=na}" inputValue="" conflict="false" metricDescription="recommender{}Which roles and responsibilities are defined by the security policy?" metricId="RoleDefinitionQ1">
+            <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_19:PolicyDocument must RoleDefinitionQ1 ?X_20:na</expression>
+            <expression language="UPOL" issuer="Policy Expert" />
+            <expression language="UserText" issuer="Policy Expert">PolicyDocument MUST RoleDefinitionQ1 na</expression>
+            <expression language="CNL4DSA" issuer="Policy Expert">must [?X_19, RoleDefinitionQ1, ?X_20]</expression>
+        </obligation>
+    </obligations>
+    <dataClassification>Confidential</dataClassification>
+    <consentRequired>false</consentRequired>
+</dsa>

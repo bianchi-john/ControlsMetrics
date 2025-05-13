@@ -1,0 +1,32 @@
+{
+  "@id": "OBLIGATION_13",
+  "@index": 0,
+  "@isProtected": false,
+  "@isPendingRule": true,
+  "@statementInfo": "?X_15:Boolean{param== option=TRUE}",
+  "@inputValue": "",
+  "@conflict": false,
+  "@metricDescription": "",
+  "@metricId": "",
+  "expression": [
+    {
+      "$": "?X_14:Storage must EncryptionAtRestEnabled ?X_15:Boolean",
+      "@issuer": "Policy Expert",
+      "@language": "CNL_4_DSA_E"
+    },
+    {
+      "@language": "UPOL",
+      "@issuer": "Policy Expert"
+    },
+    {
+      "@language": "UserText",
+      "@issuer": "Policy Expert",
+      "$": "Storage MUST EncryptionAtRestEnabled Boolean"
+    },
+    {
+      "@language": "CNL4DSA",
+      "@issuer": "Policy Expert",
+      "$": "must [?X_14, EncryptionAtRestEnabled, ?X_15]"
+    }
+  ]
+}

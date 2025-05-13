@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dsa xmlns="http://www.coco-cloud.eu/dsa" application-domain="AT" encryption-key-schema="organization_default_scheme" governing-law="" id="DSA-45b1d7e6-cb14-4353-9717-68d19502264d.xml" indemnities="" modification-date="2022-04-27T15:42:00.737Z" purpose="Cyber Threat Monitoring" status="CUSTOMISED" title="New XSD template 27-Apr-2022" user-consent="false" version="0.0" vocabulary-url="https://cnl-vocabulary-test.k8s.medina.esilab.org/vocabularies/medina_vocabulary_test_v2.0.owl#">
+	<description />
+	<tomCode />
+	<tomName />
+	<securityControl />
+	<framework />
+	<type />
+	<tomDescription />
+	<assuranceLevel />
+	<expirationPolicy periodInDays="0">
+		<complexPolicy>DenyAll</complexPolicy>
+	</expirationPolicy>
+	<revocationPolicy periodInDays="0">
+		<complexPolicy>DenyAll</complexPolicy>
+	</revocationPolicy>
+	<updatePolicy periodInDays="0">
+		<complexPolicy>DenyAll</complexPolicy>
+	</updatePolicy>
+	<parties>
+		<organization id="EMPTY_ORG_1651074120739" name="Unknown Organization" responsibilities="" role="data-controller" />
+	</parties>
+	<validity>
+		<startDate>2022-04-27Z</startDate>
+		<endDate>2022-04-27Z</endDate>
+		<offlineLicencesDuration>P1D</offlineLicencesDuration>
+	</validity>
+	<data>
+		<datum id="DATUM_X_1">
+			<expression />
+		</datum>
+	</data>
+	<obligations>
+		<obligation id="OBLIGATION_1" index="0">
+			<expression />
+		</obligation>
+	</obligations>
+	<dataClassification>Confidential</dataClassification>
+	<consentRequired>false</consentRequired>
+</dsa>

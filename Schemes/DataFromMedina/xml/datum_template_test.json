@@ -1,0 +1,10 @@
+{
+  "@id": "DATUM_X_14",
+  "@value": "",
+  "expression": [
+    {
+      "$": "?X_14 is-a <https://cnl-vocabulary-test.k8s.medina.esilab.org/vocabularies/medina_vocabulary_test_v2.0.owl#Storage>",
+      "@language": "CNL4DSA"
+    }
+  ]
+}

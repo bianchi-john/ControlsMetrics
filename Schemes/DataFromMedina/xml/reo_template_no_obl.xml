@@ -1,0 +1,29 @@
+<dsa xmlns="http://www.coco-cloud.eu/dsa" id="DSA-a33a5f5a-545b-419a-a1fa-33abf0f86a89.xml" status="COMPLETED" vocabulary-url="https://cnl-vocabulary-dev.k8s.medina.esilab.org/vocabularies/medina_vocabulary_dev_v2.0.owl#" title="REO title (vocabularies/medina_vocabulary_dev.owl) for xml" version="7" purpose="Cyber Threat Monitoring" application-domain="AT" modification-date="2022-02-21Z" governing-law="" indemnities="" encryption-key-schema="organization_default_scheme" user-consent="false">
+	<description>REO Description</description>
+			<requirementId>OPS-01.1</requirementId>
+					<requirementSet>Framework: EUCS | Category: Operational security | Requirement: The CSP shall document and implement procedures to plan for capacities and resources (personnel and IT resources), which shall include forecasting future capacity requirements in order to identify usage trends and manage system overload | Level: Basic</requirementSet>
+							<expirationPolicy periodInDays="0">
+										<complexPolicy>DenyAll</complexPolicy>
+												</expirationPolicy>
+														<revocationPolicy periodInDays="0">
+																	<complexPolicy>DenyAll</complexPolicy>
+																			</revocationPolicy>
+																					<updatePolicy periodInDays="0">
+																								<complexPolicy>DenyAll</complexPolicy>
+																										</updatePolicy>
+																												<parties>
+																															<organization id="EMPTY_ORG_1645433309921" name="Unknown Organization" responsibilities="" role="data-controller" />
+																																	</parties>
+																																			<validity>
+																																						<startDate>2022-02-21Z</startDate>
+																																									<endDate>2022-02-21Z</endDate>
+																																												<offlineLicencesDuration>P1D</offlineLicencesDuration>
+																																														</validity>
+																																														<data>
+																																														</data>
+																																																																																												<obligations>
+																																																																																																											
+																																																																																												</obligations>
+																																																																																																																																												<dataClassification>Confidential</dataClassification>
+																																																																																																																																														<consentRequired>false</consentRequired>
+																																																																																																																																													</dsa>

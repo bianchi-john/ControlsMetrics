@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><dsa xmlns="http://www.coco-cloud.eu/dsa" application-domain="AT" encryption-key-schema="organization_default_scheme" governing-law="" id="DSA-b3dc2e3a-05d6-429d-b5b5-8267a7f9f5a5.xml" indemnities="" modification-date="2022-02-14Z" purpose="Cyber Threat Monitoring" status="CUSTOMISED" title="REO#1" user-consent="false" version="3" vocabulary-url="https://cnl.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#">
+	  <description/>
+		    <requirementId>OPS-01.1</requirementId>
+			      <requirementSet>Framework: EUCS | Category: Operational security | Requirement: The CSP shall document and implement procedures to plan for capacities and resources (personnel and IT resources), which shall include forecasting future capacity requirements in order to identify usage trends and manage system overload | Level: Basic</requirementSet>
+				        <expirationPolicy periodInDays="0">
+						    <complexPolicy>DenyAll</complexPolicy>
+							      </expirationPolicy>
+								        <revocationPolicy periodInDays="0">
+										    <complexPolicy>DenyAll</complexPolicy>
+											      </revocationPolicy>
+												        <updatePolicy periodInDays="0">
+														    <complexPolicy>DenyAll</complexPolicy>
+															      </updatePolicy>
+																        <parties>
+																		    <organization id="EMPTY_ORG_1644829164365" name="Unknown Organization" responsibilities="" role="data-controller"/>
+																			      </parties>
+																				        <validity>
+																						    <startDate>2022-02-14Z</startDate>
+																							        <endDate>2022-02-14Z</endDate>
+																									    <offlineLicencesDuration>P1D</offlineLicencesDuration>
+																										      </validity>
+																											        <data>
+																													    <datum id="DATUM_X_3" value="">
+																														          <expression language="CNL4DSA">?X_3 is-a &lt;https://cnl.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#boolean&gt;</expression>
+																																      </datum>
+																																	          <datum id="DATUM_X_5" value="">
+																																			        <expression language="CNL4DSA">?X_5 is-a &lt;https://cnl.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#Personnel&gt;</expression>
+																																					    </datum>
+																																						        <datum id="DATUM_X_2" value="">
+																																								      <expression language="CNL4DSA">?X_2 is-a &lt;https://cnl.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#ResNoReq&gt;</expression>
+																																									          </datum>
+																																											      <datum id="DATUM_X_6" value="">
+																																												            <expression language="CNL4DSA">?X_6 is-a &lt;https://cnl.medina.esilab.org/vocabularies/medina_vocabulary_dev.owl#integer&gt;</expression>
+																																														        </datum>
+																																																  </data>
+																																																	    <obligations>
+																																																		        <obligation conflict="false" id="OBLIGATION_1" index="0" inputValue="" isPendingRule="true" isProtected="false" statementInfo="?X_3:boolean{param== option=true}">
+																																																				      <expression issuer="Legal Expert" language="CNL_4_DSA_E">?X_2:ResNoReq must MetricNoReq ?X_3:boolean</expression>
+																																																					            <expression issuer="Legal Expert" language="UPOL"/>
+																																																							          <expression issuer="Legal Expert" language="UserText">ResNoReq MUST MetricNoReq boolean</expression>
+																																																									        <expression issuer="Legal Expert" language="CNL4DSA">must [?X_2, MetricNoReq, ?X_3]</expression>
+																																																											    </obligation>
+																																																												        <obligation conflict="false" id="OBLIGATION_4" index="1" inputValue="" isPendingRule="true" isProtected="false" statementInfo="?X_6:integer{param== option=23}">
+																																																														      <expression issuer="Policy Expert" language="CNL_4_DSA_E">?X_5:Personnel must Commitment_employee_to_policies ?X_6:integer</expression>
+																																																															            <expression issuer="Policy Expert" language="UPOL"/>
+																																																																	          <expression issuer="Policy Expert" language="UserText">Personnel MUST Commitment_employee_to_policies integer</expression>
+																																																																			        <expression issuer="Policy Expert" language="CNL4DSA">must [?X_5, Commitment_employee_to_policies, ?X_6]</expression>
+																																																																					    </obligation>
+																																																																						      </obligations>
+																																																																							        <dataClassification>Confidential</dataClassification>
+																																																																									  <consentRequired>false</consentRequired>
+																																																																								  </dsa>
