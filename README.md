@@ -2,6 +2,8 @@
 
 ### This project serves as a centralized knowledge base that captures 📊 Security metrics, 🛡️ Security controls and 🔗 Associations from multiple schemas.
 
+### Get the <b>metrics</b> and <b>controls</b> files inside the `Schemes` folder in `csv` format 
+
 ### Check the <span style="color: green;">version</span> of the various schemes in the file <span style="color: green;">‘versionInfo.csv’</span>
 
 ---
