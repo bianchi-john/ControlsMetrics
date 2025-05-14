@@ -10,7 +10,7 @@
 
 ## 📁 Data from Previous Projects
 
-The folder `Schemes/DataFromMedina` contains data migrated from the old **Medina** project. This includes:
+The folder `Schemes/OriginalDataFromMedinaNl2cnl` contains data migrated from the old **Medina** project. This includes:
 
 - `bsi_c5_requirements`
 - `eucs_requirements`

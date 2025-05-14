@@ -6,3 +6,6 @@ EUCS-MEDINA.csa,?,https://git.code.tecnalia.com/medina/public/nl2cnl-translator/
 BSIC5-MEDINA.csv,?,https://git.code.tecnalia.com/medina/public/nl2cnl-translator/-/tree/main/data?ref_type=heads,Taken from MEDINA. Parsed with the rules expressed in the nl2cnl-translator repo
 LucaApiControls.csv,?,?,Taken form Luca Petrillo
 LucaApiMetrics.csv,?,?,Taken form Luca Petrillo
+apiControls.json,?,https://rcm.dev.emerald.digital.tecnalia.dev/admin/docs,Logged as admin admin.
+apiMetrics.json,?,https://rcm.dev.emerald.digital.tecnalia.dev/admin/docs,Logged as admin admin. Probably the same file as LucaApiMetrics.csv
+apiRequirements.json,?,https://rcm.dev.emerald.digital.tecnalia.dev/admin/docs,Logged as admin admin. Probably the same file as LucaApiControls.csv
