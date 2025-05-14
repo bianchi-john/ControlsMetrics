@@ -1,5 +1,5 @@
 Control ID,Description
-org.1.1,"The objectives or mission of the organization."
+org.1.1,The objectives or mission of the organization.
 org.1.2,"The legal and regulatory framework within which the activities will take 
 place."
 org.1.3,"Security roles or functions, defining for each the duties and 
@@ -22,16 +22,16 @@ be considered misuse."
 org.2.2,"Staff responsibility with respect to compliance or violation of regulations: 
 rights, duties and disciplinary measures in accordance with the legislation in force.  
 Reinforcement R1 -Specific documents."
-org.3.1,"How to carry out the usual tasks."
-org.3.2,"Who should do what."
-org.3.3,"How to identify and report abnormal behaviors."
-org.4.1,"Using of regular and alternative facilities."
+org.3.1,How to carry out the usual tasks.
+org.3.2,Who should do what.
+org.3.3,How to identify and report abnormal behaviors.
+org.4.1,Using of regular and alternative facilities.
 org.4.2,"Incorporation of equipment in production, in particular equipment 
 involving cryptography."
-org.4.3,"Incorporation of application in production."
-org.4.4,"Establishment of communications links with other systems."
-org.4.5,"Using regular and alternative communication media."
-org.4.6,"Using information media."
+org.4.3,Incorporation of application in production.
+org.4.4,Establishment of communications links with other systems.
+org.4.5,Using regular and alternative communication media.
+org.4.6,Using information media.
 org.4.7,"Use of mobile equipment. Mobile equipment means laptops, tablets, 
 mobile phones or other similar equipment."
 org.4.8,"Use of third party services, under contract or agreement, concession, 
@@ -40,9 +40,9 @@ Implementation of the measure.
  BASIC Category: org.4.  
  MEDIUM Category: org.4.  
  HIGH Category: org.4."
-op.pl.1.1,"Identify the most valuable assets in the system. (See op.exp.1)."
-op.pl.1.2,"Identify the most likely threats."
-op.pl.1.3,"Identify the safe guards that protect against such threats."
+op.pl.1.1,Identify the most valuable assets in the system. (See op.exp.1).
+op.pl.1.2,Identify the most likely threats.
+op.pl.1.3,Identify the safe guards that protect against such threats.
 op.pl.1.4,"Identify the main residual risks.  
 Reinforcement R1 - Semiformal risk analysis.  
 A semiformal risk analysis shall be performed, using a specific language, with a basic 
@@ -68,11 +68,11 @@ Implementation of the measure.
  BASIC category: op.pl.3.  
  MEDIUM category: op.pl.3.  
  HIGH category: op.pl.3."
-op.pl.4.1,"Processing needs."
+op.pl.4.1,Processing needs.
 op.pl.4.2,"Information storage needs: during processing and during the period to 
 be retained."
-op.pl.4.3,"Communication needs."
-op.pl.4.4,"Staffing requirements: quantity and professional qualification."
+op.pl.4.3,Communication needs.
+op.pl.4.4,Staffing requirements: quantity and professional qualification.
 op.pl.4.5,"Needs for facilities and auxiliary means.  
 Reinforcement R1  Continuous improvement of capacity management."
 op.pl.5.2,"If the system provides a security service to a third party within the scope 
@@ -203,7 +203,7 @@ op.exp.1.1,"An update inventory of all elements of the system shall be maintaine
 detailing their nature and identifying their controller; that is, the person who makes the 
 decisions regarding it.  
 Reinforcement R1 -Tagging Inventory."
-op.exp.2.1,"Standard accounts and passwords are removed."
+op.exp.2.1,Standard accounts and passwords are removed.
 op.exp.2.2,"The “minimum functionality” rule shall apply, i.e.:  
 a) The system must provide the minimum functionality required for the organization 
 to achieve it's objectives.  
@@ -255,8 +255,8 @@ available, including maintenance in accordance with the manufacturer's
 recommendations."
 op.exp.6.2,"Harmful code protection software shall be installed on all equipment: 
 user workstation, servers and perimeter elements."
-op.exp.6.3,"Any file from external sources shall be analyzed before working with it."
-op.exp.6.4,"Harmful code detection databases shall remain permanently updated."
+op.exp.6.3,Any file from external sources shall be analyzed before working with it.
+op.exp.6.4,Harmful code detection databases shall remain permanently updated.
 op.exp.6.5,"The harmful code detection software installed at user workstations 
 shall be properly configured and implement real -time protection according to the 
 manufacturer's recommendations.  
@@ -395,8 +395,8 @@ Implementation of the measure.
  MEDIUM Category: mp.if.2.  
  HIGH Category: mp.if.2.  
 5.1.3 Fitting -out of premises"
-mp.if.3.1,"Temperature and humidity conditions."
-mp.if.3.2,"Protection from threats identified in the risk analysis."
+mp.if.3.1,Temperature and humidity conditions.
+mp.if.3.2,Protection from threats identified in the risk analysis.
 mp.if.3.3,"Protection of wiring against accidental or deliberate incidents.  
 Implementation of the measure.  
  BASIC Category: mp.if.3.  
@@ -436,7 +436,7 @@ account in the selection of the person to fill the post, including the verificat
 employment history, training and other references, in accordance with the legal system 
 and respect for fundamental rights.  
 Reinforcement  R1-Personal Security Enabling."
-mp.per.2.1,"Disciplinary measures."
+mp.per.2.1,Disciplinary measures.
 mp.per.2.2,"Considering both the period during which the post is held, and the 
 obligations in the event of termination of the assignment, or transfer to another post."
 mp.per.2.3,"The duty of confidentiality in respect of the data to which it has 
@@ -532,7 +532,10 @@ Reinforcement R1  Certified products."
 mp.si.3.1,"Due diligence and control shall apply to information media that remain 
 under the responsibility of the organization, ensuring access control with physical 
 measures ("
-mp.if.1,and
+mp.if.1.1,"The equipment of the Data Processing Centre (DPC) shall be installed,
+as far as possible, in separate areas, specific to its function."
+mp.if.1.2,"Access to the indicated areas shall be controlled so that it can only be
+accessed by the intended entries."
 mp.si.3.2,"Maintenance requirements of the manufacturer shall be respected, in 
 particular with regard to temperature, humidity and other environmental agents."
 mp.si.4.1,"An entry/exit record shall be available identifying the carrier who 
@@ -597,7 +600,7 @@ integrity and confidentiality."
 mp.info.4.4,"“Qualified electronic time stamps” shall be used in accordance with 
 Regulation (EU) No 910/2014 and implementing legislation.  
 Reinforcement R1-Certified products."
-op.pl.5,"shall be used."
+op.pl.5,shall be used.
 mp.info.5.1,"In the document clean -up process, any additional information 
 contained in hidden fields, metadata, comments or previous revisions shall be removed 
 from the document, except where such information is relevant to the recipient of the 
@@ -629,7 +632,7 @@ mp.s.1.4,"Harmful code consisting of viruses, worms, Trojans, spies, or others o
 similar nature."
 mp.s.1.5,"Micro -application mobile code, in the English expression “applet”.  
 Rules for the use of e -mail shall be established for staff. (See"
-mp.s.1.6,"Limitations to the use of private communications."
+mp.s.1.6,Limitations to the use of private communications.
 mp.s.1.7,"Awareness and training activities related to the use of e -mail.  
 Implementation of the measure.  
  BASIC Category: mp.s.1.  
@@ -641,7 +644,7 @@ the information cannot be accessed without authentication, in particular by taki
 on the following aspects:  
 a) The server shall be prevented from providing access to documents by 
 alternative means to the given protocol."
-mp.s.2.2,"Privilege escalation attempts shall be prevented."
+mp.s.2.2,Privilege escalation attempts shall be prevented.
 mp.s.2.3,"Cross site scripting attacks shall be prevented.  
 Reinforcement R1 -Security audit's."
 mp.s.3.1,"Rules of use shall be established, defining the use that is authorized and 
@@ -651,7 +654,7 @@ mp.s.3.2,"Hygiene awareness activities in web browsing shall be carried out on a
 regular basis,  promoting safe use and warning of misuse."
 mp.s.3.3,"System administrator(s) shall be trained in service monitoring and 
 incident response."
-mp.s.3.4,"Web address resolution and connection information shall be protected."
+mp.s.3.4,Web address resolution and connection information shall be protected.
 mp.s.3.5,"The organization in general and the workstation in particular shall be 
 protected from problems occurring via web navigation."
 mp.s.3.6,"It shall protect against the action of harmful programs such as active 
