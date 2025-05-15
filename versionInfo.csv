@@ -1,4 +1,4 @@
-filename,version,url,description,size
+filename,version,url,description,size,metricsOrControls
 Cisco.csv,Cisco Cloud Controls Framework (CCF) Public Release V2.0+++,https://www.cisco.com/c/en/us/about/trust-center/compliance/ccf.html#~standards-mapped,Cisco associations,714
 MEDINA_ControlsMapping_Clean.csv,?,?,Last version of control mapped sended by Iñaki via mail, 120
 SpanishENS.csv,2022-7191,https://ens.ccn.cni.es/es/docman/documentos-publicos/39-boe-a-2022-7191-national-security-framework-ens/file,Spanish ENS parsed with python script from original pdf. Spell check corrected manually. Chck the code inside 'Other/pdfFilesAndParsers/spanishENS/spanishENSPdfExtractor.ipynb',210
