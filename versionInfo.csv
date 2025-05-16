@@ -2,9 +2,5 @@ filename,version,url,description,size,Type
 Cisco.csv,Cisco Cloud Controls Framework (CCF) Public Release V2.0+++,https://www.cisco.com/c/en/us/about/trust-center/compliance/ccf.html#~standards-mapped,Cisco associations,714,Controls
 MEDINA_ControlsMapping_Clean.csv,?,?,Last version of control mapped sended by Iñaki via mail,120,Controls
 SpanishENS.csv,2022-7191,https://ens.ccn.cni.es/es/docman/documentos-publicos/39-boe-a-2022-7191-national-security-framework-ens/file,Spanish ENS parsed with python script from original pdf. Spell check corrected manually. Chck the code inside 'Other/pdfFilesAndParsers/spanishENS/spanishENSPdfExtractor.ipynb',210,Controls
-EUCS-MEDINA.csa,?,https://git.code.tecnalia.com/medina/public/nl2cnl-translator/-/tree/main/data?ref_type=heads,Taken from MEDINA. Parsed with the rules expressed in the nl2cnl-translator repo,112,Controls
-BSIC5-MEDINA.csv,?,https://git.code.tecnalia.com/medina/public/nl2cnl-translator/-/tree/main/data?ref_type=heads,Taken from MEDINA. Parsed with the rules expressed in the nl2cnl-translator repo,123,Controls
 apiControls.json,?,https://rcm.dev.emerald.digital.tecnalia.dev/admin/docs,Logged as admin admin.,882,Controls
-apiMetrics.json,?,https://rcm.dev.emerald.digital.tecnalia.dev/admin/docs,Logged as admin admin. No associations found. No ids found,167,Metrics
-apiRequirements.json,?,https://rcm.dev.emerald.digital.tecnalia.dev/admin/docs,Logged as admin admin. Probably the same file as LucaApiControls.csv,2568,Requirements
 secnumcloud_controlsParsedAndTranslatedEnglish.csv,3.2,https://cyber.gouv.fr/sites/default/files/document/secnumcloud-referentiel-exigences-v3.2.pdf,French SecNumCloud parsed with python script from original pdf. Translated with google translator APIs. Chck the code inside 'Other/pdfFilesAndParsers/secNumCloud/secnumcloud-referentiel-exigences-v3.2.ipynb',288,Controls
