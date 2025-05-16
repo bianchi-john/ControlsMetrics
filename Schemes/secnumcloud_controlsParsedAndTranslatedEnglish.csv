@@ -1,4 +1,4 @@
-ID,Description,Description_EN,,,,,,,,,,,,
+ID,Description,Description_EN
 5.1.a,Le prestataire doit opérer la prestation à l'état de l'art pour le type d'activité retenu : utiliser des logiciels stables bénéficiant d'un suivi des correctifs de sécurité et paramétrés de façon à obtenir un niveau de sécurité optimal.,The service provider must operate in the state of the art for the type of activity selected: Use stable software benefiting from monitoring of safety and configuration fixes so as to obtain an optimal security level.,,,,,,,,,,,,
 5.1.b,"Le prestataire doit appliquer le guide d'hygiène informatique de l'ANSSI [HYGIENE], niveau renforcé, au système d'information du service.","The service provider must apply the ANSSI computer hygiene guide [Hygiene], reinforced level, to the service information system.",,,,,,,,,,,,
 5.2.a,Le prestataire doit documenter et mettre en œuvre une politique de sécurité de l'information relative au service.,The service provider must document and implement an information security policy relating to the service.,,,,,,,,,,,,
