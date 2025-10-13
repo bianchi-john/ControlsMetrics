@@ -1,0 +1,47 @@
+metric_id,control_id,category,description
+L3FirewallEnabled,,NetworkSecurity,"This rule assesses whether an [NetworkInterface] that offers the property [l3Firewall], has [p1:enabled] configured correctly."
+WebApplicationFirewallEnabled,,NetworkSecurity,"This rule assesses whether an [LoadBalancer] that offers the property [webApplicationFirewall], has [p1:enabled] configured correctly."
+L3FirewallRestrictedPorts,,NetworkSecurity,"This rule assesses whether an [NetworkInterface] that offers the property [l3Firewall], has [p1:restrictedPorts] configured correctly."
+MachineLearningModelVulnerabilitiesDetected,,AISecurity,This rule assesses whether an [MachineLearningModel] has the compliant number of [p1:Vulnerability].
+CodeNotebookVulnerabilitiesDetected,,AISecurity,This rule assesses whether an [CodeNotebook] has the compliant number of [p1:Vulnerability].
+DocumentCSAFFilenameValid,,CSAF,This rule assesses whether a [SecurityAdvisoryDocument] that offers the property [RemoteDocumentLocation] has a valid filename in the property [p1:path].
+DocumentCSAFTransportEncryption,,CSAF,This rule assesses whether a [SecurityAdvisoryDocument] that provides the property [RemoteDocumentLocation] is retrievable from a website which has the property [p1:enabled] and [p2:protocol] correctly configured.
+JavaRuntime,,PlatformSecurity,"This rule assesses whether a [Function] that has the property [runtimeLanguage] set to Java, also has the property [p1:runtimeVersion] correctly configured."
+PythonRuntime,,PlatformSecurity,"This rule assesses whether a [Function] that has the property [runtimeLanguage] set to Python, also has the property [p1:runtimeVersion] correctly configured."
+PHPRuntime,,PlatformSecurity,"This rule assesses whether a [Function] that has the property [runtimeLanguage] set to PHP, also has the property [p1:runtimeVersion] correctly configured."
+OneQubitGateErrorRate,,QuantumSecurity,This rule assesses whether a [QPU] has a [OneQubitGateErrorRate] that is below a specified [p1:errorRate] threshold.
+ErrorCorrectionEnabled,,QuantumSecurity,This rule assesses whether a [QPU] has [ErrorCorrectionEnabled] [p1:enabled] correctly configured.
+SPAMErrorRate,,QuantumSecurity,This rule assesses whether a [QPU] has a [SPAMErrorRate] that is below a specified [p1:errorRate] threshold.
+TwoQubitGateErrorRate,,QuantumSecurity,This rule assesses whether a [QPU] has a [TwoQubitGateErrorRate] that is below a specified [p1:errorRate] threshold.
+NoKnownVulnerabilities,,ApplicationSecurity,This rule assesses whether a [Resource] has the expected value of [p1:vulnerability].
+StrongCryptographicHash,,ApplicationSecurity,"This rule assesses whether an [Application] that offers the property [Functionalities.CryptographicHash], has [p1:algorithm] set correctly."
+BootLoggingEnabled,,LoggingMonitoring,This rule assesses whether an [VirtualMachine] has its [BootLogging][p1:enabled] property set correctly.
+BootLoggingOutput,,LoggingMonitoring,This rule assesses whether an [VirtualMachine] has the [BootLogging][p1:loggingService] property set correctly.
+ActivityLoggingEnabled,,LoggingMonitoring,This rule assesses whether any [Resource] has the [ResourceLogging] property [p1:enabled] set correctly.
+OSLoggingRetention,,LoggingMonitoring,This rule assesses whether an [VirtualMachine] has the [OSLogging][p1:retentionPeriod] property set correctly.
+OSLoggingEnabled,,LoggingMonitoring,This rule assesses whether an [VirtualMachine] has its [OSLogging][p1:enabled] property set correctly.
+BootLoggingRetention,,LoggingMonitoring,This rule assesses whether an [VirtualMachine] has its [BootLogging][p1:retentionPeriod] property set correctly.
+AnomalyDetectionEnabled,,LoggingMonitoring,This rule assesses whether a [Resource] has its [AnomalyDetection] property [p1:enabled] correctly configured.
+AnomalyDetectionOutput,,LoggingMonitoring,This rule assesses whether an [DatabaseService] has the [AnomalyDetection][p1:loggingService] property set correctly.
+OSLoggingOutput,,LoggingMonitoring,This rule assesses whether an [VirtualMachine] has the [OSLogging][p1:loggingService] property set correctly.
+AutomaticUpdatesInterval,,EndpointSecurity,"This rule assesses whether a [VirtualMachine] that offers the property [AutomaticUpdates], has [p1:interval] configured correctly."
+MalwareProtectionOutput,,EndpointSecurity,"This rule assesses whether a [VirtualMachine] that offers the property [MalwareProtection], which in turn has the number of [ApplicationLogging] [LoggingService]s configured correctly."
+MalwareProtectionEnabled,,EndpointSecurity,"This rule assesses whether a [VirtualMachine] that offers the property [MalwareProtection], has [p1:enabled] configured correctly."
+AutomaticUpdatesEnabled,,EndpointSecurity,"This rule assesses whether a [VirtualMachine] that offers the property [AutomaticUpdates], has [p1:enabled] configured correctly."
+TlsCipherSuite,,TransportEncryption,This rule assesses whether a [Resource] has its [TransportEncryption] [p1:cipherSuite] correctly configured.
+TransportEncryptionEnabled,,TransportEncryption,This rule assesses whether a [Resource] has [TransportEncryption] [p1:enabled] correctly configured.
+TransportEncryptionProtocol,,TransportEncryption,This rule assesses whether a [Resource] has its [TransportEncryption] [p1:protocol] correctly configured.
+TransportEncryptionEnforced,,TransportEncryption,This rule assesses whether a [Resource] has [TransportEncryption] [p1:enforced] correctly configured.
+TlsDHGroup,,TransportEncryption,This rule assesses whether a [Resource] has its [TransportEncryption] [p1:dhGroups] correctly configured.
+TransportEncryptionProtocolVersion,,TransportEncryption,This rule assesses whether a [Resource] has its [TransportEncryption] [p1:protocolVersion] correctly configured.
+AdminMFAEnabled,,IdentityManagement,"This rule assesses whether an [Identity] that has the property [p1:privileged] set respectively, also has the property [enforceMFA] [p2:enabled] correctly configured."
+IdentityInactiveDuration,,IdentityManagement,This rule assesses whether an [Identity]'s property [lastActivity] is below an allowed time [p1:window].
+IdentityPasswordPolicyEnabled,,IdentityManagement,This rule assesses whether an [Identity] has the property [p1:disablePasswordPolicy] set correctly.
+ObjectStoragePublicAccessDisabled,,IdentityManagement,This rule assesses whether an [ObjectStorage]'s property [p1:publicAccess] is correctly set.
+VirtualMachineDiskEncryptionEnabled,,StorageEncryption,"This rule assesses whether a [VirtualMachine] with a non-empty [BlockStorage] that includes the property [atRestEncryption.customerKeyEncryption], has [p1:enabled] set correctly."
+AtRestEncryptionEnabled,AtRestEncryption-01.1,StorageEncryption,This rule assesses whether a [Storage] has [AtRestEncryption] [p1:enabled] correctly configured.
+AtRestEncryptionAlgorithm,AtRestEncryption-01.2,StorageEncryption,This rule assesses whether a [Storage] has its [AtRestEncryption] [p1:algorithm] correctly configured.
+SignedCommits,,DevelopmentLifeCycle,This rule assesses whether an [CodeRepository] has the property [p1:signedCommits] set correctly.
+CodeSignoff,,DevelopmentLifeCycle,This rule assesses whether an [CodeRepository] has the property [p1:codeSignoff] set correctly.
+SignedSignoff,,DevelopmentLifeCycle,This rule assesses whether an [CodeRepository] has the property [p1:signedSignoff] set correctly.
+ApprovedCommitAuthorEnforced,,DevelopmentLifeCycle,This rule assesses whether a [CodeRepository] has its [p1:approvedCommitAuthorEnforced] property set correctly.
