@@ -6,5 +6,5 @@ apiControls.json,?,https://rcm.dev.emerald.digital.tecnalia.dev/admin/docs,Logge
 secnumcloud_controlsParsedAndTranslatedEnglish.csv,3.2,https://cyber.gouv.fr/sites/default/files/document/secnumcloud-referentiel-exigences-v3.2.pdf,French SecNumCloud parsed with python script from original pdf. Translated with google translator APIs. Chck the code inside 'Other/pdfFilesAndParsers/secNumCloud/secnumcloud-referentiel-exigences-v3.2.ipynb',288,Controls
 metrics_catalog_map.csv,Commit ‘74af6b6426f94045c5c1c9327c1c2ba6196b3112’,https://github.com/Cybersecurity-Certification-Hub/security-metrics,"Official metric repository, association not present yet. The script to generate one csv file with all the association is inside ‘Other/RepoMetricsScript/oneCsvFileGenerator.ipynb’",47,Metrics (not mapped)
 medinaMetrics.csv,?,Not present,Data from Medina repo,162,Metrics
-EucsMedinaRequirements.csv,?,Not present,Data from Medina repo (Eucs),70,Requirements
-fabasoftMetrics.csv,? obtained 13/10/2025,https://at.cloud.fabasoft.com/folio/fscasp/content/bin/fscvext.dll?bx=COO.6505.100.21.2074643&venv_view=COO.1.1001.1.238977, Data from excel file on the fabsasoft repository (excel file), ?, 58
+EucsMedinaRequirements.csv,?,Not present,Data from Medina repo (Eucs),70,Requirements/Controls
+fabasoftMetrics.csv,? obtained 13/10/2025,https://at.cloud.fabasoft.com/folio/fscasp/content/bin/fscvext.dll?bx=COO.6505.100.21.2074643&venv_view=COO.1.1001.1.238977,Data from excel file on the fabsasoft repository (excel file),58,Metrics
