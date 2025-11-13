@@ -1,5 +1,5 @@
-filename,version,url,description,size,Type,Associations with external schemes
-Cisco.csv,Cisco Cloud Controls Framework (CCF) Public Release V2.0+++,https://www.cisco.com/c/en/us/about/trust-center/compliance/ccf.html#~standards-mapped,"Matrice di mappatura (Cisco Common Control Framework) che associa i controlli interni a standard esterni (ISO, BSI C5, NIST, PCI, ecc.). Non definisce controlli ma associa controlli provenienti da diversi schemi",714,Controls,"SOC TSC Common Criteria
+filename,version,url,description,Type,Associations with external schemes,Presence of controls/metrics ,Number of controls/metrics,Presence of associations
+Cisco.csv,Cisco Cloud Controls Framework (CCF) Public Release V2.0+++,https://www.cisco.com/c/en/us/about/trust-center/compliance/ccf.html#~standards-mapped,"Matrice di mappatura (Cisco Common Control Framework) che associa i controlli interni a standard esterni (ISO, BSI C5, NIST, PCI, ecc.). Non definisce controlli ma associa controlli provenienti da diversi schemi",Controls,"SOC TSC Common Criteria
 SOC TSC Availability
 SOC TSC Confidentiality
 SOC TSC Privacy
@@ -25,12 +25,16 @@ EUCS Basic Control
 EUCS Substantial Control
 EUCS High Control
 SecNumCloud Control
-IRAP Control"
-MEDINA_ControlsMapping_Clean.csv,?,?,Last version of control mapped sended by Iñaki via mail,120,Controls,
-SpanishENS.csv,2022-7191,https://ens.ccn.cni.es/es/docman/documentos-publicos/39-boe-a-2022-7191-national-security-framework-ens/file,Spanish ENS parsed with python script from original pdf. Spell check corrected manually. Chck the code inside 'Other/pdfFilesAndParsers/spanishENS/spanishENSPdfExtractor.ipynb',210,Controls,
-BSI-C5.json.json,?,https://rcm.dev.emerald.digital.tecnalia.dev/admin/docs,"BSI-C5 controls without association, only associated with their own ID. Obtained through admin/admin authentication.",882,Controls,No
-secnumcloud_controlsParsedAndTranslatedEnglish.csv,3.2,https://cyber.gouv.fr/sites/default/files/document/secnumcloud-referentiel-exigences-v3.2.pdf,French SecNumCloud parsed with python script from original pdf. Translated with google translator APIs. Chck the code inside 'Other/pdfFilesAndParsers/secNumCloud/secnumcloud-referentiel-exigences-v3.2.ipynb',288,Controls,
-metrics_catalog_map.csv,Commit ‘74af6b6426f94045c5c1c9327c1c2ba6196b3112’,https://github.com/Cybersecurity-Certification-Hub/security-metrics,"Official metric repository, association not present yet. The script to generate one csv file with all the association is inside ‘Other/RepoMetricsScript/oneCsvFileGenerator.ipynb’",47,Metrics (not mapped),
-medinaMetrics.csv,?,Not present,Data from Medina repo,162,Metrics,
-EucsMedinaRequirements.csv,?,Not present,Data from Medina repo (Eucs),70,Requirements/Controls,
-fabasoftMetrics.csv,? obtained 13/10/2025,https://at.cloud.fabasoft.com/folio/fscasp/content/bin/fscvext.dll?bx=COO.6505.100.21.2074643&venv_view=COO.1.1001.1.238977,Data from excel file on the fabsasoft repository (excel file),58,Metrics,
+IRAP Control",No,NA,Yes
+MEDINA_EUCS_ControlsMapping_Clean.csv,?,?,"Last version of control mapped sended by Iñaki via mail. This file is a control mapping matrix. It maps controls from the EUCS (European Union Cybersecurity Scheme) to their equivalent controls in other standards, specifically Germany's BSI C5, France's SecNumCloud, ISO 27002, and ISO 27017.",Controls,"BSI C5: OIS-04
+SecNumCloud: 6.1 e 6.2
+ISO 27002: 5.3
+ISO 27017: CLD.6.3.1
+",No,NA,Yes
+SpanishENS.csv,2022-7191,https://ens.ccn.cni.es/es/docman/documentos-publicos/39-boe-a-2022-7191-national-security-framework-ens/file,"Spanish ENS parsed with python script from original pdf. Spell check corrected manually. Chck the code inside 'Other/pdfFilesAndParsers/spanishENS/spanishENSPdfExtractor.ipynb'. This file is a control catalog for the Spanish Esquema Nacional de Seguridad (ENS). It is not a mapping file; it simply lists each control ID (e.g., org.1.1, op.pl.1.1) and provides its official description.",Controls,NA,Yes,209,No
+BSI-C5.json.json,?,https://rcm.dev.emerald.digital.tecnalia.dev/admin/docs,"BSI-C5 controls without association, only associated with their own ID. Obtained through admin/admin authentication.",Controls,No,,,
+secnumcloud_controlsParsedAndTranslatedEnglish.csv,3.2,https://cyber.gouv.fr/sites/default/files/document/secnumcloud-referentiel-exigences-v3.2.pdf,French SecNumCloud parsed with python script from original pdf. Translated with google translator APIs. Chck the code inside 'Other/pdfFilesAndParsers/secNumCloud/secnumcloud-referentiel-exigences-v3.2.ipynb',Controls,,,,
+metrics_catalog_map.csv,Commit ‘74af6b6426f94045c5c1c9327c1c2ba6196b3112’,https://github.com/Cybersecurity-Certification-Hub/security-metrics,"Official metric repository, association not present yet. The script to generate one csv file with all the association is inside ‘Other/RepoMetricsScript/oneCsvFileGenerator.ipynb’",Metrics (not mapped),,,,
+medinaMetrics.csv,?,Not present,Data from Medina repo,Metrics,,,,
+EucsMedinaRequirements.csv,?,Not present,Data from Medina repo (Eucs),Requirements/Controls,,,,
+fabasoftMetrics.csv,? obtained 13/10/2025,https://at.cloud.fabasoft.com/folio/fscasp/content/bin/fscvext.dll?bx=COO.6505.100.21.2074643&venv_view=COO.1.1001.1.238977,Data from excel file on the fabsasoft repository (excel file),Metrics,,,,
