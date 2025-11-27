@@ -1,0 +1,10 @@
+filename,Type,Available associations with external schemes,Focus/Anchor,Number of controls/metrics,Part of the old test data,Included in new training data
+Cisco.csv,Controls,"SpanishENS.csv, EucsMedinaRequirements.csv, secnumcloud_controlsParsedAndTranslatedEnglish.csv",Cisco,713,No,Yes
+MEDINA_EUCS_MetricsMapping_Clean.csv,Controls,"BSI-C5.json, secnumcloud_controlsParsedAndTranslatedEnglish.csv
+",EUCS,120,Yes,Yes
+SpanishENS.csv,Controls,,No,209,No,Yes
+BSI-C5.json,Controls,,No,294,Yes,No
+secnumcloud_controlsParsedAndTranslatedEnglish.csv,Controls,,No,287,No,Yes
+medinaMetrics.csv,Metrics,EucsMedinaRequirements.csv,EUCS,166,Yes,No
+EucsMedinaRequirements.csv,Requirements/Controls,,EUCS,70,Yes,No
+fabasoftMetrics.csv,Metrics,"EucsMedinaRequirements.csv, BSI-C5.json",Fabasoft,57,No,Yes
