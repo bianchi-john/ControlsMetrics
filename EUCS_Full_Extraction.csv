@@ -1,0 +1,59 @@
+controlId,description,assurance_basic,assurance_substantial,assurance_high
+ISP-02.7, Guidance elements,,"After an update of procedures and policies, they shall be approved before they become effective, and then communicated and made available to internal and external employees",
+RM-01.2, Guidance elements,,,The CSP shall use a documented risk analysis method that guarantees reproducibility and
+RM-02.4, Guidance elements,,,The CSP shall monitor the evolution of the risk factors and revise the risk assessment results
+RM-03.8, Guidance elements,,,"The risk owners shall review for adequacy the analysis, evaluation and treatment of risks,"
+HR-01.4, Guidance elements,,,"If disciplinary measures are defined in the policy mentioned in HR-01.3, then the internal and"
+HR-02.4, Guidance elements,,"The competency and integrity of internal and external employees of the CSP shall be reviewed annually for the employees in positions with the highest levels of risk classification, starting at a level to be defined in the human resource policy",
+HR-05.3, HR-05.4 Ref,,The procedure mentioned in HR-05.2 shall define specific roles and responsibilities and include a documented checklist of all required steps,
+AM-01.5, AM-01.6 Guidance elements,,"The information about assets shall be considered by monitoring applications to identify the impact on cloud services and functions in case of events that could lead to a breach of protection objectives, and to support information provided to affected cloud customers in accordance with contractual agreements",
+AM-02.3, Guidance elements,,"When removable media is used in the technical infrastructure or for IT administration tasks, this media shall be dedicated to a single use",
+AM-04.3, AM-04.4 Ref,,"The CSP shall centrally manage the assets under the custody of internal and external employees, including at least software, data, and policy distribution, as well as remote deactivation, deletion or locking, as available on the asset.",
+AM-05.4, Guidance elements,,,The need for protection shall be determined by the individuals or groups responsible for the
+PS-02.9, PS-02.10 Guidance elements,,The access control policy shall include logging of all accesses to non-public areas that enables the CSP to check whether only defined personnel have entered these zones,
+PS-04.8, Guidance elements,,The CSP shall use encryption on the removable media and the backup media intended to move between security areas according to the sensitivity of the data stored on the media,
+PS-05.6, Guidance elements,,,The CSP shall check the effectiveness of the redundancy at least once a year by suitable
+OPS-05.4, Guidance elements,,,The CSP shall automatically monitor the antimalware scans to track detected malware or
+OPS-10.1, OPS-10.2 Ref Ref,,"The CSP shall document, communicate and implement policies and procedures according to ISP-02 that govern the logging and monitoring of events on system components under its responsibility",
+OPS-11.4, Guidance elements,,,"Derived data, including log data, shall be taken into consideration in regulatory compliance"
+OPS-13.7, Guidance elements,,The CSP shall automatically monitor the aggregation and deletion of logging and monitoring data to fulfil OPS-13.2,
+OPS-14.3, Guidance elements,,"In the context of an investigation of an incident concerning a CSC, the CSP shall have the ability to provide to the CSC the logs related to its cloud service",
+OPS-17.4, Guidance elements,,,The CSP shall mandate in its policies and procedures the immediate handling of “critical”
+OPS-18.6, Guidance elements,,,The CSP shall equip with automatic update mechanisms the assets provided by the CSP that
+OPS-19.7, Guidance elements,,,The CSP shall correlate the possible exploits of discovered vulnerabilities with previous
+OPS-21.3, Guidance elements,,The CSP shall automatically monitor the service components under its responsibility for compliance with hardening specifications,
+IAM-04.7, Guidance elements,,The CSP shall offer CSCs a self-service with which they can independently manage access rights for all user accounts under their responsibility.,
+IAM-06.8, Guidance elements,,,The CSP shall require strong authentication for accessing the administration interfaces
+IAM-09.7, Guidance elements,,"If the CSP offers to its CSCs interfaces for administrators and for end users, these interfaces shall be separated",
+CKM-01.3, Guidance elements,,The strong encryption procedures and secure network protocols mentioned in the cryptography policies and procedures shall correspond to the state-of-the-art,
+CS-01.5, Guidance elements,,The CSP shall use different technologies on its technical safeguards to prevent that a single vulnerability leads to the simultaneous breach of several defence lines,
+CS-06.2, Guidance elements,,,"When implementing of infrastructure capabilities, the secure segregation shall be ensured by"
+CS-09.1, CS-09.2 Ref,,"The CSP shall document, communicate and implement policies and procedures with technical and organisational safeguards to protect the transmission of data against unauthorised interception, manipulation, copying, modification, redirection or destruction, according to ISP-02",
+PI-01.5, Guidance elements,,"The CSP shall allow its customers to verify the interfaces provided (and their security) are adequate for its protection requirements before the start of the use of the cloud service, and each time the interfaces are changed",
+PI-03.5, Guidance elements,,"At the end of the contract, the CSP shall delete the technical data concerning the client",
+CCM-03.10, Guidance elements,,,The CSP shall automatically monitor the definition and execution of the tests relative to a
+CCM-04.1, CCM-04.2 Ref,,"The CSP shall approve any change to the cloud service, based on defined criteria, before they are made available to CSCs in the production environment",
+CCM-04.3, Guidance elements,,The CSP shall automatically monitor the approvals of changes deployed in the production environment to guarantee fulfilment of CCM-04.1,
+CCM-06.3, Guidance elements,,"The CSP shall retain a history of the software versions and of the systems that are implemented in order to be able to reconstitute, where applicable in a test environment, a complete environment such as was implemented on a given date; the retention time for this history shall be at least the same as that for backups (cf. OPS-06)",
+DEV-01.4, Guidance elements,,,The policies and procedures for development shall include measures for the enforcement of
+DEV-02.4, Guidance elements,,,"In procurement for the development of the cloud service, the CSP shall perform a risk"
+DEV-03.5, Guidance elements,,The CSP shall include development resources as part of the backup policy,
+DEV-04.3, Guidance elements,,"When non-production environments are exposed through public networks, security requirements shall be equivalent to those defined for production environment",
+DEV-05.5, Guidance elements,,"The documentation of the tests shall include a demonstration of the coverage of the source code, including branch coverage for security-critical code.",
+DEV-06.6, Guidance elements,,,The procedures for identifying such vulnerabilities also shall include annual code reviews and
+PM-01.5, Guidance elements PM-01.3 Ref,,"In case the supplier organizations are not able to provide an EUCS compliance report, the CSP shall reserve the right to audit them to assess the suitability and effectiveness of the service-related internal and complementary controls by qualified personnel",
+PM-02.5, Guidance elements,,"The adequacy of the risk assessment and of the definition of CSOCs shall be reviewed regularly, at least annually",
+PM-04.8, Guidance elements,,,"The CSP shall automatically monitor Identified violations and discrepancies, and these shall"
+IM-01.8, Guidance elements,,,The incident management policy shall include provisions for the regular testing of the incident
+IM-02.5, Guidance elements,,The CSP shall monitor the processing of incident to verify the application of incident management policies and procedures,
+CO-01.4, Guidance elements,,,"The CSP shall document and implement an active monitoring of the legal, regulatory and"
+CO-02.3, Guidance elements,,The CSP shall grant its CSCs contractually guaranteed information and define their audit rights,
+CO-03.7, Guidance elements,,The CSP shall inform CSCs who operate an EUCS-certified cloud service of nonconformities relatively to EUCS requirements,
+DOC-01.5, Guidance elements Ref,,"The CSP shall regularly analyse how the CSCs apply the security recommendations and CCCs, and take measure to encourage compliance based on the defined shared responsibility model",
+DOC-02.6, Guidance elements Ref,,,The CSP shall equip with automatic update mechanisms the assets it provides that must be
+DOC-03.4, Guidance elements Ref,,,"The CSP shall document the locations from which it conducts support operations for clients,"
+DOC-04.3, DOC-04.4 Ref,,"A summary of the justification shall be made publicly available as part of the certification package, which shall allow CSCs to perform a high-level analysis about their own use cases",
+DOC-05.4, Guidance elements Ref,,,The CSP shall label each requirement associated to a CCC with the lowest EUCS assurance
+INQ-03.4," Foreword for Reviewers There is an ongoing discussion on the PSS category, as some of the PSS sections have been moved to other categories:  PSS-01 and PSS-03 have been moved to DOC;  PSS-02 has been moved to DEV;  PSS-05, PSS-07, PSS-08 and PSS-09 have been integrated into IAM; and  PSS-11 has been moved to CO. For the objectives and requirements listed below, the question remains open. The original C5 numbers have been kept for clarity Ref",,,The CSP shall automatically monitor the accesses performed by or on behalf of investigators
+PSS-02.3, Guidance elements,,"If inactivity is detected by time measurement, the time interval shall be configurable by the CSP or – if technically possible – by the CSC",
+PSS-05.2, Guidance elements,,,All CSP commitments regarding locations of data processing and storage shall be enforced
