@@ -36,6 +36,12 @@ ISO 27002: 5.3
 ISO 27017: CLD.6.3.1
 ","BSI-C5.json, secnumcloud_controlsParsedAndTranslatedEnglish.csv
 ",No,EUCS,120,Yes,Yes
+MEDINA_EUCS_ControlMapping_Clean_withText.csv,?,?,"Last version of controls mapped sended by Iñaki via mail. This file is a control mapping matrix. It maps metrics to EUCS (European Union Cybersecurity Scheme) to their equivalent controls in other standards, specifically Germany's BSI C5, France's SecNumCloud, ISO 27002, and ISO 27017. The new associations focus on linking EUCS controls to updated schemes (SecNumCloud, ISO 27002, ISO 27017), whereas the old version linked EUCS only to BSIC5. In training we will use the same controls as before but with the new associations; the old ones will remain only in the test set. We only have SecNumCloud among the new schemes because the ISO standards are copyrighted. Importantly, these links connect EUCS to other schemes, but they do not imply relationships between the other schemes themselves.I added the eucs controls text form original pdf of eucs. This is made with a script that parse the pdf and the I add 4 control manually due to parser imperfection",Controls,"BSI C5: OIS-04
+SecNumCloud: 6.1 e 6.2
+ISO 27002: 5.3
+ISO 27017: CLD.6.3.1
+","BSI-C5.json, secnumcloud_controlsParsedAndTranslatedEnglish.csv
+",No,EUCS,120,Yes,Yes
 SpanishENS.csv,2022-7191,https://ens.ccn.cni.es/es/docman/documentos-publicos/39-boe-a-2022-7191-national-security-framework-ens/file,"Spanish ENS parsed with python script from original pdf. Spell check corrected manually. Check the code inside 'Other/pdfFilesAndParsers/spanishENS/spanishENSPdfExtractor.ipynb'. This file is a control catalog for the Spanish Esquema Nacional de Seguridad (ENS). It is not a mapping file; it simply lists each control ID (e.g., org.1.1, op.pl.1.1) and provides its official description.",Controls,No,,Yes,No,209,No,Yes
 BSI-C5.json,?,https://rcm.dev.emerald.digital.tecnalia.dev/admin/docs,"BSI-C5 controls without association, only associated with their own ID. Obtained through admin/admin authentication. This JSON snippet is a control catalog, likely from Germany's BSI C5 framework.
 It defines individual security controls (like OPS-16, IAM-03, and the AI-specific SR-06) and assigns them to their respective categories. This file is a definition list, not a mapping file, as the fields for external associations (sourceSimilarControls) are all null.",Controls,No,,Yes,No,294,Yes,No
