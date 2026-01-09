@@ -1,4 +1,4 @@
-filename,version,url,description,Type,Associations with external schemes,Available associations with external schemes,Presence of controls/metrics ,Number of controls/metrics,Association with old data,Association with new data
+filename,version,url,description,Type,Associations with external schemes,Available associations with external schemes,Presence of controls/metrics ,Number of controls/metrics,Association with old data,Association with new data,Head of file
 Cisco.csv,Cisco Cloud Controls Framework (CCF) Public Release V2.0+++,https://www.cisco.com/c/en/us/about/trust-center/compliance/ccf.html#~standards-mapped,"This file is the Cisco Cloud Controls Framework (CCF).
 
 It is a Unified Control Framework mapping matrix. It defines a set of internal master controls (labeled CCF 1, CCF 2, etc.) and maps each one to equivalent requirements in numerous global standards, including ISO 27001, SOC 2, NIST, BSI C5, and EUCS.
@@ -29,18 +29,141 @@ EUCS Basic Control
 EUCS Substantial Control
 EUCS High Control
 SecNumCloud Control
-IRAP Control","SpanishENS.csv, NewEucsRequirements.csv, Secnumcloud.csv, BSI-C5.json",Yes,713,,"SpanishENS.csv, NewEucsRequirements.csv, Secnumcloud.csv, BSI-C5.json"
-SpanishENS.csv,2022-7191,https://ens.ccn.cni.es/es/docman/documentos-publicos/39-boe-a-2022-7191-national-security-framework-ens/file,"Spanish ENS parsed with python script from original pdf. Spell check corrected manually. Check the code inside 'Other/pdfFilesAndParsers/spanishENS/spanishENSPdfExtractor.ipynb'. This file is a control catalog for the Spanish Esquema Nacional de Seguridad (ENS). It is not a mapping file; it simply lists each control ID (e.g., org.1.1, op.pl.1.1) and provides its official description.",Controls,No,,Yes,209,,
+IRAP Control","SpanishENS.csv, NewEucsRequirements.csv, Secnumcloud.csv, BSI-C5.json",Yes,713,,"SpanishENS.csv, NewEucsRequirements.csv, Secnumcloud.csv, BSI-C5.json","$ head ./Cisco.csv
+Domain Title,Control Title,Control Reference,Control Wording,Control Type,SOC  TSC Common Criteria,SOC  TSC Availability,SOC  TSC  Confidentiality,SOC TSC Privacy,ISO 27001 ISMS ,ISO 27002: 2013 Annex A,Cloud Service Customers ISO 27017,Cloud Service Providers ISO 27017,ISO 27018,PII Controller ISO 27701,PII Processor ISO 27701,ISO 22301,BSI C5,FedRAMP Tailored Control,Spanish ENS BASIC Control,Spanish ENS Medium Control,Spanish ENS High Control,ISMAP Control,PCI Control,Saudi CCC Control,EU Code of Conduct Control,NIST SP 800-171 Control,EUCS Basic Control,EUCS Substantial Control,EUCS High Control,SecNumCloud Control,IRAP Control
+Audit Compliance,Control Self-Assessments,CCF 1,""Independent Control self-assessments are performed by independent auditors, at least annually, to gain reasonable assurance that controls are in place and operating effectively. Corrective actions are taken based on relevant findings and tracked to resolution. Independent control self-assessments are reviewed by management and stored in a central repository and maintained."",Process,""CC1.5, CC2.1, CC2.2, CC2.3, CC3.1, CC3.2, CC4.1, CC5.1, CC5.2, CC5.3"",,,,""Clause 6.1.1(e), Clause 6.1.2, Clause 6.1.3, Clause 7.1, Clause 8.3, Clause 9.1, Clause 9.2, Clause 9.3(c), Clause 10.1, Clause 10.2"",""A.12.7.1, A.18.1.1, A.18.2.1, A.18.2.2, A.18.2.3"",,,,,,,""OIS-01, SP-01, SP-02, SP-03, SSO-04, COM-02, COM-03"",""AU-1, CA-2, CA-2 (1), CA-5, CA-7"",""org.2, org.3, op.mon.2"",,op.pl.5,""12.7.1, 13.1.1.7, 17.1.3, 18.1.1, 18.2.1, 18.2.1.9.P, 18.2.1.12.P, 18.2.1.13.P, 18.2.2, 18.2.3,  3.1.4.1, 3.1.4.2, 3.1.4.3, 3.1.4.4, 3.1.5.2, 3.1.5.5, 3.1.6.1, 3.1.6.2,  4.4.1.1, 4.4.1.2, 4.4.6.1, 4.4.7.1, 4.4.7.2, 4.4.7.3, 4.4.7.4, 4.4.8.1, 4.4.8.2, 4.4.8.3, 4.4.8.4, 4.4.8.5, 4.5.1.1, 4.5.4.3, 4.5.5.2, 4.5.5.3, 4.6.1.1, 4.6.2.1, 4.6.2.2, 4.6.2.3, 4.6.2.4, 4.6.2.5, 4.6.2.6, 4.6.2.7, 4.6.3.1, 4.6.3.2, 4.6.3.3, 4.6.3.4, 4.7.1.1, 4.7.1.2, 4.7.1.3, 4.7.1.4, 4.7.1.5, 4.7.1.6, 4.7.1.7"",""6.4.6, 10.1"",""2-16-P-4, 1-3-T-1-1, 1-9-4-2, 2-1-2, 2-1-4, 1-1-3, 1-3-2, 1-8-1, 1-8-2, 1-8-3, 2-2-2, 2-2-4, 2-3-4, 2-4-4, 2-5-4, 2-6-4, 2-7-4, 2-8-4, 2-9-4, 2-10-4, 2-11-4, 2-12-4, 2-13-4, 2-14-4, 2-15-4, 3-1-4, 4-1-4, 4-2-4, 5-1-4"",""5.5.A, 5.5.B, 6.2.K, 6.3.A"",""3.12.1 Periodically assess the security controls in organizational systems to determine if the controls are effective in their application.   3.12.2 Develop and implement plans of action designed to correct deficiencies and reduce or eliminate vulnerabilities in organizational systems.  3.12.3 Monitor security controls on an ongoing basis to ensure the continued effectiveness of the controls.    3.14.1 Identify, report, and correct information and information system flaws in a timely manner.               "",""OSI-01.4, OIS-02.3,  CO-01.1,  CO-02.1,  CO-03.1,  CO-03.2,  CO-03.6,  CO-04.1,  DOC-04.1"",""OIS-01.5, CO-01.2, CO-02.2,  CO-03.3, CO-04.2"",""OIS-01.3,  ISP-02.5,  PS-05.4,  OPS-19.4,  CO-03.4,  CO-03.5"",""18.2.1.a, 18.2.1.b, 18.3.a, 18.4.a"",1163 1563 1564 0810 0336 1493
+Audit Compliance,Security Policy Audit,CCF 2,""At least quarterly, [The Organization] reviews shall be performed with approved documented specification to confirm personnel are following security policies and operational procedures pertaining to:  • log reviews • firewall rule-set reviews • applying configuration standards to new [The Organization] • responding to security alerts • change management processes"",Process,,,,,,,,,,,,,,,,,,,""12.11.a, 12.11.b, 12.11.1"",,,,OPS-10.1,""OPS-04.2, OPS-10.2, CS-08.3"",,12.1.a,
+Audit Compliance,Customer Audits,CCF 3,""If applicable, Systems documented procedures regarding customer-requested audits shall be defined, documented and transparently communicated to the customer; and where applicable, the mandated auditor. "",Process,,,,,,,,,,,,,,,,,,,,,""5.5.E, 5.5.F, 5.5.A, 5.5.C"",,CO-02.1,,CO-02.3,,
+Audit Compliance,Audit Program,CCF 4,""A three-year audit program is in place which defines the scope and frequency of audits in accordance with change management, policies, and risk assessment results."",Process,,,,,,,,,,,,,,,,,,,,,,,,,,18.2.1.a,
+Audit Compliance,Review of Audit Plan,CCF 5,Management performs a review of the audit plan on a quarterly basis.,People,,,,,,,,,,,,,,,,,,4.4.1.1,,,,,,,,,
+Audit Compliance,KPI Audit,CCF 6,""Key performance indicators (KPI's - OFI, Minor, Major, pass, low, or high) are included as part of independent control self assessment performed by independent auditors at least annualy."",People,,,,,,,,,,,,,,,,,,3.1.4.1,,,,,,,,,
+Application Security,Interface Threat Assessment,CCF 7,Threats to the applications and application programming interfaces and weaknesses with their design are identified and assessed based on the defined frequency by [The Organization] policies.,Process,,,,,,,""A.12.2.1, A.12.5.1, A.12.6.1, A.13.1.1, A.14.1.3, A.14.2.8 "",""A.12.2.1, A.12.5.1, A.12.6.1, A.13.1.1, A.14.1.3, A.14.2.8"",,,,,""DEV-01, DEV-05 "",""CA-2, CA-2 (1), IA-6, RA-5, SI-3"",""op.pl.2, op.exp.6"",op.exp.3,op.exp.3,""6.1.5, 12.6.1, 13.1.1, 14.1.3, 14.2.8, 3.1.2.1, 3.1.2.2, 3.1.2.3, 3.1.4.1, 3.1.4.2, 3.1.4.4"",,,""6.2.B, 6.2.K, 6.2.L, 6.2.M, 6.2.Q"",,OIS-03.1,OPS-04.2,OPS-04.3,,1163 1563 1564 1240      
+Application Security,Cybersecurity Legal and Regulatory Requirements,CCF 8,""Legal and regulatory requirements regarding cybersecurity, including privacy and civil liberties obligations, are documented and maintained by Systems  legal department on an annual basis. "",Process,,,,,,A.18.1.1,,,,,,,""COM-01, INQ-01"",,org.1,,,""13.2.4, 15.1.1, 15.1.1.14.B, 15.1.1.16.B, 15.1.2, 18.1.1, 18.1.1.5.P, 4.4.2.1, 4.4.3.1, 4.4.8.2, 3.1.4.2, 3.1.5.3"",,""1-3-P-1-1, 2-6-P-1-2, 1-3-T-1-1, 1-1-1, 1-3-3, 1-3-4, 1-7-1, 1-8-1"",,""3.3.1 Create and retain system audit logs and records to the extent needed to enable the monitoring, analysis, investigation, and reporting of unlawful or unauthorized system activity.                 "",""ISP-02.1,  ISP-02.6,  CKM-01.1,  CO-01.1,  DOC-03.1,  DOC-03.2"",""OPS-10.2, CO-01.2 "",""OIS-01.3,  OPS-11.4,  PI-02.3,  CO-01.3,  CO-01.4"",""5.3.d, 18.1.a, 18.1.c, 18.1.e, 19.6.e"",39
+Application Security,Spanish Security Requirements,CCF 9,""When applicable, [The Organization], products or equipment will have their security functionalities evaluated in accordance with European or international standards, and whose certificates are recognized by the National Scheme for the Evaluation and Certification of Information Technology Security prior to being used."",Technology,,,,,,,,,,,,,,,,mp.si.5,""op.pl.5, mp.com.2, mp.com.3, mp.si.2, mp.si.5, mp.info.4, mp.info.5, mp.s.2"",,,,,,,,,,
+"
+SpanishENS.csv,2022-7191,https://ens.ccn.cni.es/es/docman/documentos-publicos/39-boe-a-2022-7191-national-security-framework-ens/file,"Spanish ENS parsed with python script from original pdf. Spell check corrected manually. Check the code inside 'Other/pdfFilesAndParsers/spanishENS/spanishENSPdfExtractor.ipynb'. This file is a control catalog for the Spanish Esquema Nacional de Seguridad (ENS). It is not a mapping file; it simply lists each control ID (e.g., org.1.1, op.pl.1.1) and provides its official description.",Controls,No,,Yes,209,,,"$ head ./SpanishENS.csv
+Control ID,Description
+org.1.1,The objectives or mission of the organization.
+org.1.2,""The legal and regulatory framework within which the activities will take 
+place.""
+org.1.3,""Security roles or functions, defining for each the duties and 
+responsibilities of the post, as well as the procedure for their appointment and renewal.""
+org.1.4,""The structure of the security management and coordination committee(s), 
+detailing it's area of responsibility, it's members and the relationship with other elements of 
+the organization.""
+org.1.5,""Guidelines for the structuring of system security documentation, it's"
 BSI-C5.json,?,https://rcm.dev.emerald.digital.tecnalia.dev/admin/docs,"BSI-C5 controls without association, only associated with their own ID. Obtained through admin/admin authentication. This JSON snippet is a control catalog, likely from Germany's BSI C5 framework.
-It defines individual security controls (like OPS-16, IAM-03, and the AI-specific SR-06) and assigns them to their respective categories. This file is a definition list, not a mapping file, as the fields for external associations (sourceSimilarControls) are all null.",Controls,No,OldEucsRequirements.csv,Yes,294,OldEucsRequirements.csv,
-Secnumcloud.csv,3.2,https://cyber.gouv.fr/sites/default/files/document/secnumcloud-referentiel-exigences-v3.2.pdf,"French SecNumCloud parsed with python script from original pdf. Translated with google translator APIs. Chck the code inside 'Other/pdfFilesAndParsers/secNumCloud/secnumcloud-referentiel-exigences-v3.2.ipynb'. This file is a control catalog for France's SecNumCloud standard. It lists each control ID (e.g., 5.1.a) alongside its official French description and an English translation.",Controls,No,,Yes,287,,
-medinaMetrics.csv,?,Not present,"Data from Medina repo. This file is a Metrics Catalog. It defines a list of specific assessment rules, questions, and checks (metrics) used to verify the compliance of cloud services. Each metric describes what needs to be measured or monitored (e.g., ""assess if backups are enabled"") to satisfy a specific security requirement.",Metrics,EUCS,OldEucsRequirements.csv,Yes,166,OldEucsRequirements.csv,
-fabasoftMetrics.csv,? obtained 13/10/2025,https://at.cloud.fabasoft.com/folio/fscasp/content/bin/fscvext.dll?bx=COO.6505.100.21.2074643&venv_view=COO.1.1001.1.238977,"Data from excel file on the fabsasoft repository (excel file). This file is an Automated Security Metrics Catalog. It defines specific technical checks (metrics) designed for automated compliance tools (like Codyze and Clouditor-Discovery). Each entry details the technical criteria, the logic for passing the check (e.g., Operator: ==, Target Expression: true), and links these technical checks to high-level security requirements.",Metrics,"EUCS, BSIC5","OldEucsRequirements.csv, BSI-C5.json",Yes,57,,"NewEucsRequirements.csv, BSI-C5.json"
+It defines individual security controls (like OPS-16, IAM-03, and the AI-specific SR-06) and assigns them to their respective categories. This file is a definition list, not a mapping file, as the fields for external associations (sourceSimilarControls) are all null.",Controls,No,OldEucsRequirements.csv,Yes,294,OldEucsRequirements.csv,,"$ head -50 ./BSI-C5.json
+[
+  {
+    ""uuid"": ""00000000-0000-0000-0000-000000000000"",
+    ""code"": ""AAA-00"",
+    ""name"": ""GENERIC CONTROL"",
+    ""descriptionTitle"": ""This control behaves as a generic control."",
+    ""descriptionExtended"": null,
+    ""extraInfoTitle"": null,
+    ""extraInfoExtended"": null,
+    ""finalInfoTitle"": null,
+    ""finalInfoExtended"": null,
+    ""implementationGuidelines"": null,
+    ""createdDate"": 1710154800,
+    ""lastModifiedDate"": 1710154800,
+    ""category"": {
+      ""uuid"": ""00000000-0000-0000-0000-000000000000"",
+      ""code"": ""A00"",
+      ""name"": ""Generic Category"",
+      ""objective"": null,
+      ""description"": null,
+      ""createdDate"": 1710154800,
+      ""lastModifiedDate"": 1710154800
+    },
+    ""assuranceLevel"": {
+      ""uuid"": ""ffffffff-ffff-ffff-ffff-ffffffffffff"",
+      ""name"": ""N/A"",
+      ""createdDate"": 1710154800,
+      ""lastModifiedDate"": 1710154800
+    },
+    ""requirements"": null,
+    ""sourceSimilarControls"": null,
+    ""targetSimilarControls"": null,
+    ""relatedMetrics"": null
+  },
+  {
+    ""uuid"": ""0026165d-7fdd-4834-8033-292e16c493f7"",
+    ""code"": ""IAM-02"",
+    ""name"": ""MANAGEMENT OF USER ACCOUNTS"",
+    ""descriptionTitle"": ""Policies and procedures for managing the different types of user accounts are documented, communicated and made available in order to ensure that that all accesses to information have been duly authorized."",
+    ""descriptionExtended"": null,
+    ""extraInfoTitle"": null,
+    ""extraInfoExtended"": null,
+    ""finalInfoTitle"": null,
+    ""finalInfoExtended"": null,
+    ""implementationGuidelines"": null,
+    ""createdDate"": 1710154800,
+    ""lastModifiedDate"": 1710154800,
+    ""category"": {
+      ""uuid"": ""606d35a4-a217-4ed0-ad2b-3068ffe409b7"",
+      ""code"": ""A08"","
+Secnumcloud.csv,3.2,https://cyber.gouv.fr/sites/default/files/document/secnumcloud-referentiel-exigences-v3.2.pdf,"French SecNumCloud parsed with python script from original pdf. Translated with google translator APIs. Chck the code inside 'Other/pdfFilesAndParsers/secNumCloud/secnumcloud-referentiel-exigences-v3.2.ipynb'. This file is a control catalog for France's SecNumCloud standard. It lists each control ID (e.g., 5.1.a) alongside its official French description and an English translation.",Controls,No,,Yes,287,,,"$ head ./Secnumcloud.csv
+ID,Description,Description_EN
+5.1.a,Le prestataire doit opérer la prestation à l'état de l'art pour le type d'activité retenu : utiliser des logiciels stables bénéficiant d'un suivi des correctifs de sécurité et paramétrés de façon à obtenir un niveau de sécurité optimal.,The service provider must operate in the state of the art for the type of activity selected: Use stable software benefiting from monitoring of safety and configuration fixes so as to obtain an optimal security level.
+5.1.b,""Le prestataire doit appliquer le guide d'hygiène informatique de l'ANSSI [HYGIENE], niveau renforcé, au système d'information du service."",""The service provider must apply the ANSSI computer hygiene guide [Hygiene], reinforced level, to the service information system.""
+5.2.a,Le prestataire doit documenter et mettre en œuvre une politique de sécurité de l'information relative au service.,The service provider must document and implement an information security policy relating to the service.
+5.2.b,La politique de sécurité de l'information doit identifier les engagements du prestataire quant au respect de la législation et réglementation nationale en vigueur selon la nature des informations qui pourraient être confiées par le commanditaire au prestataire ,The information security policy must identify the service provider's commitments regarding compliance with the national legislation and regulations in force according to the nature of the information which could be entrusted by the sponsor to the service provider.
+5.2.c,La politique de sécurité de l'information doit notamment couvrir les thèmes abordés aux chapitres 6 à 19 du présent référentiel.,The information security policy must in particular cover the themes addressed to chapters 6 to 19 of this repository.
+5.2.d,La direction du prestataire doit approuver formellement la politique de sécurité de l'information.,The service provider must formally approve the information security policy.
+5.2.e,Le prestataire doit réviser annuellement la politique de sécurité de l'information et à chaque changement majeur pouvant avoir un impact sur le service.,The service provider must revise the information security policy annually and with each major change that may have an impact on the service.
+5.3.a,Le prestataire doit documenter une appréciation des risques couvrant l'ensemble du périmètre du service.,The service provider must document an assessment of the risks covering the entire perimeter of the service.
+5.3.b,Le prestataire doit réaliser son appréciation de risques en utilisant une méthode documentée garantissant la reproductibilité et comparabilité de la démarche.,The service provider must carry out its risk assessment using a documented method guaranteeing the reproducibility and comparability of the process."
+medinaMetrics.csv,?,Not present,"Data from Medina repo. This file is a Metrics Catalog. It defines a list of specific assessment rules, questions, and checks (metrics) used to verify the compliance of cloud services. Each metric describes what needs to be measured or monitored (e.g., ""assess if backups are enabled"") to satisfy a specific security requirement.",Metrics,EUCS,OldEucsRequirements.csv,Yes,166,OldEucsRequirements.csv,,"$ head ./medinaMetrics.csv
+ID,controlId,description
+1,OPS-05.3H,This metric is used to assess if the antimalware solution is enabled on the respective resource.
+2,OPS-05.3H,This metric is used to assess if the antimalware solution reports no irregularities.
+3,OPS-07.2H,This metric is used to assess if backups are enabled for a cloud service/asset
+3,OPS-09.2H,This metric is used to assess if backups are enabled for a cloud service/asset
+4,OPS-07.2H,This metric is used to assess the configured backup retention (days) on a cloud service/asset
+5,OPS-13.1H,This metric is used to assess if Anomaly Detection is enabled for the cloud service/asset
+6,OPS-13.1H,This metric is used to assess if activity logs are enabled for the cloud service/asset.
+7,OPS-13.1H,This metric is used to assess if Application logs are enabled for the cloud service/asset.
+8,OPS-13.1H,This metric is used to assess if Boot logs are enabled for the cloud service/asset.
+(.venv) john@john-ThinkPad-E485:~/Repositories/ControlsMetrics/Schemes$ "
+fabasoftMetrics.csv,? obtained 13/10/2025,https://at.cloud.fabasoft.com/folio/fscasp/content/bin/fscvext.dll?bx=COO.6505.100.21.2074643&venv_view=COO.1.1001.1.238977,"Data from excel file on the fabsasoft repository (excel file). This file is an Automated Security Metrics Catalog. It defines specific technical checks (metrics) designed for automated compliance tools (like Codyze and Clouditor-Discovery). Each entry details the technical criteria, the logic for passing the check (e.g., Operator: ==, Target Expression: true), and links these technical checks to high-level security requirements.",Metrics,"EUCS, BSIC5","OldEucsRequirements.csv, BSI-C5.json",Yes,57,,"NewEucsRequirements.csv, BSI-C5.json","$ head ./fabasoftMetrics.csv
+Category,ID,Name,Description,""""""Selector"""" (concepts and properties)
+(Add path from the SecurityFeature, if no SecurityFeature is linked use the path from the resource)"",Scale,Datatype,Range,Operator,Target Expression,Evidence From tool,""Possible Control ID
+Scheme""
+Vulnerability Management,NumberOfKnownLowVulnerabilities,,The number of detected known vulnerabilities with low rating in the asset,""Resource.Code.Component, Functionality.Vulnerability"",Ordinal,Count,0; infinite,==,0,Codyze,""BSI C5 OPS-22
+BSI C5 PSS-02""
+,NumberOfKnownMediumVulnerabilities,,The number of detected known vulnerabilities with average rating in the asset,""Resource.Code.Component, Functionality.Vulnerability"",Ordinal,Count,0; infinite,==,0,Codyze,""BSI C5 OPS-22
+BSI C5 PSS-02""
+,NumberOfKnownHighVulnerabilities,,The number of detected known vulnerabilities with high rating in the asset,""Resource.Code.Component, Functionality.Vulnerability"",Ordinal,Count,0; infinite,==,0,Codyze,""BSI C5 OPS-22
+BSI C5 PSS-02""
+,NumberOfKnownCriticalVulnerabilities,,The number of detected known vulnerabilities with critical rating in the asset,""Resource.Code.Component, Functionality.Vulnerability"",Ordinal,Count,0; infinite,==,0,Codyze,""BSI C5 OPS-22
+"
 NewEucsRequirements_with_texts.csv,?,?,"Last version of controls mapped sended by Iñaki via mail. This file is a control mapping matrix. It maps metrics to EUCS (European Union Cybersecurity Scheme) to their equivalent controls in other standards, specifically Germany's BSI C5, France's SecNumCloud, ISO 27002, and ISO 27017. The new associations focus on linking EUCS controls to updated schemes (SecNumCloud, ISO 27002, ISO 27017), whereas the old version linked EUCS only to BSIC5. This version is not a superset of 'OldEucsRequirements.csv'. In addition to containing more controls, the text of some existing controls has been updated. In this version we added text from original eucs pdf file thorugh automatic parsing a manual reviewing.",Controls,"BSI C5: OIS-04
 SecNumCloud: 6.1 e 6.2
 ISO 27002: 5.3
 ISO 27017: CLD.6.3.1
 ","BSI-C5.json, Secnumcloud.csv
 ",Yes,120,BSI-C5.json,"Secnumcloud.csv
-BSI-C5.json"
-OldEucsRequirements.csv,?,Not present,"Data from Medina repo (Eucs). This file is a Control Catalog (specifically a Requirements Catalog). It serves as a ""dictionary"" that defines the official requirements for specific security controls. It lists the unique Control ID (e.g., OPS-05.3H) and provides the full textual description of what the Cloud Service Provider (CSP) must implement to comply.This version is not a subset of 'NewEucsRequirements.csv' because the text for some common controls has been updated",Controls,EUCS,,Yes,70,,
+BSI-C5.json","$ head ./NewEucsRequirements_with_texts.csv
+EUCS Category,EUCS Control (2022),Control_Code,EUCS Ref (Detailed),EUCS Text,EUCS Ass. Level,Code
+A1 - Organisation of Information Security,OIS-01  - INFORMATION SECURITY MANAGEMENT SYSTEM,OIS-01,OIS-01.1,""The CSP shall define, implement, maintain and continually improve an information security management system (ISMS), covering at least the operational units, locations and processes for providing the cloud service"",Basic,
+A1 - Organisation of Information Security,OIS-01  - INFORMATION SECURITY MANAGEMENT SYSTEM,OIS-01,OIS-01.2,The ISMS shall be in accordance to ISO/IEC 27001,Substantial,
+A1 - Organisation of Information Security,OIS-01  - INFORMATION SECURITY MANAGEMENT SYSTEM,OIS-01,OIS-01.3,The ISMS shall have a valid certification according to ISO/IEC 27001 or to national schemes based on ISO 27001,High,
+A1 - Organisation of Information Security,OIS-01  - INFORMATION SECURITY MANAGEMENT SYSTEM,OIS-01,OIS-01.5,""The documentation shall include at least:  Scope of the ISMS (Section 4.3 of ISO/IEC 27001);  Declaration of applicability (Section 6.1.3), and  Results of the last management review (Section 9.3)."",Substantial,
+,OIS-02  - SEGREGATION OF DUTIES,OIS-02,OIS-02.1,""The CSP shall perform a risk assessment as defined in RM-01 about the accumulation of responsibilities or tasks on roles or individuals, regarding the provision of the cloud service"",Basic,OIS-02
+,OIS-02  - SEGREGATION OF DUTIES,OIS-02,OIS-02.2,""The risk assessment shall cover at least the following areas, insofar as these are applicable to the provision of the cloud service and are in the area of responsibility of the CSP:  Administration of rights profiles, approval and assignment of access and access authorisations (cf. IAM-01);  Development, testing and release of changes (cf. DEV-01, CCM-01); and  Operation of the system components."",Basic,OIS-02
+,OIS-02  - SEGREGATION OF DUTIES,OIS-02,OIS-02.3,""The CSP shall implement the mitigating measures defined in the risk assessment, privileging separation of duties, unless impossible for organisational or technical reasons, in which case the measures shall include the monitoring of activities in order to detect unauthorised or unintended changes as well as misuse and the subsequent appropriate action"",Basic,OIS-02
+,OIS-02  - SEGREGATION OF DUTIES,OIS-02,OIS-02.4,The CSP shall automatically monitor the assignment of responsibilities and tasks to ensure that measures related to segregation of duties are enforced.,High,OIS-02
+,OIS-03  - CONTACT WITH AUTHORITIES AND INTEREST GROUPS,OIS-03,OIS-03.1,The CSP shall stay informed about current threats and vulnerabilities,Basic,"
+OldEucsRequirements.csv,?,Not present,"Data from Medina repo (Eucs). This file is a Control Catalog (specifically a Requirements Catalog). It serves as a ""dictionary"" that defines the official requirements for specific security controls. It lists the unique Control ID (e.g., OPS-05.3H) and provides the full textual description of what the Cloud Service Provider (CSP) must implement to comply.This version is not a subset of 'NewEucsRequirements.csv' because the text for some common controls has been updated",Controls,EUCS,,Yes,70,,,"$ head ./OldEucsRequirements.csv
+controlId,description
+OPS-05.3H,""The CSP shall automatically monitor the systems covered by the malware protection and the configuration of the corresponding mechanisms to guarantee fulfilment of above requirements, and the antimalware scans to track detected malware or irregularities.""
+OPS-07.2H,""In order to check the proper application of these measures, the CSP shall automatically monitor the execution of data backups, and make available to the CSCs a service portal for monitoring the execution of backups when the CSC uses backup services with the CSP.""
+OPS-13.1H,""The CSP shall store all log data in an integrity-protected and aggregated form that allow its centralized evaluation, and shall automatically monitor the aggregation and deletion of logging and monitoring data.""
+OPS-18.6H,""The CSP shall provide and promote, where appropriate, automatic update mechanisms for the assets provided by the CSP that the CSCs have to install or operate under their own responsibility, to ease the rollout of patches and updates after an initial approval from the CSC.""
+OPS-09.2H,""When the backup data is transmitted to a remote location via a network, the transmission of the data takes place in an encrypted form that corresponds to the state-of-the-art (cf. CKM-02), and shall be automatically monitored by the CSP to verify the execution of the backup.""
+OPS-21.1H,""The CSP shall harden all the system components under its responsibility that are used to provide the cloud service, according to accepted industry standards, and automatically monitor these system components for conformity with hardening requirements.""
+OPS-06.1S,""The CSP shall define and implement policies and procedures according to ISP-02 for data backup and recovery, covering at least the following aspects:
+(1)The extent and frequency of data backups and the duration of data retention are consistent with the contractual agreements with the CSCs and the CSP’s operational continuity requirements for recovery time objective (RTO) and recovery point objective (RPO);
+(2) How data is backed up in encrypted, state-of-the-art form;"
