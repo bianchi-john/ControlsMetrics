@@ -146,16 +146,16 @@ ISO 27017: CLD.6.3.1
 ","BSI-C5.json, Secnumcloud.csv
 ",Yes,120,BSI-C5.json,"Secnumcloud.csv
 BSI-C5.json","$ head ./NewEucsRequirements_with_texts.csv
-EUCS Category,EUCS Control (2022),Control_Code,EUCS Ref (Detailed),EUCS Text,EUCS Ass. Level,Code
-A1 - Organisation of Information Security,OIS-01  - INFORMATION SECURITY MANAGEMENT SYSTEM,OIS-01,OIS-01.1,""The CSP shall define, implement, maintain and continually improve an information security management system (ISMS), covering at least the operational units, locations and processes for providing the cloud service"",Basic,
-A1 - Organisation of Information Security,OIS-01  - INFORMATION SECURITY MANAGEMENT SYSTEM,OIS-01,OIS-01.2,The ISMS shall be in accordance to ISO/IEC 27001,Substantial,
-A1 - Organisation of Information Security,OIS-01  - INFORMATION SECURITY MANAGEMENT SYSTEM,OIS-01,OIS-01.3,The ISMS shall have a valid certification according to ISO/IEC 27001 or to national schemes based on ISO 27001,High,
-A1 - Organisation of Information Security,OIS-01  - INFORMATION SECURITY MANAGEMENT SYSTEM,OIS-01,OIS-01.5,""The documentation shall include at least:  Scope of the ISMS (Section 4.3 of ISO/IEC 27001);  Declaration of applicability (Section 6.1.3), and  Results of the last management review (Section 9.3)."",Substantial,
-,OIS-02  - SEGREGATION OF DUTIES,OIS-02,OIS-02.1,""The CSP shall perform a risk assessment as defined in RM-01 about the accumulation of responsibilities or tasks on roles or individuals, regarding the provision of the cloud service"",Basic,OIS-02
-,OIS-02  - SEGREGATION OF DUTIES,OIS-02,OIS-02.2,""The risk assessment shall cover at least the following areas, insofar as these are applicable to the provision of the cloud service and are in the area of responsibility of the CSP:  Administration of rights profiles, approval and assignment of access and access authorisations (cf. IAM-01);  Development, testing and release of changes (cf. DEV-01, CCM-01); and  Operation of the system components."",Basic,OIS-02
-,OIS-02  - SEGREGATION OF DUTIES,OIS-02,OIS-02.3,""The CSP shall implement the mitigating measures defined in the risk assessment, privileging separation of duties, unless impossible for organisational or technical reasons, in which case the measures shall include the monitoring of activities in order to detect unauthorised or unintended changes as well as misuse and the subsequent appropriate action"",Basic,OIS-02
-,OIS-02  - SEGREGATION OF DUTIES,OIS-02,OIS-02.4,The CSP shall automatically monitor the assignment of responsibilities and tasks to ensure that measures related to segregation of duties are enforced.,High,OIS-02
-,OIS-03  - CONTACT WITH AUTHORITIES AND INTEREST GROUPS,OIS-03,OIS-03.1,The CSP shall stay informed about current threats and vulnerabilities,Basic,"
+EUCS Category,EUCS Control (2022),Control_Code,EUCS Ref (Detailed),EUCS Text,EUCS Ass. Level,Code,C5.2020 GERMANY ,SecNumCloud FRANCE ,ISO 27002 ,ISO 27017 
+A1 - Organisation of Information Security,OIS-01  - INFORMATION SECURITY MANAGEMENT SYSTEM,OIS-01,OIS-01.1,""The CSP shall define, implement, maintain and continually improve an information security management system (ISMS), covering at least the operational units, locations and processes for providing the cloud service"",Basic,,OIS-01,,""5.4
+5.21"",
+A1 - Organisation of Information Security,OIS-01  - INFORMATION SECURITY MANAGEMENT SYSTEM,OIS-01,OIS-01.2,The ISMS shall be in accordance to ISO/IEC 27001,Substantial,,OIS-01,,""5.4
+5.21"",
+A1 - Organisation of Information Security,OIS-01  - INFORMATION SECURITY MANAGEMENT SYSTEM,OIS-01,OIS-01.3,The ISMS shall have a valid certification according to ISO/IEC 27001 or to national schemes based on ISO 27001,High,,OIS-01,,""5.4
+5.21"",
+A1 - Organisation of Information Security,OIS-01  - INFORMATION SECURITY MANAGEMENT SYSTEM,OIS-01,OIS-01.5,""The documentation shall include at least:  Scope of the ISMS (Section 4.3 of ISO/IEC 27001);  Declaration of applicability (Section 6.1.3), and  Results of the last management review (Section 9.3)."",Substantial,,OIS-01,,""5.4
+5.21"",
+,OIS-02  - SEGREGATION OF DUTIES,OIS-02,OIS-02.1,""The CSP shall perform a risk assessment as defined in RM-01 about the accumulation of responsibilities or tasks on roles or individuals, regarding the provision of the cloud service"",Basic,OIS-02,OIS-04,"" 6.1"
 OldEucsRequirements.csv,?,Not present,"Data from Medina repo (Eucs). This file is a Control Catalog (specifically a Requirements Catalog). It serves as a ""dictionary"" that defines the official requirements for specific security controls. It lists the unique Control ID (e.g., OPS-05.3H) and provides the full textual description of what the Cloud Service Provider (CSP) must implement to comply.This version is not a subset of 'NewEucsRequirements.csv' because the text for some common controls has been updated",Controls,EUCS,,Yes,70,,,"$ head ./OldEucsRequirements.csv
 controlId,description
 OPS-05.3H,""The CSP shall automatically monitor the systems covered by the malware protection and the configuration of the corresponding mechanisms to guarantee fulfilment of above requirements, and the antimalware scans to track detected malware or irregularities.""
