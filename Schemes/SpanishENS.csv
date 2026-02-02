@@ -1,660 +1,214 @@
-Control ID,Description
-org.1.1,The objectives or mission of the organization.
-org.1.2,"The legal and regulatory framework within which the activities will take 
-place."
-org.1.3,"Security roles or functions, defining for each the duties and 
-responsibilities of the post, as well as the procedure for their appointment and renewal."
-org.1.4,"The structure of the security management and coordination committee(s), 
-detailing it's area of responsibility, it's members and the relationship with other elements of 
-the organization."
-org.1.5,"Guidelines for the structuring of system security documentation, it's 
-management and access.  
-Implementation of the measure."
-org.2.1,"The correct use of equipment, services and facilities, as well as what will 
-be considered misuse."
-org.2.2,"Staff responsibility with respect to compliance or violation of regulations: 
-rights, duties and disciplinary measures in accordance with the legislation in force.  
-Reinforcement R1 -Specific documents."
-org.3.1,How to carry out the usual tasks.
-org.3.2,Who should do what.
-org.3.3,How to identify and report abnormal behaviors.
-org.4.1,Using of regular and alternative facilities.
-org.4.2,"Incorporation of equipment in production, in particular equipment 
-involving cryptography."
-org.4.3,Incorporation of application in production.
-org.4.4,Establishment of communications links with other systems.
-org.4.5,Using regular and alternative communication media.
-org.4.6,Using information media.
-org.4.7,"Use of mobile equipment. Mobile equipment means laptops, tablets, 
-mobile phones or other similar equipment."
-org.4.8,"Use of third party services, under contract or agreement, concession, 
-commission, etc.  
-Implementation of the measure.  
- BASIC Category: org.4.  
- MEDIUM Category: org.4.  
- HIGH Category: org.4."
-op.pl.1.1,Identify the most valuable assets in the system. (See op.exp.1).
-op.pl.1.2,Identify the most likely threats.
-op.pl.1.3,Identify the safe guards that protect against such threats.
-op.pl.1.4,"Identify the main residual risks.  
-Reinforcement R1 - Semiformal risk analysis.  
-A semiformal risk analysis shall be performed, using a specific language, with a basic 
-threat catalog and defined semantics.  That is, a presentation with tables that:"
-op.pl.2.1,"Documentation of facilities, including areas and access points."
-op.pl.2.2,"System documentation, including equipment, internal networks and 
-external connections, and access point s to the system (workstations and management 
-consoles)."
-op.pl.2.3,"Scheme of lines of defense, including interconnection points to other 
-systems or other networks (especially if it involves the internet or public networks in 
-general); firewall, DMZ, etc.;  and the use of different technologies to prevent vulnerabilities 
-that could simultaneously drill several lines of defense."
-op.pl.2.4,"User identification and authentication system, including the use of 
-concerted keys, passwords, identification cards, biometrics, or others of a similar nature, 
-and the use of files or directories to authenticate the user and determine their access 
-rights.  
-Reinforcement R1 -Management System."
-op.pl.3.1,It shall be based on the conclusions of the risk analysis (
-op.pl.3.2,"It shall be in accordance with the chosen security architecture 
-("
-op.pl.3.3,"It shall consider technical, training and financing needs together.  
-Implementation of the measure.  
- BASIC category: op.pl.3.  
- MEDIUM category: op.pl.3.  
- HIGH category: op.pl.3."
-op.pl.4.1,Processing needs.
-op.pl.4.2,"Information storage needs: during processing and during the period to 
-be retained."
-op.pl.4.3,Communication needs.
-op.pl.4.4,Staffing requirements: quantity and professional qualification.
-op.pl.4.5,"Needs for facilities and auxiliary means.  
-Reinforcement R1  Continuous improvement of capacity management."
-op.pl.5.2,"If the system provides a security service to a third party within the scope 
-of the ENS, the product(s)  on which that service is supported must pass a qualification 
-process and be included in the CPSTIC or provide a certification that complies with the 
-functional security and assurance requirements in accordance with Article 19.  
-Reinforcement R1 -Protection of electromagnetic emissions."
-op.acc.1.1,"Identification systems provided for in the applicable regulation may be 
-used as a unique identifier, including concerted key systems and any other system that 
-the public administrations consider valid under the terms and conditions laid down in Law 
-39/2015 of 1 October 2015 on the Common Administrative Procedure of Public 
-Administrations."
-op.acc.1.2,"When the user has different roles in relation to the system (as a citizen 
-or end user, as a staff of the entity or as a system administrator, for example) will receive 
-unique identifiers for each profile, so that the corresponding  activity records are always 
-collected, delimiting the privileges corresponding to each profile."
-op.acc.1.3,"Each entity (entity, user or process) that accesses the system shall 
-have a unique identifier that allows to know the recipient of them and the ac cess rights it 
-receives, as well as the actions taken by each entity."
-op.acc.1.4,"User accounts shall be managed as follows:  
- 
-a) Each account (of entity, user or process) shall be associated with a unique 
-identifier.  
-b) Accounts should be disabled in the following cases: when the user leaves the 
-organization; when the user ceases to have the function for which the user account was 
-required; or, when the person who authorized it gives an order to the contrary.  
-c) Accounts shall be retained for the period necessary to meet the accountability 
-needs of the activity records associated with them. This period shall be referred to as the 
-'retention period'."
-op.acc.1.5,"In cases of electronic communications, the parties involved shall be 
-identified on the basis of the mechanisms provided for in relevant European and national 
-legislation, with the following correspondence between the levels of the authenticity 
-dimension of the information systems to which access is available and the levels of 
-security (low, substantial, high) of the electronic identification systems provided for in 
-Regulation (EU) No 910/2014 of the European Parliament and of the Council of 23 July 
-2014 on electronic identification and trust services for electronic transactions in the 
-internal market and repealing Directive 1999/93/EC and it's implementing or implementing 
-rules:  
-a) If a LOW level in the authenticity dimension is required (Annex I): Low, substantial 
-or high security level (Article 8 of Regulation (EU) No 910/2014).  
-b) If a MEDIUM level is required in the authenticity dimension (Annex I): Substantial 
-or high level of security (Article 8 of Regulation (EU) No 910/2014).  
-c) If a HIGH level is required in the authenticity dimension (Annex I): High security 
-level (Article 8 of Regulation (EU) No 910/2014 ). 
-Reinforcement R1-Advanced Identification.  
-d)"
-op.acc.2.1,"The resources of the system shall be protected by any mechanism that 
-prevents their use, except for entities with sufficient access rights."
-op.acc.2.2,"The access rights of each resource shall be established according to 
-the decisions of the person responsible for the resource, in accordance with the system's 
-security policy and regulations."
-op.acc.2.3,"In particular, access to operating system components and their 
-configuration files or records shall be controlled.  
-Reinforcement R1 -Access privileges."
-op.acc.3.1,"Where possible, development and operational capabilities shall not lie 
-with the same person."
-op.acc.3.2,"Where possible, the persons who authorize and control the use shall 
-be different.  
-Reinforcement R1 -Strict Segregation."
-op.acc.4.1,"All access shall be prohibited, unless expressly authorized."
-op.acc.4.2,"Minimum privilege: the privileges of each entity, user or process shall 
-be reduced to the minimum necessary to fulfil it's duties or functions."
-op.acc.4.3,"Need to know and responsibility to share: privileges shall be assigned 
-in such a way that entities, users or  processes shall only have access to knowledge of the 
-information required to fulfil their duties or functions. The information is the property of the 
-organization and all that is necessary for the user will be at it's."
-op.acc.4.4,"Capability to authorize:  Access authorization to the resources may be 
-granted, altered or cancelled only by the personnel with the authority to do so, in 
-accordance with the criteria established by the person responsible. Access permit's shall 
-be reviewed on a regular basis."
-op.acc.4.5,"A specific remote access policy shall be established, requiring express 
-authorization.  
-Application of the measure (by confidentiality, integrity, accountability and 
-authenticity).  
-LOW level: op.acc.4.  
-MEDIUM level: op.acc.4.  
-HIGH level: op.acc .4. 
-4.2.5 Authentication mechanism (external users)"
-op.acc.5.2,"Before activating the authentication mechanism, the user shall 
-recognize that has received them and that is aware of and accepts the obligations of it s 
-possession, in particular the duty of diligent custody, the protection of it's confidentiality 
-and the duty of immediate notification in the event of loss."
-op.acc.5.3,"Credentials shall be under the sole control of the user and shall be 
-activated once they are under their effective control."
-op.acc.5.4,"Credentials shall be changed at intervals marked by the organization's 
-security policy."
-op.acc.5.5,"Credentials shall be disabled, and may be regenerated if necessary,"
-op.acc.5.6,"Credentials shall be disabled when the entity (person, equipment, or 
-process) that authenticates ends it's relationship with the system."
-op.acc.5.7,"Before authorizing access, the information submitted by the system 
-shall be the minimum necessary for the user to authenticate, avoiding anything that may, 
-directly or indirectly, disclose information about the system or account, it's characteristics, 
-it's operation or it's status. Credentials will only be validated when all the necessary data is 
-available and, if rejected, the reason for rejection will not be informed."
-op.acc.5.8,"The number of attempts allowed shall be limited, blocking the access 
-opportunity once that number is exceeded, and requiring a specific intervention to 
-reactivate the account, which will be described in the documentation."
-op.acc.5.9,"The system shall inform the user of it's rights or obligations immediat ely 
-after obtaining access.  
-Reinforcement R1 -Passwords."
-op.acc.6.1,"Before providing credentials to users, users must know and accept the 
-organization's security policy in respect of matters affecting them."
-op.acc.6.2,"Before activating the authentication mechanism, the user shall 
-acknowledge that  has received the access credentials and that knows and accepts the 
-obligations involved in their possession, in particular the duty of diligent custody, the 
-protection of it's confidentiality and the duty of immediate notification in the event of loss."
-op.acc.6.3,"Credentials shall be under the sole control of the user and shall be 
-activated once they are under their effective control."
-op.acc.6.4,"Credentials shall be changed at intervals marked by the organization's 
-security policy."
-op.acc.6.5,"Credentials shall be disabled, and may be regenerated if necessary, 
-when there is evidence or suspicion of loss, commitment or disclosure to unauthorized 
-entities (persons, equipment or processes)."
-op.acc.6.6,"Credentials shall be disabled when the authenticating user ends their 
-relationship with the system."
-op.acc.6.7,"Before authorizing access, the information submitted by the system 
-shall be the minimum necessary for the user to authenticate, avoiding anything that may, 
-directly or indirectly, disclose information about the system or account, it's characteristics, 
-it's operation or it's status. Credentials will only be validated when all the necessary data is 
-available and, if rejected, the reason for rejection will not be informed."
-op.acc.6.8,"The number of attempts allowed shall be limited, blocking the access 
-opportunity once this number is exceeded, and requiring a specific intervention to 
-reactivate the account, which will be described in the documentation."
-op.acc.6.9,"The system shall inform the user of it's rights or obligations immediately 
-after obtaining access.  
-Reinforcement R1 -Passwords."
-op.exp.1.1,"An update inventory of all elements of the system shall be maintained, 
-detailing their nature and identifying their controller; that is, the person who makes the 
-decisions regarding it.  
-Reinforcement R1 -Tagging Inventory."
-op.exp.2.1,Standard accounts and passwords are removed.
-op.exp.2.2,"The “minimum functionality” rule shall apply, i.e.:  
-a) The system must provide the minimum functionality required for the organization 
-to achieve it's objectives.  
-b) It shall not provide unjustified functions (operation, administration or audit) in order 
-to minimize it's exposure perimeter by eliminating or deactivating functions that are 
-unnecessary or inappropriate for the intended purpose."
-op.exp.2.3,"The default security rule shall apply, i.e.:  
-a) Security measures shall be respectful to the user and shall protect the us er, unless"
-op.exp.2.4,"Virtual machines shall be configured  and managed in a secure way. 
-Patching management, user accounts, antivirus software, etc. will be performed as if they 
-were physical machines, including the host machine.  
-Implementation of the measure.  
- BASIC Category: op.exp.2.  
- MEDIUM Category: op.exp.2.  
- HIGH Category: op.exp.2.  
-4.3.3 Security configuration management"
-op.exp.3.1,The “minimum function” rule is maintained at all times (
-op.exp.3.2,The “minimum privilege” rule is maintained at all times (
-op.exp.3.3,"The system is adapted to new, previously authorized needs. (See"
-op.exp.3.4,The system reacts to reported vulnerabilities. (See
-op.exp.3.5,The system reacts to incidents. (See
-op.exp.3.6,"The security settings may only be edited by duly authorized 
-personnel.  
-Reinforcement R1 -Regular maintenance of the configuration."
-op.exp.4.1,"Manufacturers' specifications for the installation and maintenance of 
-systems shall be met, including continuous monitoring of warnings of defects."
-op.exp.4.2,"A procedure shall be available to analyses, prioritize and determine 
-when to apply security updates, patches, upgrades, and new versions. Prioritization shall 
-take into account the change in risk depending on the  implementation or not of the update."
-op.exp.4.3,"Maintenance may only be carried out by duly authorized personnel.  
-Reinforcement R1 -Tests in pre -production."
-op.exp.5.1,"Changes shall be planned to reduce the impact on the provision of the 
-affected services. To this end, all change request shall be recorded by assigning a 
-reference number for follow -up, in an equivalent way to the recording of incidents."
-op.exp.5.2,"The information to be recorded for each change request shall be 
-sufficient to allow the person to authorize them to have no doubts about it and to manage 
-it until it's rejection or implementation."
-op.exp.5.3,"Pre -production tests, whenever possible, shall be carried out on 
-equipment equivalent to production, at least in the specific aspects of the change."
-op.exp.5.4,"A risk analysis shall determine whether the changes are relevant to 
-system security. Changes that involve a risk at HIGH level must be approved, explicitly, 
-prior to their implementation, by the security officer."
-op.exp.5.5,"Once the change is implemented, the appropriate acceptance tests 
-will be performed. If positive, the configuration documentation (network diagrams, 
-manuals, inventory, etc.) shall be updated where appropriate.  
-Reinforcement R1 -Prevention of failures."
-op.exp.6.1,"Preventive and reaction mechanisms against harmful code shall be 
-available, including maintenance in accordance with the manufacturer's 
-recommendations."
-op.exp.6.2,"Harmful code protection software shall be installed on all equipment: 
-user workstation, servers and perimeter elements."
-op.exp.6.3,Any file from external sources shall be analyzed before working with it.
-op.exp.6.4,Harmful code detection databases shall remain permanently updated.
-op.exp.6.5,"The harmful code detection software installed at user workstations 
-shall be properly configured and implement real -time protection according to the 
-manufacturer's recommendations.  
-Reinforcement R1- Periodic Scanning."
-op.exp.7.1,"A comprehensive process shall be available to address incidents that 
-may have an impact on system security, including the report of security events and 
-weaknesses, detailing the classification criteria and the escalation of the reporting."
-op.exp.7.2,"The management of incidents affecting personal data shall take into 
-account the provisions of the General Data Protection Regulation; organic Law 3/2018 of 5 
-December 2018, in particular it's first additional provision, as well as the other 
-implementing regulations, without prejudice to the requirements laid down in this Royal 
-Decree.  
-Reinforcement R1 -Notification."
-op.exp.8.1,"An audit log shall be generated, which shall include at least the 
-identifier of the user or entity associated with the event, date and time, on what information 
-the event takes place, type of event and the outcome of the event (failure or success), 
-according to the security policy and the procedures associated with it."
-op.exp.8.2,"Activity record on servers shall be activated.  
-Reinforcement R1 -Review of records."
-op.exp.9.1,"Initial, intermediate and final reports of incidents, emergency actions 
-and system modifications resulting from the incident shall be recorded."
-op.exp.9.2,"Evidence that may be settled in a jurisdictional area shall be recorded, 
-especially where the incident may involve disciplinary action against internal staff, external 
-suppliers or prosecution of crimes. In determining the composition and detail of this 
-evidence, specialized legal advice will be used."
-op.exp.9.3,"As a result of incident analysis, the determination of auditable events"
-op.exp.10.1,"Crypto keys shall be protected throughout their life cycle: (1) 
-generation, (2) transport to the point of operation, (3) safekeeping during the operation, (4) 
-archive after decommissioning and (5) final destruction."
-op.exp.10.2,"The means of generation shall be isolated from the means of 
-exploitation."
-op.exp.10.3,"The keys removed from operations to be archived shall be in isolated 
-means of exploitation.  
-Reinforcement R1 -Algorithms authorized reinforcement."
-op.ext.1.1,"A Service Level Agreement shall be contractually established prior to 
-the effective use of external resources, including the characteristics of the service 
-provided, which should be understood as “minimum admissible service”, a s well as the 
-liability of the provider and the consequences of any breaches.  
-Implementation of the measure.  
- BASIC category: N.A  
- MEDIUM Category: op.ext.1.  
- HIGH Category: op.ext.1.  
-4.4.2 Daily management"
-op.ext.2.1,"A routine system for measuring compliance with service obligations, 
-including the procedure for neutralizing any deviation outside the agreed tolerance range 
-("
-op.ext.2.2,"The coordination mechanism and procedures for carrying out the 
-maintenance tasks of the systems covered by the agreement, which shall cover incidents 
-and disasters (see"
-op.ext.3.1,"The impact of an accidental or deliberate incident originating in the 
-supply chain on the system shall be analyzed."
-op.ext.3.2,"The risk to the system shall be estimated because of the estimated 
-impact in the previous point."
-op.ext.3.3,"Measures shall be taken to contain the impacts estimated in the 
-previous points.  
-Reinforcement R1 -Contingency plan."
-op.ext.4.1,"All exchanges of information and provision of services with other 
-systems shall be subject to prior authorization. Any flow of information shall be prohibited 
-unless expressly authorized."
-op.ext.4.2,"For each interconnection it shall be explicitly documented: the interface 
-characteristics, security and data protection requirements and the nature of the 
-information exchanged.  
-Reinforcement R1 -Coordination of activities."
-op.nub.1.1,"Systems providing a cloud service to public sector bodies shall comply 
-with the set of security measures depending on the cloud service model they provide: 
-Software as a Service (SaaS ), Platform as a Service (PaaS ) and Infrastructure as a 
-Service ( IaaS) defined in the CCN -STIC guides that are applicable."
-op.nub.1.2,"Where cloud services provided by third parties are used, the 
-information systems supporting them shall comply with the ENS or comply with the 
-measures developed in a CCN -STIC guide which shall include, inter alia, requirements 
-relating to:  
-a) Audit of penetration tests ( Pentesting ). 
-b) Transparency.  
-c) Encryption and key management.  
-d) Jurisdiction of the data.  
-Reinforcement R1 - Certified Services."
-op.cont.1.1,"An impact analysis shall be carried out to determine the availability 
-requirements for each service (impact of an interruption over a given period of time), as 
-well as the elements that are critical to the provision of each service.  
-Implementation of the measure (by availability).  
- Low level: N.A  
- Medium level: op.cont.1.  
- High level: op.cont.1."
-op.cont.2.1,"Functions, responsibilities and activities to be performed shall be 
-identified."
-op.cont.2.2,"There shall be a provision to coordinate the entry into service of 
-alternative means in such a way as to ensure that the essential services of the 
-organization can continue to be provided."
-op.cont.2.4,"Persons affected by the plan shall receive specific training regarding 
-their role in the plan."
-op.cont.2.5,"The continuity plan shall be an integral and harmonious part of the 
-organization's continuity plans in other non -security matters.  
-Reinforcement R1 -Emergency and contingency plan."
-op.cont.3.1,"Periodic tests shall be carried out to identify and, where appropriate, 
-correct any errors or deficiencies that may exist in the continuity plan.  
-Implementation of the measure (by availability).  
- LOW level: N.A.  
- MEDIUM level: N.A.  
- HIGH level: op.cont.3."
-op.cont.4.1,"Provision shall be made for the availability of alternative means to be 
-able to continue providing service when the usual means are not available. In particular, 
-the following elements of the system shall be covered:  
-a) Services contracted to third parties.  
-b) Alternative facilities.  
-c) Alternative staff.  
-d) Alternative computer equipment . 
-e) Alternative media."
-op.cont.4.2,"A maximum time shall be set for alternative means to become 
-operational."
-op.cont.4.3,"Alternative means shall be subject to the same security guarantees as 
-the originals.  
-Reinforcement R1 -Automation of transition to alternative media."
-op.mon.1.1,"Intrusion detection or prevention tools shall be available.  
-Reinforcement R1 -Detection based on rules."
-op.mon.2.1,"In accordance with the security category of the system, the necessary 
-data shall be collected to determine the degree of implementation of the applicable 
-security measures and, where appropriate, to provide the annual report required by Article 
-32. 
-Reinforcement R1 -Effectiveness of the incident management system."
-op.mon.3.1,"An automatic security event collection system shall be available.  
-Reinforcement R1 -Correlation of events."
-mp.if.1.1,"The equipment of the Data Processing Centre (DPC) shall be installed, 
-as far as possible, in separate areas, specific to it's function."
-mp.if.1.2,"Access to the indicated areas shall be controlled so that it can only be 
-accessed by the intended entries.  
-Implementation of the measure.  
- BASIC Category : mp.if.1.  
- MEDIUM Category: mp.if.1.  
- HIGH Category: mp.if.1.  
-5.1.2 Identification of persons"
-mp.if.2.1,"The access control procedure shall identify persons accessing premises 
-where essential equipment is part of the DPC information system, recording the 
-corresponding inputs and exit's.  
-Implementation of the measure.  
- BASIC Category: mp.if.2.  
- MEDIUM Category: mp.if.2.  
- HIGH Category: mp.if.2.  
-5.1.3 Fitting -out of premises"
-mp.if.3.1,Temperature and humidity conditions.
-mp.if.3.2,Protection from threats identified in the risk analysis.
-mp.if.3.3,"Protection of wiring against accidental or deliberate incidents.  
-Implementation of the measure.  
- BASIC Category: mp.if.3.  
- MEDIUM Category: mp.if.3.  
- HIGH Category: mp.if.3.  
-5.1.4 Electrical energy"
-mp.if.4.1,"The premises where the information systems and their essential 
-components are located shall have electrical power outlets in such a way as to ensure the 
-supply and proper operation of emergency lights.  
-Reinforcement R1 Emergency Electrical Supply."
-mp.if.5.1,"The premises where the information systems and their essential 
-components are located shall be protected against fires in accordance with at least the 
-applicable industrial regulations.  
-Implementation of the measure (by availability).  
- LOW level: mp.if.5.  
- MEDIUM level: mp.if.5.  
- HIGH level: mp.if.5.  
-5.1.6 Flood protection"
-mp.if.6.1,"Facilities where information systems and their essential components are 
-located shall be protected against water incidents.  
-Implementation of the measure (by availability).  
- LOW level: N.A.  
- MEDIUM level: mp.if.6.  
- HiIGH level: mp.if.6."
-mp.if.7.1,"A detailed record of any entry and exit of essential equipment, including 
-identification of the person authorizing the movement, shall be kept.  
-Implementation of the measure.  
- BASIC Category: mp.if.7.  
- MEDIUM Category: mp.if.7.  
- HIGH Category: mp.if.7.  
-5.2 Staff  management"
-mp.per.1.1,"For each job, directly related to the handling of information or services, 
-security responsibilities shall be defined and shall be based on risk analysis."
-mp.per.1.2,"The requirements to be met by persons to be employed shall be 
-defined, in particular in terms of confidentiality. Those requirements shall be taken into 
-account in the selection of the person to fill the post, including the verification of it's 
-employment history, training and other references, in accordance with the legal system 
-and respect for fundamental rights.  
-Reinforcement  R1-Personal Security Enabling."
-mp.per.2.1,Disciplinary measures.
-mp.per.2.2,"Considering both the period during which the post is held, and the 
-obligations in the event of termination of the assignment, or transfer to another post."
-mp.per.2.3,"The duty of confidentiality in respect of the data to which it has 
-access, both during the period assigned to the post, and after it's termination."
-mp.per.2.4,"In the case of personnel hired through a third party:  
-•"
-mp.per.2.4.1,"The duties and obligations of each party and of the contracted 
-personnel shall be established.  
-•"
-mp.per.2.4.2,"The procedure for resolving incidents related to non -
-compliance with obligations shall be established.  
-Reinforcement R1 -Express confirmation."
-mp.per.3.2,"Identification of suspicious incidents, activities, or behaviors that must 
-be reported for treatment by specialized personnel."
-mp.per.3.3,"The procedure for reporting security incidents, whether real or false 
-alarms.  
-Implementation of the measure.  
- BASIC Category: mp.per.3.  
- MEDIUM Category: mp.per.3.  
- HIGH Category: mp.per.3.  
-5.2.4 Training"
-mp.per.4.1,"Staff shall be regularly trained in matters relating to information 
-security which require the performance of their duties, in particular as regards:"
-mp.eq.1.1,"Workplaces shall remain clear, without any material other than that 
-required at all times.  
-Reinforcement R1 -Storage material."
-mp.eq.2.1,"The user session will be lock after a reasonable period of inactivity, 
-requiring a new user authentication to resume the ongoing activity.  
-Reinforcement R1-Closing of sessions."
-mp.eq.3.1,"A portable device inventory shall be kept together with an identification 
-of the person responsible for each device and a regular check that it is positively under it's 
-control."
-mp.eq.3.2,"A security operational procedure shall be established to inform the loss 
-or subtraction incident management service."
-mp.eq.3.3,"When a portable device connects remotely over networks tha t are not 
-under the strict control of the organization, the scope of operation of the server shall limit 
-accessible information and services to the minimum required, requiring prior authorization 
-from those responsible for the information and services concerned. This point applies to 
-connections over the internet and other networks that are not trusted."
-mp.eq.3.4,"The portable device shall be prevented, as far as possible, from 
-containing remote access keys to the organization that are not essential. Remote access 
-keys are those that are capable of enabling access to other equipment of the organization 
-or others of a similar nature.  
-Reinforcement R1  Encryption of the disc."
-mp.eq.4.1,"Devices present in the system shall have an appropriate security 
-configuration to ensure the control of the defined flow of information input and output."
-mp.eq.4.2,"Devices present on the network that have some type of temporary or 
-permanent storage of information shall provide the functionality necessary to remove 
-information from information media. (See"
-op.pl.5,"shall be used where 
-possible.  
-Reinforcement R2 -Control of devices connected to the network."
-mp.com.1.1,"A perimeter protection system shall be available to separate the 
-internal network from the outside. All traffic must pass through that system."
-mp.com.1.2,"All information flows across the perimeter must be authorized in 
-advance.  
-The Technical  Security Instruction for the Interconnection of Information Systems shall 
-determine the perimeter requirements to be met by all components of the system 
-depending on the category.  
-Implementation of the measure.  
- BASIC Category: mp.com.1.  
- MEDIUM Category: mp.com.1."
-mp.com.2.1,"Encrypted virtual private networks shall be used when communication 
-takes place over networks outside the security domain it'self.  
-Reinforcement R1 -Algorithms and authorized parameters."
-op.pl.5,"shall be used.  
-Reinforcement R4 -Encryptors."
-mp.com.3.1,"In communications with points outside the own security domain, the 
-authenticity of the other end of the communication channel shall be ensured before 
-exchanging information. (See"
-mp.com.3.2,"Active attacks shall be prevented by ensuring that the envisaged 
-procedures for handling the incident shall be activated upon detection. Active attacks shall 
-be considered as:  
-a) The alteration of information in transit.  
-b) The injection of spurious information.  
-c) The kidnapping of the session by a third party."
-mp.com.3.3,Any identification and authentication mechanism provided for in the
-mp.com.4.1,"Network traffic shall be segregated so tha t each computer only has 
-access to the information it needs."
-mp.com.4.2,"If wireless communications are used, it shall be in a separate 
-segment.  
-Reinforcement R1 -Basic Logic Segmentation."
-mp.si.1.1,"Information media (printed paper, electronic documents, multimedia 
-content  videos, courses, presentations, etc.) containing information that according to"
-mp.info.2,"must be protected by specific security measures, shall bear the corresponding 
-markings or metadata indicating the level of security of the information contained with the 
-highest rating. 
-Reinforcement R1 -Digital Watermark."
-mp.si.2.1,"Cryptographic mechanisms shall be used to ensure the confidentiality 
-and integrity of the information contained."
-mp.si.2.2,"Algorithms and parameters authorized by the CCN shall be used.  
-Reinforcement R1  Certified products."
-mp.si.3.1,"Due diligence and control shall apply to information media that remain 
-under the responsibility of the organization, ensuring access control with physical 
-measures ("
-mp.if.1.1,"The equipment of the Data Processing Centre (DPC) shall be installed,
-as far as possible, in separate areas, specific to its function."
-mp.if.1.2,"Access to the indicated areas shall be controlled so that it can only be
-accessed by the intended entries."
-mp.si.3.2,"Maintenance requirements of the manufacturer shall be respected, in 
-particular with regard to temperature, humidity and other environmental agents."
-mp.si.4.1,"An entry/exit record shall be available identifying the carrier who 
-delivers/receives the support."
-mp.si.4.2,"A routine procedure shall be available to cross -check departures with 
-arrivals and raise relevant alarms when an incident is detected ."
-mp.si.4.3,The cryptographic means of protection (
-mp.si.4.4,Keys shall be managed according to
-mp.si.5.1,"Media intended to be re -used for other information or released to 
-another organization shall be subject to the secure deletion of it's content that does not 
-permit it's retrieval. Where the nature of the medium does not allow for secure deletion, the 
-support may not be reused in any other system.  
-The CCN -STIC guides will specify the criteria for defining a deletion o r destruction 
-mechanism as safe, depending on the sensitivity of the information stored on the device.  
-Reinforcement R1-Certified products ."
-op.pl.5,"shall be used.  
-Reinforcement R2  Destruction of supports."
-mp.sw.1.1,"Application development shall be carried out on a different and 
-separate system from the production system, with no development tools or data in the 
-production environment, nor production data in the development environment.  
-Reinforcement R1 -Minimum privilege."
-mp.sw.2.1,"It shall be verified that:  
-a) Security acceptance criteria are met.  
-b) The security of other components of the service is not impaired.  
-Reinforcement R1 - Tests."
-mp.info.1.1,"When the system processes personal data, the security officer shall 
-collect data protection requirements that are set by the controller or by the processor, with 
-the advice of the DPO, and which are necessary to implement in the systems according to 
-the nature, scope, context and purposes of the data protection, as well as the risks to the 
-rights and freedoms in accordance with Articles 24 and 32 of the GDPR, and according to 
-the data protection impact assessment, if carried out.  
-Implementation of the measure.  
- BASIC category: mp.info.1.  
- MEDIUM category: mp.info.1."
-mp.info.2.2,"The security policy shall establish who is responsible for each 
-information handled by the system."
-mp.info.2.3,"The security policy shall set out, directly or indirectly, the criteria 
-which, in each organization, shall determine the level of security required, within the 
-framework set out in Article 40 and the general criteria set out in Annex I."
-mp.info.2.4,"The person responsible for each information shall follow the criteria 
-set out in the previous section to assign to each information the level of security required 
-and shall be responsible for it's documentation and formal approval."
-mp.info.2.5,"The person responsible for each information at all times shall have 
-the exclusive power to modify the level of security required, in accordance with the 
-previous sections.  
-Application of the measure (by confidentiality).  
- Low level: N.A.  
- Medium level: mp.info.2.  
- HIGH level: mp.info.2.  
-5.7.3 Electronic signature"
-mp.info.3.1,"Any type of electronic signature provided for in the current legal 
-system shall be used, including the secure verification code systems linked to the Public 
-Administration, public body, body or public law entity, under the terms and conditions 
-established in Law 39/2015 of 1 October 2015 on the Common Administrative Procedure 
-of Public Administrations and Law 40/2015 of 1 October 2015.  
-Reinforcement R1 -Qualified certificates."
-mp.info.4.1,"Time stamps shall apply to information that may be used as electronic 
-evidence in the future."
-mp.info.4.2,"Data relevant to the subsequent verification of the date shall be 
-treated with the same security as the information dated for the purposes of availability, 
-integrity and confidentiality."
-mp.info.4.4,"“Qualified electronic time stamps” shall be used in accordance with 
-Regulation (EU) No 910/2014 and implementing legislation.  
-Reinforcement R1-Certified products."
-op.pl.5,shall be used.
-mp.info.5.1,"In the document clean -up process, any additional information 
-contained in hidden fields, metadata, comments or previous revisions shall be removed 
-from the document, except where such information is relevant to the recipient of the 
-document.  
-This measure is particularly relevant when the document is widely disseminated, as is 
-the case when it is offered to the public on a web server or other type of information 
-repository.  
-Application of the measure (by confidentiality).  
- LOW level: mp.info.5.  
- MEDIUM level: mp.info.5.  
- HIGH level: mp.info.5.  
-5.7.6 Backups"
-mp.info.6.1,"Backups shall be made to recover of accidentally or intentionally lost 
-data. The periodicity and retention periods of these backups shall be determined in the 
-organization's internal rules on backups."
-mp.info.6.2,"The backup procedures established shall indicate:  
-a) Frequency of copies.  
-b) On-site storage requirements.  
-c) Storage requirements elsewhere.  
-d) Controls for authorized access to backup copies.  
-Reinforcement R1 -Recovery tests."
-mp.s.1.1,"Information distributed by e -mail shall be protected, both in the body of 
-the messages and in the annexes."
-mp.s.1.2,"Message routing and connecting information shall be protected.  
-The organization shall be protected against problems that materialize by e -mail, in 
-particular:"
-mp.s.1.3,"Unsolicited mail, in the words “spam”."
-mp.s.1.4,"Harmful code consisting of viruses, worms, Trojans, spies, or others of a 
-similar nature."
-mp.s.1.5,"Micro -application mobile code, in the English expression “applet”.  
-Rules for the use of e -mail shall be established for staff. (See"
-mp.s.1.6,Limitations to the use of private communications.
-mp.s.1.7,"Awareness and training activities related to the use of e -mail.  
-Implementation of the measure.  
- BASIC Category: mp.s.1.  
- MEDIUM Category: mp.s.1.  
- HIGH Category: mp.s.1.  
-5.8.2 Protection of web services and applications"
-mp.s.2.1,"Where the information requires access control, it shall be ensured that 
-the information cannot be accessed without authentication, in particular by taking action 
-on the following aspects:  
-a) The server shall be prevented from providing access to documents by 
-alternative means to the given protocol."
-mp.s.2.2,Privilege escalation attempts shall be prevented.
-mp.s.2.3,"Cross site scripting attacks shall be prevented.  
-Reinforcement R1 -Security audit's."
-mp.s.3.1,"Rules of use shall be established, defining the use that is authorized and 
-limitations on personal use. In particular, the permitted use of encrypted connections shall 
-be specified."
-mp.s.3.2,"Hygiene awareness activities in web browsing shall be carried out on a 
-regular basis,  promoting safe use and warning of misuse."
-mp.s.3.3,"System administrator(s) shall be trained in service monitoring and 
-incident response."
-mp.s.3.4,Web address resolution and connection information shall be protected.
-mp.s.3.5,"The organization in general and the workstation in particular shall be 
-protected from problems occurring via web navigation."
-mp.s.3.6,"It shall protect against the action of harmful programs such as active 
-pages, executable code downloads, etc., preventing the system from being exposed to 
-attack vectors such as spyware, ransomware, etc."
-mp.s.3.7,"An executive cookie control policy shall be established, in particular, to 
-avoid contamination between personal use and organizational use.  
-Reinforcement R1  Monitoring."
-mp.s.4.2,"Technologies shall be deployed to prevent known attacks.  
-Reinforcement R1 -Detection and reaction."
+﻿Codice;Priorità;Titolo;Num_Domande;Domande;Categoria
+Mp.com.1;MEDIUM;Perímetro seguro;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.1.1;MEDIUM;¿Se dispone de algún sistema que asegure el perímetro lógico? NOTA: Dispositivos del tipo Cortafuegos, o de naturaleza similar.;4;¿Se dispone de un sistema de protección perimetral que separe la red interna del exterior? | Caso de disponerse de varias sedes o centros de datos ¿disponen todos ellos de protección perimetral? | El sistema empleado para asegurar el perímetro ¿es atravesado por todo el tráfico, sin excepción? | ¿Requieren estar autorizados previamente todos los flujos de información a través del perímetro de seguridad de la organización?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.2;MEDIUM;¿Se emplean redes privadas virtuales cuando la comunicación discurre por redes fuera del propio dominio de seguridad, por lo que deba cifrarse?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.2;MEDIUM;Protección de la confidencialidad;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.2.r1;MEDIUM;¿Se emplean algoritmos y parámetros autorizados por el CCN para cifrar las comunicaciones que discurran fuera del dominio de seguridad?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.2.r2;MEDIUM;Respecto a las VPN ¿se emplean dispositivos con garantías adicionales?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.2.r3;MEDIUM;;2;¿Se emplean dispositivos hardware en el establecimiento y utilización de la red privada virtual? | Para el establecimiento y utilización de la red privada virtual ¿se usan productos o servicios que cumplan lo señalado en la medida [op.pl.5] sobre componentes certificados?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.2.r4;MEDIUM;¿Se emplean cifradores que cumplan con los requisitos establecidos en la guía CCN-STIC que sea de aplicación?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.2.r5;MEDIUM;¿Se cifra toda la información transmitida?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.3;MEDIUM;Protección de la integridad y de la autenticidad;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.3;MEDIUM;¿Se emplean mecanismos para garantizar la autenticidad y la integridad de las comunicaciones con el exterior?;3;En comunicaciones con puntos exteriores al propio dominio de seguridad, ¿se asegura la autenticidad del otro extremo del canal de comunicación antes de intercambiar información? | ¿Se previenen ataques activos garantizando que al ser detectados se activarán los procedimientos previstos para el tratamiento del incidente? | ¿Se emplea como mecanismo de identificación y autenticación únicamente alguno los previstos en la normativa de aplicación del ordenamiento jurídico?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.3.r1;MEDIUM;¿Se protegen las comunicaciones mediante redes privadas virtuales (VPN)?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.3.r2;MEDIUM;;2;¿Se emplean redes privadas virtuales cuando la comunicación discurra por redes fuera del propio dominio de seguridad, por lo que deba cifrarse? | ¿Se emplean algoritmos y parámetros autorizados por el CCN para cifrar las comunicaciones que discurran fuera del dominio de seguridad?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.3.r3;MEDIUM;¿Se emplean dispositivos con garantías adicionales respecto a las VPN?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.3.r4;MEDIUM;;2;¿Se emplean dispositivos hardware en el establecimiento y utilización de la red privada virtual? | Para el establecimiento y utilización de la red privada virtual ¿se usan productos o servicios que cumplan lo establecido en la medida [op.pl.5] sobre componentes certificados?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.3.r5.1;MEDIUM;¿Se emplean cifradores que cumplan con los requisitos establecidos en la guía CCN-STIC que sea de aplicación?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.4;MEDIUM;¿Se ha segmentado la red, segregando el tráfico?;2;¿Se han separado en segmentos los flujos de información, segregando el tráfico por la red, de modo que cada equipo únicamente tenga acceso a la información que necesita? | Si se emplean comunicaciones inalámbricas, ¿se concentran éstas mediante un segmento separado?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.4;MEDIUM;Separación de flujos de información en la red;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.4.r1;MEDIUM;¿Se han segregado al menos 3 segmentos de red mediante VLAN?;2;¿Los segmentos de red se han implementado por medio de redes de área local virtuales (Virtual Local Area Network - VLAN)? | ¿Se ha segregado en distintas subredes la red que conforma el sistema, contemplando como mínimo la red de usuarios, la de servicios y la de administración?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.4.r2;MEDIUM;¿Se han implementado los segmentos de red por medio de redes privadas virtuales (Virtual Private Network - VPN)?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.4.r3;MEDIUM;¿Se han implementado los segmentos de red con medios físicos separados?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.com.4.r4;MEDIUM;¿Se dispone de controles de entrada a los segmentos, así como monitorización?;2;¿Se dispone de control de entrada de los usuarios que llegan a cada segmento y control de entrada y salida de la información disponible en cada segmento? | ¿El punto de interconexión entre subredes está particularmente asegurado, mantenido y monitorizado?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.eq.3;MEDIUM;Protección de dispositivos portátiles;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.eq.3;MEDIUM;¿Se adopta un conjunto de medidas que permita mantener la protección de los equipos portátiles, especialmente los que abandonan el perímetro físico de la organización, a niveles acordes con los requerimientos de seguridad?;7;Como concreción de la medida [op.ext.1] sobre inventario de activos, ¿se lleva un inventario de los equipos portátiles junto con una identificación de la persona responsable del mismo? | ¿Puede evidenciarse una verificación regular de que los equipos portátiles estén positivamente bajo el control de a quién se les ha asignado? | ¿Se ha establecido normativa de uso de los equipos portátiles, así como de acceso remoto mediante los mismos? | ¿Se ha establecido un procedimiento operativo de seguridad para informar al servicio de gestión de incidentes de pérdidas o sustracciones de equipos portátiles? | En caso de robo, siempre que la organización evalúe dicha funcionalidad conveniente en función del riesgo ¿se puede borrar de forma remota el dispositivo? | Cuando un equipo portátil se conecta remotamente a través de redes que no están bajo el estricto control de la organización, ¿el ámbito de operación del sistema limita la información y los servicios accesibles a los mínimos imprescindibles, requiriendo autorización previa de los responsables de la información y los servicios afectados? | ¿Se evita, en la medida de lo posible, que los equipos portátiles contengan claves de acceso remoto a la organización, que no sean imprescindibles?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.eq.3.r1;MEDIUM;¿Se protege el portátil mediante cifrado del disco duro cuando el nivel de confidencialidad de la información almacenada en el mismo sea de nivel MEDIO?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.eq.3.r2;MEDIUM;El uso de equipos portátiles fuera de las instalaciones de la organización, ¿se restringe a entornos protegidos, donde el acceso sea controlado, a salvo de hurtos y miradas indiscretas?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.eq.4;MEDIUM;Otros equipos conectados a la red;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.eq.4;MEDIUM;¿Se controlan los dispositivos presentes en el sistema, especialmente en lo que se refiere al flujo de información y su almacenamiento?;2;¿Cuentan los dispositivos presentes en el sistema con una configuración de seguridad adecuada, de manera que se garantice el control del flujo definido de entrada y salida de la información? | ¿Proporcionan los dispositivos presentes en la red, que dispongan de algún tipo de almacenamiento temporal o permanente de información, la funcionalidad necesaria para eliminar dicha información almacenada, de ser necesario?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.eq.4.r1;MEDIUM;¿Se emplean, cuando sea posible, productos o servicios que cumplan lo establecido en la medida [op.pl.5] sobre componentes certificados?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.eq.4.r2;MEDIUM;¿Se dispone de soluciones que permitan visualizar los dispositivos presentes en la red, controlar su conexión/desconexión a la misma y verificar su configuración de seguridad?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.if.1;HIGH;Áreas separadas y con control de acceso;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.if.1;HIGH;¿Se instala el equipamiento del sistema de información en áreas dotadas de adecuadas medidas de seguridad?;5;¿Se instala el equipamiento del sistema de información, en la medida de lo posible, en áreas separadas específicas para su función dotadas con medidas de seguridad, como puede ser un CPD o una sala técnica? | ¿Se controlan los accesos a CPD y salas técnicas de forma que sólo se pueda acceder por las entradas previstas? | ¿Se dispone de mecanismos de seguridad para restringir el acceso únicamente al personal autorizado? | Si el CPD es compartido por varias organizaciones, ¿se dispone de mecanismos de cierre en los armarios donde se ubique el equipamiento propio, o en las jaulas que albergan un conjunto de armarios, de forma que ningún tercero no autorizado pueda tener acceso? | ¿Se dispone de cámaras de videovigilancia (CCTV) y/o detectores de intrusión para proteger las instalaciones, especialmente fuera del horario laboral?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.if.2;HIGH;Identificación de las personas;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.if.2.1;HIGH;¿Se dispone de una sistemática de control de acceso a los CPD?;5;¿Se dispone de procedimientos de solicitud de acceso a CPD y salas técnicas, gestionando la concesión de autorizaciones temporales y permanentes? | ¿Se dispone de un sistema de control de acceso que identifique a las personas que accedan a los CPD donde hay equipamiento esencial para el sistema de información, registrando las correspondientes entradas y salidas? | ¿Se les comunica a las visitas externas junto a la autorización de acceso (por ejemplo, por correo electrónico), un ejemplar de las normas de uso del CPD? | ¿Dichas normas de uso determinan que las visitas externas estén siempre acompañadas? | ¿Se dispone de mecanismos ágiles para poder determinar quién estaba presente en el CPD, o sala técnica, en el momento de producirse un incidente de seguridad?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.if.3;HIGH;Acondicionamiento de los locales;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.if.3.1;HIGH;¿Se acondicionan y controlan ambientalmente los locales donde se ubica el equipamiento y componentes esenciales de los sistemas de información, así como se dispone en ellos de un trazado organizado e identificado de los cables de señal y de alimentación?;5;¿Se controlan las condiciones de temperatura y humedad en los locales donde se ubica el equipamiento, de modo que se asegure su eficaz funcionamiento de acuerdo a las especificaciones del fabricante? | ¿Los equipos de climatización, están amparados por el correspondiente contrato de mantenimiento con revisiones periódicas? | ¿Se ha implementado en los locales donde se ubica el equipamiento y componentes esenciales de los sistemas de información, la protección frente a las amenazas identificadas en el análisis de riesgos? | ¿Está protegido eficazmente el cableado en los locales donde se ubica el equipamiento y componentes esenciales de los sistemas de información, de modo que se asegure su función frente a incidentes fortuitos o deliberados? | ¿Están organizados y peinados el cableado y las fibras ópticas en los armarios rack, mediante sistemas pasacables? ¿están etiquetados los extremos de cables y fibras? ¿las canalizaciones de cables entre racks están protegidas, organizadas y con la separación adecuada entre alimentación y datos?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.if.4;HIGH;Energía eléctrica;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.if.4.1;HIGH;Los locales donde se ubican los sistemas de información y sus componentes esenciales (CPD, sala técnica), ¿disponen de tomas de energía eléctrica adecuadas, de modo que se garantice tanto el suministro como el correcto funcionamiento de las luces de emergencia?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.if.4.r1.1;HIGH;En caso de fallo del suministro principal, ¿se garantiza el abastecimiento eléctrico durante el tiempo requerido, de forma armonizada con el BIA?;3;En caso de no disponerse de generador eléctrico de gasóleo (grupo electrógeno), ¿la duración de las baterías del SAI permite soportar cortes de suministro lo suficientemente amplios para cubrir los requisitos del BIA o, al menos, para permitir una parada ordenada de los equipos? | ¿En caso de disponerse de generador eléctrico, ¿la capacidad del depósito de gasóleo o suministro de GAS es suficiente para mantener la alimentación eléctrica del equipamiento el tiempo requerido? ¿la duración de las baterías del SAI es suficiente para la puesta en marcha del generador? | ¿Los SAI (incluyendo las baterías internas o, en su caso, las bancadas externas) y los generadores eléctricos, en el caso de disponerse de éstos últimos, están amparados por un contrato de mantenimiento, con revisiones periódicas? ¿se dispone de partes de mantenimiento acordes a la legislación vigente y a las instrucciones de los fabricantes?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.if.5;HIGH;Protección frente a incendios;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.if.5.1;HIGH;Los locales donde se ubican los sistemas de información y sus componentes esenciales (CPD y salas técnicas) ¿están protegidos frente a los incendios atendiendo, al menos, a la normativa industrial de aplicación?;4;¿Se dispone de sistemas de detección de incendios? | Si se activa un sensor (o en ocasiones dos de ellos para obviar falsos positivos), ¿la centralita de alarmas envía mensajes por los cauces previstos al personal de seguridad o de mantenimiento, a un centro externo coordinador de avisos de alarma, dispara una sirena, etc.? | ¿Se dispone de sistemas, manuales o automáticos, de extinción de incendios? | ¿Los sistemas de detección y extinción están amparados por un contrato de mantenimiento, con revisiones periódicas?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.if.6;HIGH;Protección frente a inundaciones;3;¿Se dispone de sistemas de detección de humedad y de líquidos, habitualmente bajo el suelo técnico de CPD y salas técnicas, con atención a las pérdidas de los equipos de refrigeración ubicados en la sala, especialmente si funcionan con agua? | ¿Se dispone bombas de achique automático en pozuelas de recogida de aguas o, en su defecto, de la preinstalación para ubicar una bomba portátil? | ¿Los sistemas de detección de líquidos y de achique están amparados por un contrato de mantenimiento, con revisiones periódicas? ¿se realizan pruebas de arranque de las bombas de achique?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.if.7;HIGH;Registro de entrada y salida de equipamiento;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.if.7.1;HIGH;¿Se lleva un registro pormenorizado de cualquier entrada y salida de equipamiento esencial, incluyendo la identificación de la persona que autoriza el movimiento?;2;¿Se mantiene un registro de todo hardware y equipamiento esencial que entra y sale del CPD y salas técnicas, incluyendo la identificación de la persona que autoriza el movimiento y cualquier otra información que la Organización estime conveniente? | En caso de no ser el comportamiento habitual en la organización, ¿Se registra la entrada y salida de equipamiento portátil, por ejemplo, equipos personales y otros medios?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.per.1;HIGH;Caracterización del puesto de trabajo;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.per.1;HIGH;Para cada puesto de trabajo, relacionado directamente con el manejo de información o servicios en el ámbito del ENS, ¿se definen las responsabilidades en materia de seguridad?;3;El análisis de riesgos realizado para dar cumplimiento a las disposiciones del ENS ¿tiene en cuenta las personas y sus responsabilidades respecto a la seguridad del sistema de información? | Para cada puesto de trabajo, relacionado directamente con el manejo de información o servicios, ¿se han definido las responsabilidades en materia de seguridad? | ¿Se definen los requisitos que deben satisfacer las personas que vayan a ocupar el puesto de trabajo, en particular en términos de confidencialidad, ya sea personal propio o contratado como prestación de servicios?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.per.1.r1;HIGH;¿Disponen los administradores de seguridad/sistema una Habilitación Personal de Seguridad (HPS) otorgada por la autoridad competente, como consecuencia de los resultados del análisis de riesgos previo, o como requisito de seguridad, de un sistema específico?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.per.2;HIGH;Deberes y obligaciones;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.per.2;HIGH;¿Se han definido, y se informa, a cada persona que trabaja en el sistema, de los deberes y responsabilidades de su puesto de trabajo en materia de seguridad?;6;¿Se informa al personal propio, que trabaja en el sistema, de los deberes y responsabilidades en materia de seguridad incluyen tanto el periodo durante el cual se desempeña el puesto, como posteriormente a su terminación? | ¿Se informa al personal propio, que trabaja en el sistema, de las medidas disciplinarias a que haya lugar en caso de incumplimiento de los deberes y responsabilidades en materia de seguridad? | ¿Se suscriben cláusulas de confidencialidad con los empleados? ¿si se trata de una organización del sector privado, que presta servicios, dichas cláusulas incluyen la confidencialidad de la información de los clientes que puedan llegar a conocer? | ¿Se suscriben acuerdos de confidencialidad con las organizaciones que le prestan servicios, que incluyan a todo el personal que éstas asignen al contrato? | ¿Se establece en relación al personal contratado, que trabaja a través de un tercero en el sistema, de los deberes y obligaciones de cada parte y de dicho personal externo? | ¿Se establece en relación al personal contratado, que trabaja a través de un tercero en el sistema, el procedimiento de resolución de incidentes relacionados con el incumplimiento de las obligaciones?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.per.2.r1;HIGH;¿Se obtiene la confirmación expresa por parte de los usuarios de conocer las instrucciones de seguridad necesarias y obligatorias, así como los procedimientos necesarios para llevarlas a cabo de manera adecuada?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.per.3;HIGH;¿Se realizan las acciones necesarias para concienciar regularmente al personal acerca de su papel y responsabilidad para que la seguridad del sistema alcance los niveles exigidos?;4;¿Existe un mínimo de planificación anual, que podrá ajustarse en función de las circunstancias, respecto a las acciones y campañas de concienciación? | ¿Se recuerda periódicamente en las acciones de concienciación la normativa de seguridad relativa al buen uso de los equipos o sistemas y las técnicas de ingeniería social más habituales? | ¿Se recuerda periódicamente en las acciones de concienciación la identificación de incidentes, actividades o comportamientos sospechosos, que deban ser reportados para permitir su tratamiento por personal especializado, así como la necesidad de notificarlos sin dilación por los canales establecidos? | ¿Se recuerda periódicamente en las acciones de concienciación el procedimiento para informar sobre incidentes de seguridad, sean estos reales o falsas alarmas?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.per.3;HIGH;Concienciación;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.per.4;HIGH;Formación;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.per.4;HIGH;¿Se forma regularmente al personal de la organización en aquellas materias relativas a seguridad de la información que requiera el desempeño de sus funciones?;6;¿Se dispone de un Plan de Formación general, orientado a las necesidades del personal, que incluya acciones formativas respecto a la seguridad de la información, donde conste la formación concreta realizada por el personal de la organización y la planificada para ser llevada a cabo? | ¿La formación incluye, al menos, lo relativo a configuración de sistemas, detección y reacción ante incidentes y gestión de la información en cualquier soporte en el que se encuentre? | ¿Se diferencia la formación impartida al personal general, de la específica para directivos, para técnicos y especialmente para personas con responsabilidades de seguridad? | ¿Se evalúa la eficacia de las acciones formativas llevadas a cabo? | ¿Existe control de los asistentes a cada una de las acciones formativas, ya sean esta impartidas presencialmente, en remoto directo mediante plataformas de videoconferencia on-line, o en remoto diferido desde plataformas con acceso a cursos ‘enlatados’ accesibles al ritmo de quién los cursa? | ¿Se solicitan formaciones específicas, o certificaciones concretas de seguridad, al personal externo contratado en modalidad de prestación de servicios, en función del desempeño?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.si.1;MEDIUM;Marcado de soportes;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.si.1;MEDIUM;¿Se identifican los soportes que contienen información sensible con el nivel de seguridad de mayor calificación de la información contenida?;3;¿Los soportes de información que contienen información que, según su nivel de seguridad, o su calificación, debe protegerse con medidas de seguridad específicas, llevan las marcas, o metadatos correspondientes, que indican el mayor nivel de seguridad de la información contenida? | ¿Se indica en los documentos y registros del sistema de gestión de la seguridad de la información, aplicado sobre el sistema de información, su nivel de calificación? | ¿Se dispone de una norma, o de instrucciones precisas, sobre cómo valorar y calificar la información, de modo que concuerde con el marcado de los soportes?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.si.1.r1;MEDIUM;¿La organización determina el empleo de marcas de agua para garantizar un uso adecuado de la información digital, llevándolo a la práctica?;3;¿La política de seguridad de la organización define marcas de agua para asegurar el uso adecuado de la información que se maneja? | La información digital (documentos electrónicos, material multimedia…) ¿incluyen una marca de agua según la política de seguridad? | Los equipos o dispositivos a través de los que se accede a aplicaciones, escritorios remotos o virtuales, datos…, ¿presentan una marca de agua en pantalla según la política de seguridad?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.si.2;MEDIUM;Criptografía;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.si.2.1;MEDIUM;¿Se emplean mecanismos criptográficos para proteger los dispositivos removibles cuando es necesario?;2;¿Se usan mecanismos criptográficos que garanticen la confidencialidad y la integridad de la información contenida en los dispositivos removibles cuando salen del área controlada? | ¿Se emplean algoritmos y parámetros autorizados por el CCN cuando los dispositivos removibles salen del área controlada?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.si.2.r1;MEDIUM;¿Se emplean productos certificados conforme a lo establecido en [op.pl.5] sobre componentes certificados?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.si.2.r2;MEDIUM;¿Las copias se seguridad se cifran utilizando algoritmos y parámetros autorizados por el CCN?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.si.3;MEDIUM;¿Se garantiza la seguridad en la custodia de los soportes de información?;3;¿Se aplica la debida diligencia y control a los soportes de información, ya sean fijos o extraíbles, que permanecen bajo la responsabilidad de la organización, garantizando el control de acceso mediante medidas físicas o lógicas, según corresponda? | ¿Se respetan las exigencias de mantenimiento del fabricante, en especial, en lo referente a temperatura, humedad y otros agentes medioambientales? | Si se externaliza la custodia de soportes en una tercera entidad ¿se ha suscrito un contrato o acuerdo del servicio donde consten las medidas de seguridad aplicadas?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.si.3;MEDIUM;Custodia;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.si.4;MEDIUM;Transporte;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.si.4;MEDIUM;¿Se garantiza la seguridad en el transporte de los soportes de información?;6;¿Se dispone de un registro de entrada / salida que identifique al transportista que entrega/recibe el soporte? | Si se designan responsables de la organización autorizados para el transporte de determinados soportes, ¿disponen o queda reflejada la correspondiente autorización acorde con los medios transportados? | ¿Se dispone de un procedimiento rutinario que coteje las salidas con las llegadas y levante las alarmas pertinentes cuando se detecte algún incidente? | ¿Se utilizan los medios de protección criptográfica correspondientes al mayor nivel de seguridad de la información contenida? | Si se externaliza el transporte de soportes en una tercera entidad ¿se ha suscrito un contrato o acuerdo del servicio donde consten las medidas de seguridad aplicadas? | ¿Se transportan los soportes dentro de un maletín de seguridad, por ejemplo, cerrado mediante candados de apertura por llave, del que el transportista no dispone de la misma?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.si.5;MEDIUM;¿Se garantiza el borrado seguro o la destrucción de los soportes tras su utilización?;5;Los soportes que vayan a ser reutilizados para otra información, o liberados a otra organización, ¿son objeto de un borrado seguro de su contenido que no permita su recuperación? | ¿Cuándo la naturaleza del soporte no permita un borrado seguro antes de destinarlo a otro fin, ¿es éste destruido de forma que no pueda ser reutilizado para otro sistema? | ¿Se dispone de un registro con identificación de los soportes borrados o destruidos, la herramienta y método empleado, quién lo realizó, etc.? | Si se externaliza el borrado seguro y/o la destrucción de soportes en una tercera entidad, ¿se ha suscrito un contrato o acuerdo del servicio donde consten las medidas de seguridad aplicadas? | Si se externaliza el borrado seguro y/o la destrucción de soportes en una tercera entidad, ¿suministra ésta un certificado de borrado o destrucción segura donde consten las referencias y números de serie de los soportes tratados?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.si.5;MEDIUM;Borrado y destrucción;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.si.5.r1;MEDIUM;¿Se emplean productos o servicios que cumplen lo establecido en [op.pl.5] sobre componentes certificados?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.si.5.r2;MEDIUM;Una vez finalizado el ciclo de vida del soporte de información ¿Es destruido éste de forma segura conforme a los criterios establecidos por el CCN?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.sw.1;MEDIUM;Desarrollo de aplicaciones;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.sw.1;MEDIUM;¿Está separado a todos los efectos el entorno de desarrollo del de producción?;3;¿Se han separado ambos entornos, realizándose el desarrollo sobre sistemas diferenciados de los productivos? | ¿Existen herramientas de desarrollo o datos de prueba en el entorno de producción, o elementos productivos o datos reales en el entorno de desarrollo? | ¿Se han aplicado medidas de seguridad sobre los repositorios de código fuente?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.sw.1.r1;MEDIUM;¿Las aplicaciones se desarrollarán respetando el principio de mínimo privilegio (con los privilegios que sean indispensables), accediendo únicamente a los recursos imprescindibles para su función?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.sw.1.r2;MEDIUM;¿Se aplica una metodología de desarrollo seguro reconocida?;4;¿La metodología aplicada tiene en consideración los aspectos de seguridad a lo largo de todo el ciclo de vida? | ¿La metodología aplicada incluye normas de programación segura, como son el control de asignación y liberación de memoria, desbordamiento de memoria (overflow), etc.? | ¿La metodología aplicada tiene en cuenta los datos empleados en las pruebas? | ¿La metodología aplicada permite la inspección del código fuente?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.sw.1.r3;MEDIUM;¿Se tienen en cuenta aspectos de seguridad como parte integral del diseño del sistema?;3;¿Forman parte integral del diseño del sistema los mecanismos de identificación y autenticación? | ¿Forman parte integral del diseño del sistema los mecanismos de protección de la información tratada? | ¿Forman parte integral del diseño del sistema los mecanismos de generación y tratamiento de pistas de auditoría?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.sw.1.r4;MEDIUM;¿Se aseguran los datos reales empleados para las pruebas previas, evitando su uso en la medida de lo posible?;2;¿Se evita realizar con datos reales las pruebas previas a la implementación o modificación de los sistemas de información? | En caso de que fuese necesario recurrir a datos reales para las pruebas previas,  ¿se garantiza el nivel de seguridad correspondiente?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.sw.1.r5;MEDIUM;¿El desarrollador elabora y mantiene actualizada una relación formal de los componentes software de terceros empleados en la aplicación o producto?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.sw.2;MEDIUM;Aceptación y puesta en servicio;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.sw.2;MEDIUM;Antes de su paso a producción, ¿se comprueba el correcto funcionamiento de la aplicación y de sus aspectos de seguridad?;2;Antes del paso a producción de las aplicaciones, ¿se comprueban los criterios de aceptación en materia de seguridad? | Antes del paso a producción de las aplicaciones, ¿se comprueba que no se deteriora la seguridad de otros componentes del servicio?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.sw.2;MEDIUM;¿Caso de aplicaciones desarrolladas externamente implementadas en modo local (on-premise), el proveedor aporta suficientes evidencias de la seguridad de la aplicación?;3;¿Aporta el proveedor que implementa la solución un ejemplar particularizado para el cliente que contrata del manual ‘Guía de instalación y configuración segura del sistema’ dirigida a los administradores? | ¿Aporta el proveedor que implementa la solución un ejemplar particularizado para el cliente que contrata del manual ‘Guía de uso seguro del sistema’ dirigida a los usuarios? | ¿Aporta el proveedor que implementa la solución un ejemplar particularizado para el cliente que contrata del manual ‘Guía de la relación entre cliente y proveedor’ dirigida a los administradores?;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.sw.2.r1;MEDIUM;¿Se realizan las pruebas en un entorno aislado de preproducción?;0;;ANEXO II-MEDIDAS DE PROTECCIÓN
+Mp.sw.2.r2;MEDIUM;¿Se realizan auditorías de código fuente?;71;"¿Se dispone de una política de protección de datos o se referencia la protección de datos en la política de seguridad de la información? | En su caso, ¿se ha designado un Delegado de Protección de Datos (DPD) y ha sido dicha designación notificada a la AEPD, especialmente si la organización pertenece al sector público o se ve afectada por los supuestos del art. 37.1 RGPD y 34 LOPDGDD? | ¿Se dispone de un registro de las actividades de tratamiento (RAT), que distinga los tratamientos como responsable y como encargado del tratamiento? | ¿Se ha determinado la necesidad/conveniencia de realizar una EIPD para determinados tratamientos? | ¿El análisis de riesgos tiene en cuenta la protección de datos personales? | ¿Se da cumplimiento al deber de informar por parte de la organización y se ha establecido un procedimiento para el ejercicio de derechos por parte de los interesados? | ¿Se identifica los incidentes de seguridad que afectan a datos personales, desencadenando acciones específicas como puede ser dar aviso al DPD? | Los incidentes de seguridad que consistan en una brecha de seguridad ¿Contemplan procedimientos frente a las violaciones de datos personales y la evaluación de si se requiere dar aviso a la AEPD o autoridad de control correspondiente y, en su caso, a los propios interesados? | ¿Se ha establecido alguna escala de calificación para la información sensible, como puede ser información ‘USO OFICIAL”, o bien se ha establecido una escala sujeta a normativa legal como es el caso de los sistemas que manejan información clasificada: (‘SECRETO’, ‘RESERVADO’, ‘CONFIDENCIAL’ o ‘DIFUSIÓN LIMITADA’? | ¿Se ha establecido algún ámbito de distribución o difusión de la información, como puede ser información ‘pública’, ‘de uso interno’, ‘restringida’, etc.? | ¿Se han establecido medidas de seguridad específicas, en función del nivel de seguridad de la información de que se trate, o de su calificación, en relación al tratamiento realizado respecto a ella? | ¿La PSI, o alguna norma interna o procedimiento que la desarrolle, recoge directa o indirectamente los criterios que en la organización determinan el nivel de seguridad requerido, atendiendo a la categorización del sistema y la valoración de los servicios soportados y la información manejada por éstos? | ¿El responsable de cada información sigue los criterios determinados en el ENS para asignar a cada información el nivel de seguridad requerido, y es responsable de su documentación y aprobación formal? | ¿Se le ha otorgado en exclusiva al responsable de cada información la potestad de modificar el nivel de seguridad requerido, de acuerdo a las disposiciones del ENS? | Tratándose de una Administración Pública, ¿se utilizan cualesquiera de los procedimientos y formas señalados en la Ley 39/2015, en la Ley 40/2015, ambas de 1 de octubre, y en la Ley 6/2020, de 11 de noviembre, en relación con la utilización de certificados electrónicos para firma electrónica, sello electrónico y autenticación de sitio web u otros mecanismos admitidos por la normativa vigente? NOTA: Únicamente debe considerarse la firma electrónica en el ámbito del sistema de información, como puede ser en un portal web o en la sede electrónica que se encuentren en el alcance. | Tratándose de un proveedor de la Administración Pública (como lo son todas las organizaciones obligadas por el ENS), ¿Se emplean asimismo certificados electrónicos reconocidos o cualificados para aquellos servicios que le presta a la Administración? | ¿Se emplean certificados electrónicos cualificados de proveedores que consten en la relación oficial española o europea? | Tratándose de un prestador de servicios de confianza, por ejemplo, una CA emisora de certificados electrónicos, ¿cumple con la normativa vigente en España, como es la Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza? ¿está certificado eIDAS? | ¿Se aplican los sellos de tiempo a aquella información que sea susceptible de ser utilizada como evidencia electrónica en el futuro? | Los datos pertinentes para la verificación posterior de la fecha ¿son tratados con la misma seguridad que la información fechada a efectos de disponibilidad, integridad y confidencialidad? | ¿Se renuevan regularmente los sellos de tiempo, hasta que la información protegida ya no sea requerida por el proceso administrativo al que da soporte? ¿Cómo se aplica el procedimiento de resellado? | ¿Se emplean ""sellos cualificados de tiempo electrónicos"" atendiendo a lo dispuesto en el Reglamento (UE) nº 910/2014 (eIDAS), relativo a la identificación electrónica, y normativa de desarrollo? | Para el Sellado de Tiempo ¿se utilizan productos certificados, según se determina en [op.pl.5]? | ¿Se asigna una fecha y hora a los documentos electrónicos, conforme a lo establecido en la guía CCN-STIC-807 Criptología de empleo en el ENS? | ¿Se dispone de normativa específica que obligue a revisar, y en su caso a eliminar, los metadatos de un documento, especialmente antes de que éste abandone el perímetro de la organización, por ejemplo, subido a un portal web o adjunto a un correo electrónico? | ¿Se dispone de herramientas automáticas de revisión y limpieza de metadatos o, en su defecto, de documentación que expliquen cómo llevarlo a cabo manualmente en función del tipo de documento? | ¿Se realizan copias de seguridad con la periodicidad y plazos de retención requeridos por los servicios que soporta el sistema de información? | ¿Las copias de seguridad se realizan acorde a lo que se determinan en normativa y/o procedimientos relativos a copias de seguridad? | ¿La normativa de copias de seguridad está armonizada con el RPO calculado en el BIA, caso de disponerse de este último? | ¿Si la herramienta informa, se ha determinado cómo actuar en caso de fallo en su realización? | Si se externalizan las copias ¿Se reciben informes detallados del proveedor? | ¿Se prueban regularmente los procedimientos de copia de seguridad y restauración, con una frecuencia dependiendo de la criticidad de los datos y del impacto que causaría la falta de disponibilidad? ¿se ha determinado como actuar en el caso de detectarse desviaciones respecto a lo previsto? | ¿Los procedimientos de respaldo establecen la frecuencia de las copias de seguridad? | ¿Los procedimientos de respaldo establecen la necesidad de realizar copias semanales, mensuales, etc., adicionalmente a las copias diarias? | ¿Los procedimientos de respaldo establecen los controles para el acceso autorizado a las copias de respaldo? | ¿Los procedimientos de respaldo establecen los requisitos de almacenamiento en el propio lugar en que se realizan las copias? | ¿La normativa de respaldo establece los requisitos de almacenamiento en otros lugares? | ¿Al menos una de las copias de seguridad se almacena de forma separada en lugar diferente, de tal manera que un incidente no pueda afectar simultáneamente tanto al repositorio original como a la copia? | ¿Se protege la información distribuida por medio de correo electrónico, tanto en el cuerpo de los mensajes, como en los anexos? ¿Si se emplea criptografía, ésta es acorde con la información a proteger? | ¿Se protege el servidor de correo electrónico, cuando es interno y/o gestionado por la propia organización, mediante una arquitectura y configuración de seguridad adecuadas a la relevancia del servicio de correo dentro del sistema de información, atendiendo a lo dispuesto en [op.exp.2]? | ¿Se dispone de herramientas de filtrado del correo no deseado o ‘spam’? | ¿Se dispone de herramientas de protección contra el código dañino que pueda estar presente en los mensajes de correo electrónico? | ¿Se dispone de herramientas que detecten el código móvil de tipo micro aplicación, en su expresión inglesa ‘applet’? | ¿Se establecen en la normativa limitaciones al uso del correo electrónico como soporte de comunicaciones privadas? | ¿Se organizan actividades de concienciación y formación relativas al uso del correo electrónico? | ¿Se evita que el servidor ofrezca acceso a los documentos por vías alternativas al protocolo determinado? | ¿Se previenen ataques de manipulación de URL? | ¿Se previenen ataques de manipulación de ‘cookies’? | ¿Se previenen ataques de inyección de código? | ¿Se previenen intentos de escalado de privilegios? | ¿Se previenen ataques de ‘cross site scripting’? | ¿Se realizan auditorías técnicas de seguridad de “caja negra”, de forma periódica, sobre las aplicaciones web durante la fase de desarrollo y antes de la fase de producción? | ¿La frecuencia de las auditorías técnicas de seguridad está definido en un procedimiento de auditoría? | ¿Se realizan auditorías de seguridad de “caja blanca” sobre las aplicaciones web durante la fase de desarrollo? | ¿Se emplean metodologías definidas y herramientas automáticas de detección de vulnerabilidades en la realización de las auditorías técnicas de seguridad sobre las aplicaciones web? | Una vez finalizada una auditoría técnica de seguridad, ¿se analizan los resultados y se solventan las vulnerabilidades encontradas mediante los procedimientos elaborados al efecto para la gestión de cambios? | ¿Se ha establecido una normativa destacando el uso de internet que se autoriza y las limitaciones de uso personal? ¿se concreta el uso permitido de conexiones cifradas? | ¿Se llevan a cabo regularmente actividades de concienciación sobre higiene en la navegación web, fomentando el uso seguro y alertando de usos incorrectos? | ¿Se forma al personal encargado de la administración del sistema en monitorización del servicio y respuesta a incidentes? | ¿Se protege la información de resolución de direcciones web y de establecimiento de conexiones? | ¿Se protege a la organización en general y al puesto de trabajo en particular frente a problemas que se materializan vía navegación web? | ¿Se protege contra la actuación de programas dañinos tales como páginas activas, descargas de código ejecutable, etc., previniendo la exposición del sistema a vectores de ataque del tipo spyware, ransomware, etc.? | ¿Se ha establecido una política ejecutiva de control de cookies? | ¿Se registra el uso de la navegación web, estableciendo los elementos que se registran, el periodo de r tención de estos registros y el uso que el organismo prevé hacer de ellos? | ¿Se ha establecido una función para la ruptura de canales cifrados a fin de inspeccionar su contenido, indicando qué se analiza, qué se registra, durante cuánto tiempo se retienen los registros y qué uso prevé hacer el organismo de estas inspecciones? | ¿Se ha establecido una lista negra de destinos vetados? | ¿Se ha planificado y dotado al sistema de capacidad suficiente para atender a la carga prevista con holgura? | ¿Se han desplegado tecnologías para prevenir los ataques conocidos? | ¿Se ha establecido un sistema de detección y tratamiento de ataques de denegación de servicio (DoS y DDoS)? | ¿Se han establecido procedimientos de reacción a los ataques, incluyendo la comunicación con el proveedor de comunicaciones? | ¿Se dispone de un acuerdo suscrito con el proveedor de comunicaciones para que aporte protección frente a ataques de denegación de servicio como alternativa o complemento a los medios propios de detección y respuesta?";ANEXO II-MEDIDAS DE PROTECCIÓN
+Op.acc.1;HIGH;Identificación;0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.1;HIGH;¿Se dispone de un control de acceso comprendiendo un conjunto de actividades preparatorias y ejecutivas tendentes a permitir o denegar a una entidad, usuario o proceso, el acceso a un recurso del sistema para la realización de cualquier acción?;6;Si se utiliza un identificador único, ¿se emplean métodos de identificación previstos en la normativa de aplicación, entre ellos, sistemas de clave concertada y cualquier otro que las administraciones consideren válido? | Cada entidad (entidad, usuario o proceso) que accede al sistema, ¿cuenta con un identificador singular que permita conocer el destinatario y asignarle los derechos de acceso que le correspondan? | Cuando el usuario tiene diferentes roles frente al sistema (como ciudadano o usuario final, como trabajador del organismo o como administrador de los sistemas, por ejemplo), ¿se le asignan identificadores singulares para cada perfil, de forma que se recaben los correspondientes registros de actividad en base a los privilegios correspondientes a cada perfil para poder conocer las acciones realizadas? | Cuando el usuario deja la organización, cuando el usuario cesa en la función para la cual se requería la cuenta de usuario o, cuando la persona que la autorizó da orden en sentido contrario ¿Son deshabilitadas/bloqueadas inmediatamente las cuentas de usuario? | Una vez deja de ser necesaria una cuenta, ¿Se retiene deshabilitada durante un período finito y determinado para atender a las necesidades de trazabilidad de los registros asociados a la misma, antes de su eliminación? | En las comunicaciones electrónicas, ¿las partes intervinientes se identifican con los mecanismos previstos alineados con el Reglamento (UE) 910/2014 del Parlamento Europeo y del Consejo (Reglamento eIDAS) y con la Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza?;ANEXO II -MARCO OPERACIONAL
+Op.acc.1.r1;HIGH;¿La identificación del usuario permite al Responsable del sistema y/o al Responsable de la seguridad del sistema singularizar a la persona asociada al mismo, así como sus responsabilidades en el sistema?;2;¿Los datos de identificación son utilizados por el sistema para determinar los privilegios del usuario conforme a los requisitos de control de acceso establecidos en la documentación de seguridad? | ¿Se dispone de una lista actualizada de usuarios autorizados para acceder a los diferentes recursos, mantenida por el personal de administración (Responsable/Administrador del Sistema y/o Responsable/Administrador de la Seguridad del sistema)?;ANEXO II -MARCO OPERACIONAL
+Op.acc.2;HIGH;Requisitos de acceso;0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.2;HIGH;¿Los recursos del sistema están protegidos con algún mecanismo que impida su utilización, salvo por las entidades que disfruten de derechos de acceso suficientes?;3;¿Se han determinado y se conocen las personas responsables de los diferentes recursos del sistema de información? | ¿Los derechos de acceso de cada recurso, se establecen según las decisiones de la persona responsable del recurso, ateniéndose a la política y/o normativa de seguridad del sistema? | ¿Se controla el acceso a los componentes del sistema operativo, y a sus ficheros o registros de configuración?;ANEXO II -MARCO OPERACIONAL
+Op.acc.2.r1;HIGH;¿Se gestionan los privilegios de los usuarios de forma armonizada con los recursos del sistema a los que tengan, o no, necesidad de acceder?;2;¿Disponen todos los usuarios autorizados de un conjunto de atributos de seguridad (privilegios) que puedan ser mantenidos individualmente? | ¿Se han implementado los privilegios de acceso de modo que restrinjan con la suficiente granularidad el tipo de acceso que un usuario pueda tener (lectura, escritura, modificación, borrado, etc.)?;ANEXO II -MARCO OPERACIONAL
+Op.acc.2.r2;HIGH;¿Se dispone de soluciones que permiten establecer controles de acceso a los dispositivos en función de la política de seguridad de la organización?;0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.3;HIGH;Segregación de funciones y tareas;0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.3;HIGH;¿Se segregan aquellas funciones que, ante determinadas circunstancias, podrían culminar en conflicto de interés como, por ejemplo, desarrollo y operación?;2;¿Se evita, siempre que sea posible, que las capacidades de desarrollo y operación recaigan en la misma persona o en el mismo equipo? | ¿Se evita, siempre que sea posible, ¿que las personas que autorizan sean las mismas que controlan el uso?;ANEXO II -MARCO OPERACIONAL
+Op.acc.3.r1;HIGH;;2;¿Se evita, siempre que sea posible, que una misma persona aúne funciones de configuración y de mantenimiento del sistema? | ¿Quienes realizan funciones de auditoría o supervisión, no realizan ninguna otra función relacionada con lo auditado o supervisado?;ANEXO II -MARCO OPERACIONAL
+Op.acc.3.r2;HIGH;;1;¿Se dispone de cuentas con privilegios de auditoría, estrictamente controladas y personalizadas?;ANEXO II -MARCO OPERACIONAL
+Op.acc.4;HIGH;¿Se gestionan los derechos de acceso, en base al principio de mínimo privilegio?;6;¿Está cualquier acceso prohibido, salvo que se disponga de autorización expresa? | ¿Se aplica una política de mínimo privilegio que reduce al mínimo imprescindible para cumplir con sus obligaciones los privilegios de cada entidad, usuario o proceso? | ¿Se asignan los privilegios de forma que las entidades, usuarios o procesos únicamente acceden al conocimiento de aquella información requerida para cumplir sus obligaciones o funciones? | ¿Únicamente el personal con competencia para ello, puede conceder, alterar o anular la autorización de acceso a los recursos, conforme a los criterios establecidos por el responsable de los mismos? | ¿Se revisan los permisos de acceso de forma periódica? | ¿Se ha establecido una política específica de acceso remoto, que señale la obligación de requerirse autorización expresa?;ANEXO II -MARCO OPERACIONAL
+Op.acc.4;HIGH;Proceso de gestión de derechos de acceso;0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.5;HIGH;Mecanismos de autenticación (usuarios externos);0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.5;HIGH;¿Se mantiene la seguridad de las cuentas y las credenciales de los usuarios externos, mediante mecanismos de control de acceso?;0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.5.r1;HIGH;¿Se emplea una contraseña como mecanismo de autenticación, con garantías razonables?;0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.5.r2;HIGH;¿Se requiere una contraseña de un solo uso (OTP) como complemento a la contraseña de usuario?;0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.5.r3;HIGH;¿Se emplean certificados cualificados como mecanismo de autenticación?;0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.5.r4;HIGH;¿Se emplean certificados en soporte físico (tarjeta o similar) como mecanismo de autenticación?;0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.5.r5;HIGH;¿Se registran los accesos, o su intento, y se informa al usuario?;2;¿El sistema registra los accesos con éxito y los fallidos? | ¿Se le informa al usuario del último acceso efectuado con su identidad?;ANEXO II -MARCO OPERACIONAL
+Op.acc.5.r6;HIGH;¿Se definen puntos en los que el sistema requiere una renovación de la autenticación del usuario?;0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.5.r7;HIGH;¿Se suspenden las credenciales tras un período definido de no utilización?;0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.6;HIGH;Mecanismos de autenticación (usuarios de la organización);0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.6;HIGH;¿Se dispone implementados mecanismos de control de acceso, alineados con el proceso de altas y bajas de empleados / usuarios internos de la organización?;9;¿Se activan las credenciales únicamente cuando éstas están bajo el control exclusivo y efectivo del usuario, o se fuerza un cambio de credenciales al primer acceso del mismo? | Antes de proporcionar las credenciales a los usuarios, ¿estos han conocido y aceptado la política de seguridad del organismo en los aspectos que les afecten? | ¿Reconoce el usuario que ha recibido las credenciales y que conoce y acepta las obligaciones que implica su tenencia, en particular, el deber de custodia diligente, protección de su confidencialidad y notificación inmediata en caso de pérdida? | ¿Se cambian las credenciales con la periodicidad marcada por la política de la organización? | ¿Se retiran y deshabilitan las credenciales cuando la entidad (persona, equipo o proceso) que se autentica termina su relación con el sistema? | ¿Se deshabilitan o regeneran las credenciales cuando se detecta o sospecha su pérdida o revelación a personas no autorizadas? | ¿Se previenen ataques que puedan revelar información del sistema sin llegar a acceder al mismo? ¿la información suministrada en los accesos se restringe a la mínima imprescindible? | ¿Se limita el número de intentos permitidos, bloqueando la oportunidad de acceso una vez superado tal número, requiriendo la intervención de los administradores de seguridad para reactivar la cuenta? | ¿Informa el sistema al usuario de sus obligaciones inmediatamente después de obtener éste el acceso?;ANEXO II -MARCO OPERACIONAL
+Op.acc.6.r1;HIGH;¿Se emplea una contraseña como mecanismo de autenticación, con garantías razonables?;2;Si se emplea una contraseña como mecanismo de autenticación, ¿se verifica que el acceso se realiza únicamente desde zonas controladas y sin atravesar zonas no controladas? | Si se emplean contraseñas o similares, ¿se imponen normas de longitud, complejidad mínima y robustez, frente a ataques de adivinación?;ANEXO II -MARCO OPERACIONAL
+Op.acc.6.r2;HIGH;¿Se requiere un segundo factor tal como «algo que se tiene», es decir, un dispositivo, una contraseña de un solo uso (OTP, en inglés) como complemento a la contraseña de usuario, o «algo que se es»?;0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.6.r3;HIGH;¿Se emplean certificados cualificados como mecanismo de autenticación?;1;¿Se encuentra protegido el uso del certificado mediante un segundo factor, del tipo PIN o biométrico?;ANEXO II -MARCO OPERACIONAL
+Op.acc.6.r4;HIGH;¿Se emplean certificados cualificados en soporte físico (tarjeta o similar) como mecanismo de autenticación?;1;¿Se encuentra protegido el uso del certificado mediante un segundo factor, del tipo PIN o biométrico?;ANEXO II -MARCO OPERACIONAL
+Op.acc.6.r5;HIGH;¿Se registran las trazas de acceso y se informa de la más reciente al usuario?;2;¿Se registran tanto los accesos fallidos, como los que han tenido éxito? | ¿Se informa al usuario del último acceso realizado con su identidad?;ANEXO II -MARCO OPERACIONAL
+Op.acc.6.r6;HIGH;¿Se han definido aquellos puntos en los que el sistema requiere de una renovación de la autenticación del usuario, mediante identificación singular, no bastando con la sesión establecida?;0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.6.r7;HIGH;¿Se suspenden las credenciales tras un periodo definido de no utilización?;0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.6.r8;HIGH;¿Se requiere un doble factor de autenticación para el acceso desde zonas no controladas (R2, R3 o R4)?;0;;ANEXO II -MARCO OPERACIONAL
+Op.acc.6.r9;HIGH;Respecto a los accesos remotos ¿Se contemplan aspectos de seguridad y autorización?;5;¿Se han implementado los requisitos de seguridad que resultan de la aplicación de la ITS de Interconexión de sistemas de información, cuando ésta se promulgue, o en su defecto la guía CCN-STIC 811 sobre Interconexión en el ENS? | ¿Los accesos remotos son autorizados por la autoridad correspondiente en la organización? | ¿Está cifrado el tráfico de los accesos remotos? | Si la utilización de determinado acceso remoto no se produce de manera constante, ¿se encuentra éste deshabilitado, volviéndole a habilitar únicamente cuando sea necesario? | ¿Se recogen registros de auditoría de este tipo de conexiones?;ANEXO II -MARCO OPERACIONAL
+Op.exp.1;MEDIUM;Inventario de activos;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.1;MEDIUM;¿Se dispone de un inventario de todos los elementos del sistema?;3;¿Se mantiene el inventario de activos actualizado, quedando claramente definido quién(es) tiene(n) dicha responsabilidad? | Especialmente para categorías MEDIA y ALTA, ¿se realizan verificaciones periódicas respecto a la exactitud del inventario? | ¿Se detalla en el inventario la naturaleza de cada activo, identificando a su responsable?;ANEXO II -MARCO OPERACIONAL
+Op.exp.1.r1;MEDIUM;¿Forma parte del inventario el etiquetado del equipamiento y del cableado?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.1.r2;MEDIUM;¿Se dispone de herramientas que permitan visualizar de forma continua el estado de todos los equipos en la red?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.1.r3;MEDIUM;¿Se dispone de herramientas que permitan categorizar los activos críticos por contexto de la organización y riesgos de seguridad?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.1.r4;MEDIUM;¿Se mantiene actualizada una relación formal de los componentes software de terceros, empleados en el despliegue del sistema?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.10;MEDIUM;Protección de claves criptográficas;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.10;MEDIUM;¿Se gestionan de forma segura las claves criptográficas?;3;¿Se protegen las claves criptográficas durante todo su ciclo de vida? | ¿Los medios de generación de claves están aislados de los medios de explotación? | Las claves retiradas de operación que deban ser archivadas, ¿lo son en medios aislados de los de explotación?;ANEXO II -MARCO OPERACIONAL
+Op.exp.10.r1;MEDIUM;¿Se emplean algoritmos y parámetros autorizados por el CCN para generar las claves criptográficas?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.10.r2;MEDIUM;¿Se emplean cifradores que cumplan con los requisitos establecidos en la guía CCN-STIC que sea de aplicación?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.2;MEDIUM;Configuración de seguridad;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.2;MEDIUM;¿Se realiza una configuración de seguridad (bastionado) a los equipos, previamente a su puesta en producción?;4;¿Se han configurado los equipos, previamente a su entrada en operación, retirándoles cuentas y contraseñas standard? | ¿Se han configurado los equipos, previamente a su entrada en operación, aplicándoles la regla de ‘mínima funcionalidad’, es decir, que el sistema proporcione la funcionalidad mínima imprescindible para que la organización alcance sus objetivos? | ¿Se han configurado los equipos, previamente a su entrada en operación, de manera que se aplique la regla de ‘seguridad por defecto’? | ¿Se han configurado y gestionado las máquinas virtuales, previamente a su entrada en operación, de un modo igual de seguro al empleado para las máquinas físicas?;ANEXO II -MARCO OPERACIONAL
+Op.exp.3;MEDIUM;¿Se gestiona de forma continua la configuración de los componentes del sistema?;6;¿Se gestiona de forma continua la configuración de los componentes del sistema, manteniéndose en todo momento la regla de ‘funcionalidad mínima’? | ¿Se gestiona de forma continua la configuración de los componentes del sistema, manteniéndose en todo momento la regla de ‘mínimo privilegio’? | ¿Se gestiona de forma continua la configuración de los componentes del sistema, de modo que el sistema se adapta a las posibles nuevas necesidades, previamente autorizadas? | ¿Se gestiona de forma continua la configuración de los componentes del sistema, de modo que el sistema reacciona a posibles vulnerabilidades notificadas? | ¿Se gestiona de forma continua la configuración de los componentes del sistema, de modo que el sistema reacciona a posibles incidentes? | ¿Se gestiona de forma continua la configuración de los componentes del sistema, de modo que la configuración de seguridad únicamente puede editarse por personal debidamente autorizado?;ANEXO II -MARCO OPERACIONAL
+Op.exp.3;MEDIUM;Gestión de la configuración de seguridad;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.3.r1;MEDIUM;¿Se dispone, para los componentes del sistema, de configuraciones autorizadas, mantenidas y verificadas, junto a la identificación de servicios autorizados?;3;¿Se dispone de configuraciones hardware/software autorizadas y mantenidas regularmente para los servidores, elementos de red y estaciones de trabajo? | ¿Se verifica periódicamente la configuración hardware/software del sistema, para asegurarse que no se han introducido ni instalado elementos no autorizados? | ¿Se mantiene una lista de servicios autorizados para servidores y estaciones de trabajo?;ANEXO II -MARCO OPERACIONAL
+Op.exp.3.r2;MEDIUM;¿Se han establecido responsabilidades sobre la configuración de seguridad del sistema?;1;¿La configuración de seguridad del sistema operativo y aplicaciones, tanto de estaciones y servidores, como de la electrónica de red del sistema, es responsabilidad de un número muy limitado de administradores del sistema?;ANEXO II -MARCO OPERACIONAL
+Op.exp.3.r3;MEDIUM;¿Se realizan copias de seguridad de la configuración del sistema?;1;¿Se realizan copias de seguridad de la configuración del sistema de forma que sea posible reconstruir éste, en parte o en su totalidad, tras un incidente?;ANEXO II -MARCO OPERACIONAL
+Op.exp.3.r4;MEDIUM;¿Se mantiene actualizada la configuración de seguridad del sistema operativo y de las aplicaciones?;1;¿La configuración de seguridad del sistema operativo y de las aplicaciones se mantiene actualizada a través de una herramienta automática, o mediante un procedimiento manual, que permite la instalación de las correspondientes modificaciones de versión y actualizaciones de seguridad oportunas?;ANEXO II -MARCO OPERACIONAL
+Op.exp.3.r5;MEDIUM;¿Se dispone de herramientas de monitorización de la seguridad?;1;¿Se dispone de herramientas que permitan conocer el estado de seguridad de la configuración de los dispositivos de red de forma periódica y, en el caso de que resulte deficiente, poder corregirlo?;ANEXO II -MARCO OPERACIONAL
+Op.exp.4;MEDIUM;Mantenimiento y actualizaciones de seguridad;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.4;MEDIUM;¿Se realiza, de forma sistemática, el mantenimiento del equipamiento físico y lógico del sistema?;3;¿En lo relativo a instalación y mantenimiento del equipamiento físico y lógico que constituye el sistema, se atiende a las especificaciones de los fabricantes? | ¿Se dispone de un procedimiento para analizar, priorizar y determinar cuándo aplicar las actualizaciones de seguridad, parches, mejoras y nuevas versiones? | ¿El mantenimiento es realizado únicamente por personal debidamente autorizado?;ANEXO II -MARCO OPERACIONAL
+Op.exp.4.r1;MEDIUM;Antes de poner en producción una nueva versión o una versión parcheada, ¿se comprueba en un entorno de prueba controlado, consistente en cuanto a configuración con el entorno de producción, que la nueva instalación funciona correctamente y no disminuye la eficacia de las funciones necesarias para el trabajo diario?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.4.r2;MEDIUM;Antes de la aplicación de las configuraciones, parches y actualizaciones de seguridad, ¿se prevé un mecanismo de vuelta atrás para revertirlos en caso de la aparición de efectos adversos?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.4.r3;MEDIUM;¿Se comprueba de forma periódica la actualización e integridad del firmware utilizado en los dispositivos hardware del sistema (infraestructura de red, BIOS, etc.)?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.4.r4;MEDIUM;¿Se despliega una estrategia de monitorización continua de amenazas?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.5;MEDIUM;¿Se gestionan los cambios que se realizan en el sistema de información?;6;¿Se planifican los cambios para reducir el impacto sobre la prestación de los servicios afectados? | Para cada petición de cambio ¿se registra suficiente información para que quien deba autorizarla no tenga dudas al respecto y pueda gestionarla hasta su desestimación o implementación? | Las pruebas de preproducción, siempre que sea posible realizarlas, ¿se efectúan en equipos equivalentes a los de producción, al menos en los aspectos específicos del cambio? | ¿Se determina mediante análisis de riesgos si los cambios son relevantes para la seguridad del sistema? ¿Se puede evidenciar que aquellos cambios que implican una situación de riesgo ALTO son aprobados explícitamente, de forma previa a su implementación, por el Responsable de Seguridad además de quienes tengan competencia asignada para ello? | Una vez implementado un cambio, ¿Se realizan las pruebas de aceptación convenientes? | Si las pruebas de aceptación son positivas, ¿se actualiza la documentación de configuración (diagramas de red, manuales, el inventario, etc.), siempre que proceda?;ANEXO II -MARCO OPERACIONAL
+Op.exp.5;MEDIUM;Gestión de cambios;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.5.r1;MEDIUM;¿Se prevé algún mecanismo de vuelta atrás de los cambios, se documentan éstos y se notifican al Responsable de Seguridad los fallos detectados?;3;Antes de la aplicación de los cambios, ¿se prevé un mecanismo de vuelta atrás para revertirlos en caso de la aparición de efectos adversos? | Tras la implantación de un cambio ¿son comunicados al responsable designado en la estructura de seguridad todos los fallos detectados en el software y en el hardware? | ¿Se documentan todos los cambios, incluyendo una valoración del impacto que dicho cambio supone en la seguridad del sistema?;ANEXO II -MARCO OPERACIONAL
+Op.exp.6;MEDIUM;Protección frente a código dañino;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.6;MEDIUM;¿Se dispone de una solución de protección contra código dañino (antivirus, EDR o solución similar) desplegada en todos los puestos de trabajo, servidores y elementos perimetrales del sistema?;10;¿Se ha configurado la solución antimalware instalada en los puestos de usuario de forma adecuada, implementando protección en tiempo real de acuerdo a las recomendaciones del fabricante y las características del entorno operativo? | ¿Se ha instalado dicho software de protección frente a código dañino en todos los equipos, incluyendo puestos de usuario, servidores y elementos perimetrales? | ¿Se trata de una solución corporativa con consola centralizada de administración? | ¿Se requiere una contraseña de administración o se dispone de cualquier otro mecanismo que impida que el usuario final detenga o altere el funcionamiento de la solución? | La licencia de uso de la solución ¿cubre la totalidad de equipos operativos presentes en la organización? | ¿Se dispone de garantías de que todo fichero procedente de fuentes externas será analizado antes de trabajar con él? | ¿Está amparada la solución antimalware por un acuerdo de soporte y actualización, tanto del software cómo de la base de datos de detección? | ¿Los elementos de seguridad, como los cortafuegos (FW), disponen de solución antimalware especializada que, por ejemplo, verifique navegación web y correos recibidos? | ¿Se verifica regularmente la configuración de la(s) solución(es) antimalware para garantizar que se adecuan a las operaciones de los sistemas protegidos? | ¿Se comprueba regularmente que las bases de datos de detección de código dañino se estén actualizando con la frecuencia prevista?;ANEXO II -MARCO OPERACIONAL
+Op.exp.6.r1;MEDIUM;¿Se ejecutan análisis y escaneos, de forma regular en los sistemas, en búsqueda de código dañino?;2;¿Existe algún mecanismo o procedimiento que escanee regularmente los sistemas para detectar código dañino? | ¿Se revisan regularmente los informes de resultados generados como consecuencia de los escaneos de los sistemas, así como otra información generada de forma consolidada desde la consola de administración?;ANEXO II -MARCO OPERACIONAL
+Op.exp.6.r2;MEDIUM;Al arrancar los sistemas, ¿se analizan las funciones críticas en prevención de modificaciones no autorizadas?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.6.r3;MEDIUM;¿Se ha implementado una lista blanca que impida la ejecución de aplicaciones no autorizadas previamente y, en consecuencia, que no estén en dicha lista?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.6.r4;MEDIUM;¿Se han implementado soluciones de seguridad orientadas a detectar, investigar y resolver actividades sospechosas en los equipos (EDR - Endpoint Defense and Response)?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.6.r5;MEDIUM;¿La solución antimalware, además de implementar protección en tiempo real, permite realizar configuraciones avanzadas y revisar el sistema al arrancar, así como cada vez que se conecte algún dispositivo extraíble?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.7;MEDIUM;Gestión de incidentes;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.7;MEDIUM;¿Se dispone de un proceso integral para tratar los incidentes que puedan tener un impacto en la seguridad del sistema?;2;¿Se dispone de un proceso integral para hacer frente a los incidentes que puedan tener un impacto en la seguridad del sistema, que incluya el informe de eventos de seguridad y debilidades, detallando los criterios de clasificación y el escalado de la notificación? | La gestión de incidentes que afecten a datos personales, ¿tiene en cuenta lo dispuesto en el RGPD y en la LO 3/2018 (LOPDGDD), en especial su disposición adicional primera, así como el resto de normativa de aplicación, sin perjuicio de los requisitos establecidos en el RD 311/2022, de 3 de mayo?;ANEXO II -MARCO OPERACIONAL
+Op.exp.7.r1;MEDIUM;¿Se dispone de soluciones de ventanilla única para la notificación de incidentes al CCN-CERT? ¿permite la distribución de notificaciones a las diferentes entidades de manera federada, si es el caso, utilizando para ello dependencias administrativas jerárquicas?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.7.r2;MEDIUM;El proceso integral para hacer frente a los incidentes que puedan tener un impacto en la seguridad del sistema, ¿consiste en una completa gestión de los mismos?;4;El proceso integral para hacer frente a los incidentes que puedan tener un impacto en la seguridad del sistema, ¿incluye la implementación de medidas urgentes según convenga al caso? | El proceso integral para hacer frente a los incidentes que puedan tener un impacto en la seguridad del sistema, ¿incluye la asignación de recursos para investigar las causas, analizar las consecuencias y resolver el incidente? | El proceso integral para hacer frente a los incidentes que puedan tener un impacto en la seguridad del sistema, ¿incluye instrumentos o directrices para informar a los responsables de la información y servicios afectados, respecto al incidente acaecido y las actuaciones llevadas a cabo para su resolución? | El proceso integral para hacer frente a los incidentes que puedan tener un impacto en la seguridad del sistema, ¿incluye medidas para prevenir que se repita el incidente, incluir en los procedimientos de usuario la identificación y forma de tratar el incidente y actualizar, extender, mejorar u optimizar los procedimientos de resolución de incidentes?;ANEXO II -MARCO OPERACIONAL
+Op.exp.7.r3;MEDIUM;¿Dispone la organización de recursos para la configuración dinámica del sistema, reaccionando a anuncios de ciberamenazas y/o a la detección de las mismas?;2;¿Dispone la organización de procedimientos y casos de uso que permitan, de forma manual o semiautomática, apoyándose en determinados casos en scripts, la configuración dinámica del sistema de modo que se detenga, desvíe, o limite el ataque lo antes posible? | ¿La organización adapta los procedimientos de reconfiguración dinámica reaccionando a los anuncios recibidos del CCN-CERT relativos a ciberamenazas sofisticadas y campañas de ataques?;ANEXO II -MARCO OPERACIONAL
+Op.exp.7.r4;MEDIUM;¿Se dispone de herramientas que automaticen el proceso de prevención y respuesta, mediante la detección e identificación de anomalías, segmentación dinámica de la red para reducir la superficie de ataque, el aislamiento de dispositivos críticos, etc.?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.8;MEDIUM;Registro de la actividad;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.8;MEDIUM;¿Se registran los eventos y actividades de usuarios y entidades que acceden a los sistemas?;2;¿Se registran las actividades del sistema generando un registro de auditoría que incluye, al menos, el identificador del usuario o entidad asociado al evento, fecha y hora, sobre qué información se realiza el evento, tipo de evento y el resultado del evento (fallo o éxito), según la política de seguridad y los procedimientos asociados a la misma? | ¿Se han activado los registros de actividad en los servidores?;ANEXO II -MARCO OPERACIONAL
+Op.exp.8.r1;MEDIUM;¿Se gestionan los registros de actividad?;1;¿Se dispone de un almacenamiento centralizado de registros de actividad que facilite su análisis y revisión? ¿se realiza una revisión, aunque sea informal, de dichos registros?;ANEXO II -MARCO OPERACIONAL
+Op.exp.8.r2;MEDIUM;¿Se sincronizan los relojes del sistema?;1;¿Dispone el sistema de elementos de referencia de tiempo (servidores NTP, sellado de tiempo…) para facilitar las funciones de registro de eventos y auditoría?;ANEXO II -MARCO OPERACIONAL
+Op.exp.8.r3;MEDIUM;En la documentación de seguridad del sistema, ¿se indican los eventos de seguridad que serán auditados y el tiempo de retención de los registros antes de ser eliminados?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.8.r4;MEDIUM;Los registros de actividad y, en su caso, las copias de seguridad ¿únicamente pueden ser accedidos, alterarse o eliminarse por personal debidamente autorizado?;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.8.r5;MEDIUM;¿Se dispone de herramientas para apoyar la gestión de los registros de actividad?;2;¿El sistema implementa herramientas para analizar y revisar de forma centralizada la actividad del sistema y la información de auditoría en búsqueda de comprometimientos de la seguridad posibles o reales? | ¿Se dispone de un sistema automático de recolección de registros, correlación de eventos y respuesta automática ante los mismos, como puede ser un SIEM?;ANEXO II -MARCO OPERACIONAL
+Op.exp.9;MEDIUM;Registro de la gestión de incidentes;0;;ANEXO II -MARCO OPERACIONAL
+Op.exp.9;MEDIUM;¿Se realiza un proceso de extracción de conclusiones y aprendizaje, a partir de los incidentes de seguridad registrados?;5;¿Se registran los reportes iniciales, intermedios y finales, las actuaciones de emergencia y las modificaciones del sistema derivadas de un incidente? | ¿Se registran aquellas evidencias que pueda dirimirse en un ámbito jurisdiccional, especialmente cuando el incidente pueda comportar acciones disciplinarias sobre el personal interno, sobre proveedores externos o en la persecución de delitos? | Como consecuencia del análisis de los incidentes, ¿se revisan aquellos eventos que deben seguir auditándose y la necesidad de reducirlos o incrementarlos? | ¿Se realiza un aprendizaje, a partir del análisis de los incidentes registrados, que permita poner de manifiesto aspectos a mejorar en la seguridad del sistema? | Para aprender de los incidentes, ¿se registran éstos indicando su tipología concreta y no solo diferenciando los de seguridad de los que no lo son?;ANEXO II -MARCO OPERACIONAL
+Op.ext.1;MEDIUM;Contratación y acuerdos de nivel de servicio;0;;ANEXO II -MARCO OPERACIONAL
+Op.ext.1;MEDIUM;¿Se suscriben acuerdos de nivel de servicio con los proveedores, a la vez que se les requiere estar en posesión del correspondiente certificado de conformidad respecto al ENS?;2;Con anterioridad a la efectiva utilización de los recursos externos, ¿se establece contractualmente un Acuerdo de Nivel de Servicio (ANS/SLA) que incluya las características del servicio prestado, lo que debe entenderse como ‘servicio mínimo admisible’, así como, la responsabilidad del proveedor y las consecuencias de eventuales incumplimientos? | ¿Se exige a los proveedores, relevantes para el ENS, que estén en posesión de la correspondiente certificación de conformidad para el sistema de información que soporta los servicios prestados a la organización, con igual o superior categoría y alcance suficiente?;ANEXO II -MARCO OPERACIONAL
+Op.ext.2;MEDIUM;Gestión diaria;0;;ANEXO II -MARCO OPERACIONAL
+Op.ext.2;MEDIUM;¿Se dispone de mecanismos de seguimiento y supervisión del desarrollo del servicio, así como de reporte y coordinación ante posibles incidencias?;5;¿Se dispone de un sistema rutinario para medir el cumplimiento de las obligaciones de servicio, incluyendo el procedimiento para neutralizar cualquier desviación fuera del margen de tolerancia acordado? | ¿Se ha establecido un mecanismo y los procedimientos de coordinación necesarios para llevar a cabo las tareas de mantenimiento de los sistemas comprendidos en el acuerdo, que contemplarán los supuestos de ocurrencia de posibles incidentes y desastres? | ¿Se ha designado por parte del proveedor un punto de contacto (POC) para cualquier cuestión relacionada con el servicio? ¿Se ha establecido el mecanismo establecido de contacto, especialmente para notificar incidentes del servicio? | ¿Se ha pactado con proveedores la entrega periódica de informes de servicio? | ¿Se realizan reuniones de seguimiento con determinados proveedores relevantes?;ANEXO II -MARCO OPERACIONAL
+Op.ext.3;MEDIUM;Protección de la cadena de suministro;3;¿Se puede evidenciar que se analiza el impacto que puede tener sobre el sistema un incidente accidental o deliberado que tenga su origen en la cadena de suministro? | ¿Se puede evidenciar que se estiman los riesgos sobre el sistema por causa de un incidente accidental o deliberado que tenga su origen en la cadena de suministro? | ¿Se puede evidenciar que se adoptan medidas de contención de los impactos estimados sobre el sistema debido a un incidente accidental o deliberado que tenga su origen en la cadena de suministro?;ANEXO II -MARCO OPERACIONAL
+Op.ext.3.r1;MEDIUM;¿Se considera la cadena de suministro en el Plan de Continuidad de la organización y en sus pruebas?;2;¿El Plan de Continuidad de la organización tiene en cuenta la dependencia de proveedores externos críticos? | ¿Se realizan pruebas o ejercicios de continuidad, incluyendo escenarios en los que falla un proveedor?;ANEXO II -MARCO OPERACIONAL
+Op.ext.3.r2;MEDIUM;¿Se ha implementado un sistema de protección de los procesos y flujos de información en las relaciones en línea (online) entre los distintos integrantes de la cadena de suministro?;0;;ANEXO II -MARCO OPERACIONAL
+Op.ext.3.r3;MEDIUM;¿Se mantiene actualizado un registro formal que contiene los detalles y las relaciones de la cadena de suministro de los diversos componentes utilizados en la construcción de programas informáticos, acorde a lo especificado en [mp.sw.1.r5]?;0;;ANEXO II -MARCO OPERACIONAL
+Op.ext.4;MEDIUM;Interconexión de sistemas;0;;ANEXO II -MARCO OPERACIONAL
+Op.ext.4;MEDIUM;¿Requieren autorización y se documentan todas las interconexiones de sistemas?;2;¿Son objeto de una autorización previa todos los intercambios de información y prestación de servicios con otros sistemas? | ¿Se documenta explícitamente para cada interconexión las características de la interfaz, los requisitos de seguridad y protección de datos y la naturaleza de la información intercambiada?;ANEXO II -MARCO OPERACIONAL
+Op.ext.4.r1;MEDIUM;Cuando se interconecten sistemas en los que la identificación, autenticación y autorización tengan lugar en diferentes dominios de seguridad, bajo distintas responsabilidades, ¿se acompañan las medidas de seguridad locales de los correspondientes mecanismos y procedimientos de coordinación para la atribución y ejercicio efectivos de las responsabilidades de cada sistema?;0;;ANEXO II -MARCO OPERACIONAL
+Op.mon.1;MEDIUM;Detección de intrusión;0;;ANEXO II -MARCO OPERACIONAL
+Op.mon.1.1;MEDIUM;¿Se dispone de herramientas de detección y/o prevención de intrusiones (IDS/IPS)?;1;¿Se dispone de elementos que analicen el tráfico de red y muestren eventos de seguridad en caso de detectar posibles intrusiones en la misma?;ANEXO II -MARCO OPERACIONAL
+Op.mon.1.r1;MEDIUM;¿Dispone el sistema de herramientas de detección y/o prevención de intrusiones basadas en reglas?;1;¿Se han configurado reglas específicas para la generación de eventos de seguridad y la detección de intrusiones?;ANEXO II -MARCO OPERACIONAL
+Op.mon.1.r2;MEDIUM;¿Se dispone de procedimientos de respuesta a las alertas generadas por el sistema de detección y/o prevención de intrusiones?;0;;ANEXO II -MARCO OPERACIONAL
+Op.mon.1.r3;MEDIUM;¿El sistema ejecuta automáticamente acciones predeterminadas de respuesta a las alertas generadas por las herramientas de detección y/o prevención de intrusiones?;0;;ANEXO II -MARCO OPERACIONAL
+Op.mon.2;MEDIUM;Sistema de métricas;0;;ANEXO II -MARCO OPERACIONAL
+Op.mon.2;MEDIUM;Atendiendo a la categoría de seguridad del sistema, ¿se recopilan los datos necesarios para conocer el grado de implementación de las medidas de seguridad que resulten aplicables y, en su caso, tratándose de organizaciones en el ámbito del ENS para proveer el informe anual requerido por el artículo 32 (Informe INES)?;0;;ANEXO II -MARCO OPERACIONAL
+Op.mon.2.r1;MEDIUM;¿Se evalúa el comportamiento del sistema de gestión de incidentes implementado en la organización?;1;¿Se recopilan los datos precisos que posibiliten evaluar el comportamiento del sistema de gestión de incidentes, de acuerdo con la Instrucción Técnica de Seguridad de Notificación de Incidentes de Seguridad y con la correspondiente guía CCN-STIC?;ANEXO II -MARCO OPERACIONAL
+Op.mon.2.r2;MEDIUM;¿Se evalúa la eficiencia del sistema de gestión de la seguridad?;1;¿Se recopilan los datos precisos para conocer la eficiencia del sistema de seguridad, en relación con los recursos consumidos, en términos de horas y presupuesto?;ANEXO II -MARCO OPERACIONAL
+Op.mon.3;MEDIUM;Vigilancia;0;;ANEXO II -MARCO OPERACIONAL
+Op.mon.3;MEDIUM;¿Se dispone de un sistema automático de recolección de eventos de seguridad?;1;¿Se dispone de un sistema automático de recolección y consolidación de eventos de seguridad, como puede ser un servidor syslog en base, por ejemplo, al protocolo del mismo nombre?;ANEXO II -MARCO OPERACIONAL
+Op.mon.3.r1;MEDIUM;¿Se dispone de un sistema que permita la correlación de eventos?;1;¿Se dispone de un sistema automático de recolección y consolidación de eventos de seguridad que permita la correlación de los mismos?;ANEXO II -MARCO OPERACIONAL
+Op.mon.3.r2;MEDIUM;¿Se dispone de análisis dinámico de vulnerabilidades?;1;¿Se dispone de soluciones de vigilancia que permitan determinar la superficie de exposición con relación a vulnerabilidades y deficiencias de configuración?;ANEXO II -MARCO OPERACIONAL
+Op.mon.3.r3;MEDIUM;¿Se dispone de sistemas para detección de amenazas avanzadas?;2;¿Se dispone de sistemas para la detección de amenazas avanzadas y comportamientos anómalos? | ¿Se dispone de sistemas para la detección de amenazas persistentes avanzadas (Advanced Persistent Threat - APT) mediante la detección de anomalías significativas en el tráfico de la red?;ANEXO II -MARCO OPERACIONAL
+Op.mon.3.r4;MEDIUM;¿Se dispone de observatorios de cibervigilancia, propios o contratados como prestación de servicios?;1;¿Se dispone de observatorios digitales con fines de cibervigilancia dedicados a la detección y seguimiento de anomalías, que pudieran representar indicadores de amenaza, en contenidos digitales?;ANEXO II -MARCO OPERACIONAL
+Op.mon.3.r5;MEDIUM;¿Se dispone de medidas frente a la minería de datos?;2;¿Se aplican medidas para prevenir, detectar y reaccionar frente a intentos de minería de datos, limitando las consultas y monitorizando su volumen y frecuencia? | ¿Se dispone de medidas que alerten a los administradores de seguridad de comportamientos sospechosos en tiempo real que puedan representar intentos de minería de datos?;ANEXO II -MARCO OPERACIONAL
+Op.mon.3.r6;MEDIUM;¿Se realizan inspecciones y auditorías técnicas periódicamente o tras un incidente?;3;¿Se verifica la configuración periódicamente y tras incidentes que hayan desvelado vulnerabilidades del sistema, ya sean estas nuevas, o que hubieran sido subestimadas en su momento? | ¿Se realiza un análisis de vulnerabilidades periódicamente y tras incidentes que hayan desvelado vulnerabilidades del sistema, ya sean estas nuevas, o que hubieran sido subestimadas en su momento? | ¿Se realizan pruebas de penetración periódicamente y tras incidentes que hayan desvelado vulnerabilidades del sistema, ya sean estas nuevas, o que hubieran sido subestimadas en su momento?;ANEXO II -MARCO OPERACIONAL
+Op.mon.3.r7.1;MEDIUM;En las interconexiones que lo requieran, se aplican controles en los flujos de intercambio de información a través del uso de metadatos?;0;;ANEXO II -MARCO OPERACIONAL
+Op.nub.1;MEDIUM;Protección de servicios en la nube;0;;ANEXO II -MARCO OPERACIONAL
+Op.nub.1;MEDIUM;¿Los sistemas de información que soportan servicios prestados desde la nube cumplen con las medidas de seguridad pertinentes?;23;Los servicios Cloud que se consumen, ¿disponen de una configuración de seguridad implementada de acuerdo a las guías CCN-STIC que sean de aplicación o a las recomendaciones del fabricante? | Los sistemas de información que soportan servicios en la nube suministrados por terceros ¿son conformes con el ENS, o cumplen con las medidas desarrolladas en una guía CCN-STIC, que incluirá, entre otros, requisitos relativos a pruebas de penetración (pentesting), transparencia, cifrado y gestión de claves, así como, jurisdicción de los datos? | Los servicios en la nube suministrados por terceros, ¿Están certificados bajo una metodología de certificación reconocida por el Organismo de Certificación del Esquema Nacional de Evaluación y Certificación de Seguridad de las Tecnologías de la Información, o el sistema de información que los soporta está certificado del ENS? | Si el servicio en la nube es un servicio de seguridad ¿Cumple con los requisitos establecidos en [op.pl.5] correspondientes a certificación de seguridad? | ¿El análisis de impacto (BIA) se actualiza al menos cada año y siempre que varíen las circunstancias, de modo que permita en todo momento determinar los requisitos de disponibilidad de cada servicio (impacto de una interrupción durante un periodo de tiempo determinado)? | Como consecuencia del BIA ¿se determinan los elementos que son críticos para la prestación de cada servicio? ¿se han determinado las dependencias entre ellos de forma que se pongan de manifiesto los elementos que son críticos para la prestación de los servicios? | En el Plan de Continuidad ¿se identifican las funciones, responsabilidades y actividades a realizar? | En el Plan de Continuidad ¿existe una previsión para coordinar la entrada en servicio de los medios alternativos de forma que se garantice poder seguir prestando los servicios esenciales de la organización, aunque sea con menor rendimiento? | En el Plan de Continuidad ¿todos los medios alternativos están planificados y se han materializado mediante acuerdos o contratos con los proveedores correspondientes? | ¿Las personas afectadas por el Plan de Continuidad reciben formación específica relativa a su papel en dicho plan? | ¿El Plan de Continuidad es parte integral y armónica de los planes de continuidad de la organización, armonizados con otras materias ajenas a la seguridad? | El Plan de Continuidad ¿es acorde con los resultados del BIA? | ¿Se puede evidenciar la realización de pruebas periódicas para localizar y, en su caso, corregir los errores o deficiencias que puedan existir entre lo previsto en el plan y el resultado de ejecutarlo? | ¿Las pruebas de continuidad se planifican con antelación, dividiéndose en fases, para poder incidir en aquellas que sean más determinantes con miras a poder reducir los tiempos de recuperación, caso de constatar durante la prueba que se incumplen los RTO establecidos en el BIA? | ¿Se elabora un informe al finalizar la prueba del plan, que indique claramente aquellos aspectos que se pueden mejorar o, en su caso, corregir? | ¿Se registran en alguna herramienta las acciones correctivas o de mejora necesarias, para poder efectuar su seguimiento? | ¿Se dispone inventario de los medios alternativos y sus componentes están actualizados? | ¿Se ha establecido un tiempo máximo para que los medios alternativos entren en funcionamiento? | ¿Los medios alternativos están sometidos a las mismas garantías de seguridad que los medios originales? | ¿Se cubren los servicios contratados a terceros? | ¿Se dispone de instalaciones alternativas? | ¿Se dispone de personal alternativo? | ¿Se dispone de equipamiento informático alternativo?;ANEXO II -MARCO OPERACIONAL
+Op.pl.1;HIGH;¿Se dispone de un análisis de riesgos documentado, cuya última iteración se ha realizado en fecha adecuada?;7;¿Se han detectado cambios relevantes en el sistema de información que hayan requerido realizar una nueva iteración del análisis de riesgos antes de que hubiera transcurrido un año desde la anterior? | ¿Se dispone de un acta del Comité de Seguridad aprobando la última iteración del análisis de riesgos, las salvaguardas empleadas para mitigar los riesgos considerados inaceptables, así como los riesgos residuales resultantes? | ¿Se han identificado los activos esenciales (servicios e información que éstos manejan), así como el resto de activos más relevantes del sistema de información? | ¿Se han identificado las amenazas más probables respecto al sistema de información y sus activos más relevantes? | ¿Se han determinado las salvaguardas que pueden mitigar las posibles amenazas para el sistema de información? | ¿Se han identificado y valorado los principales riesgos residuales que permanecen tras la aplicación de las salvaguardas? | ¿Se ha definido un plan de tratamiento de riesgos para mitigar los riesgos?;ANEXO II -MARCO OPERACIONAL
+Op.pl.1;HIGH;Análisis de riesgos;0;;ANEXO II -MARCO OPERACIONAL
+Op.pl.1.r1;HIGH;Para categoría MEDIA, ¿Se ha realizado un análisis de riesgos semiformal, con una metodología específica en base a un catálogo básico de amenazas y una semántica definida?;5;Además de identificarse, ¿se valoran cualitativamente los activos más valiosos del sistema de información? | ¿Se ha definido un umbral de valor del riesgo a partir del cual se considera éste inaceptable (apetito de riesgo)? | Además de identificarse, ¿se cuantifican los impactos que podrían llegar a producir las amenazas más probables? | Además de determinarse, ¿se han valorado las salvaguardas que se emplearán para protegerse de las amenazas en base al valor del riesgo que éstas representan? | ¿Se ha valorado el riesgo residual resultante de aplicar las salvaguardas?;ANEXO II -MARCO OPERACIONAL
+Op.pl.1.r2;HIGH;Para categoría ALTA, ¿se ha realizado un análisis de riesgos formal, con una metodología específica en base a un fundamento matemático estandarizado y reconocido internacionalmente?;3;¿Se han valorado no solo las amenazas más probables, sino también las posibles dentro de lo razonable? | ¿Se ha comparado el riesgo residual con el apetito de riesgo para determinar si todavía están presentes riesgos inaceptables por la organización que deban seguir tratándose? | Además de valorarse el riesgo residual, ¿se ha asumido formalmente éste?;ANEXO II -MARCO OPERACIONAL
+Op.pl.2;HIGH;¿Se dispone de documentación y diagramas en el ámbito del sistema de información, incluyendo instalaciones físicas, equipos, comunicaciones y líneas de defensa?;4;¿Se dispone de documentación de las instalaciones, incluyendo áreas y puntos de acceso? | ¿Se dispone de documentación y diagramas de las líneas de defensa, puntos de interconexión a otros sistemas o a otras redes, incluyendo internet o redes públicas en general, cortafuegos, balanceadores, enrutadores, segmentación de redes, etc.? | Para quienes desarrollan software (soluciones con cierta complejidad como puede ser un ERP para gestionar ayuntamientos), ¿se dispone de diagramas con la estructura de capas y módulos de la solución, incluyendo las capas de integración o interfaces para comunicarse con otras soluciones o elementos, como pueden ser firma electrónica, interoperabilidad, etc.? | ¿Se dispone de documentación de los sistemas de identificación y autenticación de usuarios, incluyendo el uso de claves concertadas, contraseñas, tarjetas de identificación, biometría, u otras de naturaleza análoga, y el uso de ficheros o directorios para autenticar al usuario y determinar sus derechos de acceso, incluyendo el detalle de los protocolos de acceso empleados como, por ejemplo, LDAP?;ANEXO II -MARCO OPERACIONAL
+Op.pl.2;HIGH;Arquitectura de seguridad;0;;ANEXO II -MARCO OPERACIONAL
+Op.pl.2.r1;HIGH;¿Se dispone de un sistema de gestión de seguridad de la información aplicado sobre el/los sistemas(s) de información?;3;¿Se realizan auditorías internas de cumplimiento del ENS, contemplando todos los requisitos aplicables según la categoría del sistema y las posibles exclusiones justificadas, si se materializan éstas el año que no corresponde la auditoría de certificación (que es bienal)? | ¿Se realizan auditorías internas de cumplimiento del ENS, contemplando al menos la mitad de los requisitos aplicables según la categoría del sistema y las posibles exclusiones justificadas, si se materializan éstas anualmente? | ¿Se realiza el seguimiento de las consecuentes acciones correctivas y de mejora derivadas de las auditorías internas, persiguiendo la mejora continua del sistema?;ANEXO II -MARCO OPERACIONAL
+Op.pl.2.r2;HIGH;¿Se dispone de un sistema de gestión de seguridad de la información, orientado a la mejora continua, aplicado sobre el/los sistemas(s) de información?;3;¿Se realizan auditorías internas de cumplimiento del ENS, contemplando todos los requisitos aplicables según la categoría del sistema y las posibles exclusiones justificadas, si se materializan éstas el año que no corresponde la auditoría de certificación (que es bienal)? | ¿Se realiza el seguimiento de las consecuentes acciones correctivas y de mejora derivadas de las auditorías internas, persiguiendo la mejora continua del sistema? | ¿Se realizan otras acciones encaminadas a la mejora continua del sistema?;ANEXO II -MARCO OPERACIONAL
+Op.pl.2.r3;HIGH;¿Se dispone de controles técnicos internos para aumentar la seguridad?;4;¿Los controles técnicos internos validan los datos de entrada, incluyendo rangos y formatos válidos? | ¿Los controles intermedios se aplican a la interoperabilidad entre aplicaciones del Sistema de Información, verificando rangos y formatos válidos de intercambio de información, rechazando aquellos no previstos? | ¿Los mensajes de error de las aplicaciones, especialmente las del tipo web expuestas a Internet, proporcionan únicamente un código que pueda consultarse al CAU o al servicio de soporte, sin mostrar información explícita y detallada del tipo de error producido, que pueda darle pistas a un posible atacante? | ¿Los mensajes de error en la autenticación de un usuario, se limitan a señalar que alguno de los datos introducido no es correcto o, por el contrario, identifica explícitamente que el error está en alguno concreto de ellos (por ejemplo, en el ID de usuario o en la contraseña)?;ANEXO II -MARCO OPERACIONAL
+Op.pl.3;HIGH;¿Se realiza una planificación previa a la adquisición de nuevos componentes del sistema, teniendo en cuenta, por ejemplo, la obsolescencia de los actualmente en producción, la finalización de contratos, los cambios del contexto, etc.?;4;¿El proceso de adquisición tiene en cuenta las conclusiones del análisis de riesgos, o bien trae a causa que deba realizarse una nueva iteración de dicho análisis, debido a los cambios que introduce en el sistema de información? | Para los nuevos componentes a ser adquiridos ¿se verifica que sean acordes o compatibles con la arquitectura de seguridad implementada o escogida para la organización? | ¿Se dispone de un proceso formalizado de planificación para la adquisición de nuevos componentes? | ¿El proceso de adquisiciones contempla conjuntamente las necesidades de financiación, de formación y las técnicas (características, configuración, soporte y mantenimiento)?;ANEXO II -MARCO OPERACIONAL
+Op.pl.3;HIGH;Adquisición de nuevos componentes;0;;ANEXO II -MARCO OPERACIONAL
+Op.pl.4;HIGH;Con carácter previo a la entrada en producción del sistema ¿se consideran las necesidades de capacidad?;6;¿Se han considerado las necesidades de software y hardware, al menos con carácter previo a la puesta en explotación de los sistemas? | ¿Se ha realizado un estudio respecto a las necesidades de almacenamiento de información durante procesamiento y durante el período que deba retenerse, al menos con carácter previo a la puesta en explotación de los sistemas? | ¿Se ha realizado un estudio respecto a las necesidades de capacidad de procesamiento, ya sea en hosts físicos, entornos virtualizados, o entornos de computación en la Nube, al menos con carácter previo a la puesta en explotación del sistema? | ¿Se ha realizado un estudio respecto a las necesidades de comunicaciones (líneas y ancho de banda necesario), al menos con carácter previo a la puesta en explotación del sistema? | ¿Se ha realizado un estudio respecto a las necesidades de personal y carga de trabajo en cuánto a su número y cualificaciones profesionales, al menos con carácter previo a la puesta en explotación del sistema? | ¿Se ha realizado un estudio respecto a las necesidades de instalaciones, al menos con carácter previo a la puesta en explotación del sistema?;ANEXO II -MARCO OPERACIONAL
+Op.pl.4;HIGH;Dimensionamiento / gestión de la capacidad;0;;ANEXO II -MARCO OPERACIONAL
+Op.pl.4.r1;HIGH;¿Se puede evidenciar que el estudio de capacidad no solo se realiza con carácter previo a la entrada en producción del sistema, sino que se mantiene actualizado durante todo el ciclo de vida del mismo?;2;¿Se puede evidenciar la existencia de un Plan de Capacidad, que se mantiene actualizado durante todo el ciclo de vida del sistema? | ¿Se emplean herramientas y recursos para la monitorización de la capacidad?;ANEXO II -MARCO OPERACIONAL
+Op.pl.5;HIGH;Componentes certificados;0;;ANEXO II -MARCO OPERACIONAL
+Op.pl.5;HIGH;¿Se utiliza el Catálogo de Productos y Servicios de Seguridad de las Tecnologías de la Información y Comunicación (CPSTIC) del CCN, para seleccionar los productos o servicios suministrados por un tercero que deban formar parte de la arquitectura de seguridad del sistema?;4;¿Se emplea el catálogo CPSTIC para seleccionar productos de terceros, o servicios externos, que formen parte de la arquitectura de seguridad? | ¿Caso de no existir en el catálogo CPSTIC, o ante cualquier causa de fuerza mayor, se emplean otros productos certificados según se indica en el art. 19 del RD 311/2022, de 3 de mayo? | Si el sistema suministra un servicio de seguridad a un tercero, bajo el alcance del ENS, ¿el producto o productos que se suministren dicho servicio han sido incluidos en el CPSTIC tras superar un proceso de cualificación, o bien aportan una certificación que cumple con los requisitos funcionales de seguridad y de aseguramiento de acuerdo a lo establecido en el art. 19 del RD 311/2022, de 3 de mayo? | ¿En los casos en los que no existan productos o servicios certificados se tienen en cuenta las taxonomías de referencia y se han formalizado qué criterios se van a llevar a cabo por los responsables de la organización?;ANEXO II -MARCO OPERACIONAL
+Op.pl.5.r1;HIGH;¿Se protege la información frente a amenazas TEMPEST de acuerdo a la normativa en vigor?;0;;ANEXO II -MARCO OPERACIONAL
+Op.pl.5.r2;HIGH;¿Cada producto y servicio incluye en su descripción una lista de componentes software empleados (módulos, librerías, etc.), acorde a lo especificado en [mp.sw.1.r5]?;0;;ANEXO II -MARCO OPERACIONAL
